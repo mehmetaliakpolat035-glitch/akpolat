@@ -1,0 +1,176 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/e36e4c9d55fdd7c7.js","/_next/static/chunks/cc4d8deedf9adcdf.js","/_next/static/chunks/b46b7d9a60e213ee.js","/_next/static/chunks/6da1d94b4d50d6f8.js"],""]
+b:I[59544,["/_next/static/chunks/e36e4c9d55fdd7c7.js","/_next/static/chunks/cc4d8deedf9adcdf.js","/_next/static/chunks/b46b7d9a60e213ee.js","/_next/static/chunks/6da1d94b4d50d6f8.js"],"Button"]
+c:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+d:"$Sreact.suspense"
+0:{"buildId":"ly1JmiYOGB9yJrykdnv88","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Kombi E01, E02, E03 Arıza Kodları ve Çözümleri\",\"description\":\"Kombinizde E01 ateşleme, E02 aşırı ısınma, E03 baca hatası gibi kodlar mı görüyorsunuz? Tüm arıza kodlarının anlamlarını ve çözüm adımlarını öğrenin.\",\"author\":{\"@type\":\"Organization\",\"name\":\"En Yakın Servis Hizmetleri\",\"url\":\"https://turkiyeteknikservis.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"En Yakın Servis Hizmetleri\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://turkiyeteknikservis.com/logo.png\"}},\"datePublished\":\"2026-02-28\",\"dateModified\":\"2026-02-28\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://turkiyeteknikservis.com/blog/kombi-ariza-kodlari\"},\"keywords\":\"kombi, arıza kodu, E01, E02, E03, hata kodu, reset\",\"articleSection\":\"Arıza Kodları\"}"}}],["$","section",null,{"className":"py-12 lg:py-16 bg-gradient-to-b from-white via-blue-50/30 to-white relative overflow-hidden","children":[["$","div",null,{"className":"absolute inset-0 overflow-hidden pointer-events-none","children":[["$","div",null,{"className":"absolute -top-20 -left-20 w-64 h-64 bg-blue-100/50 rounded-full blur-3xl"}],["$","div",null,{"className":"absolute -bottom-32 -right-20 w-96 h-96 bg-blue-50/50 rounded-full blur-3xl"}]]}],["$","div",null,{"className":"mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10","children":["$","article",null,{"className":"max-w-4xl mx-auto bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden","children":["$","div",null,{"className":"p-8 md:p-12","children":[["$","div",null,{"className":"mb-6","children":["$","$L2",null,{"href":"/blog","className":"inline-flex items-center gap-2 text-slate-600 hover:text-blue-900 font-medium transition-colors","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-left w-4 h-4","aria-hidden":"true","children":[["$","path","1l729n",{"d":"m12 19-7-7 7-7"}],["$","path","x3x0zl",{"d":"M19 12H5"}],"$undefined"]}],"Geri"]}]}],["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-blue-100 text-blue-900 text-sm font-bold px-4 py-2 rounded-full","children":"Arıza Kodları"}]}],["$","h1",null,{"className":"text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6 leading-tight","children":"Kombi E01, E02, E03 Arıza Kodları ve Çözümleri"}],["$","p",null,{"className":"text-xl text-slate-600 mb-6 leading-relaxed","children":"Kombinizde E01 ateşleme, E02 aşırı ısınma, E03 baca hatası gibi kodlar mı görüyorsunuz? Tüm arıza kodlarının anlamlarını ve çözüm adımlarını öğrenin."}],["$","div",null,{"className":"flex flex-wrap items-center gap-4 text-sm text-slate-500 mb-8 pb-8 border-b border-slate-200","children":[["$","span",null,{"className":"font-medium","children":"2026-02-28"}],["$","span",null,{"children":"•"}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","$L2","kombi",{"href":"/blog?kategori=ariza-kodlari","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","kombi"]}],["$","$L2","arıza kodu",{"href":"/blog?kategori=ariza-kodlari","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","arıza kodu"]}],["$","$L2","E01",{"href":"/blog?kategori=ariza-kodlari","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","E01"]}],["$","$L2","E02",{"href":"/blog?kategori=ariza-kodlari","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","E02"]}],["$","$L2","E03",{"href":"/blog?kategori=ariza-kodlari","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","E03"]}],"$L3","$L4"]}]]}],"$L5","$L6"]}]}]}]]}],false,"$L7"],["$L8"],"$L9"]}],"loading":null,"isPartial":false}
+3:["$","$L2","hata kodu",{"href":"/blog?kategori=ariza-kodlari","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","hata kodu"]}]
+4:["$","$L2","reset",{"href":"/blog?kategori=ariza-kodlari","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","reset"]}]
+a:T1251,
+<h2>Kombi Arıza Kodları Rehberi</h2>
+
+<p>Modern kombiler arıza durumlarında ekranda hata kodları gösterir. Bu kodlar, sorunun ne olduğunu anlamanıza ve bazı durumlarda kendiniz çözmenize yardımcı olur. Ancak gaz ve elektronik sistemler riskli olduğundan, karmaşık arızalarda mutlaka yetkili servis çağırın.</p>
+
+<h2>En Yaygın Arıza Kodları</h2>
+
+<h3>E01 - Ateşleme Arızası</h3>
+<p><strong>Anlamı:</strong> Kombi gazı yakamıyor. Ateşleme trafosu, elektrot veya gaz valfi sorunu.</p>
+
+<p><strong>Nedenleri:</strong></p>
+<ul>
+<li>Gaz vanası kapalı</li>
+<li>Gaz basıncı düşük</li>
+<li>Ateşleme elektrodu kirli/konum değişmiş</li>
+<li>Ateşleme trafosu arızalı</li>
+<li>Kart arızası</li>
+</ul>
+
+<p><strong>Çözüm:</strong></p>
+<ul>
+<li>Gaz vanasını kontrol edin</li>
+<li>Kombiyi resetleyin (fişten çekip takın)</li>
+<li>Reset sonrası tekrar deneyin</li>
+<li>Devam ederse servis çağırın</li>
+</ul>
+
+<h3>E02 - Aşırı Isınma (Güvenlik Termostatı)</h3>
+<p><strong>Anlamı:</strong> Su sıcaklığı 95-100°C'yi geçti, güvenlik termostatı devreye girdi.</p>
+
+<p><strong>Nedenleri:</strong></p>
+<ul>
+<li>Sirkülasyon pompası çalışmıyor</li>
+<li>Sistemde hava var</li>
+<li>Tıkalı filtre/radyatör</li>
+<li>Genleşme tankı basıncı düşük</li>
+<li>Üç yollu vana arızalı</li>
+</ul>
+
+<p><strong>Çözüm:</strong></p>
+<ul>
+<li>Kombiyi soğuması için 30 dk kapalı bırakın</li>
+<li>Reset atıp tekrar deneyin</li>
+<li>Pompanın çalıştığını dinleyin (hafif vızıltı)</li>
+<li>Sistemi havadan arındırın</li>
+<li>Devam ederse servis gerekir</li>
+</ul>
+
+<h3>E03 - Baca/Hava Basıncı Hatası</h3>
+<p><strong>Anlamı:</strong> Hava akışı yetersiz veya baca tıkalı.</p>
+
+<p><strong>Nedenleri:</strong></p>
+<ul>
+<li>Baca tıkalı</li>
+<li>Rüzgar etkisi</li>
+<li>Fan arızalı</li>
+<li>Hava basınç şalteri arızalı</li>
+</ul>
+
+<p><strong>Çözüm:</strong></p>
+<ul>
+<li>Rüzgar durunca tekrar deneyin</li>
+<li>Bacayı kontrol edin</li>
+<li>Reset atın</li>
+<li>Devam ederse servis çağırın</li>
+</ul>
+
+<h3>E10 - Düşük Su Basıncı</h3>
+<p><strong>Anlamı:</strong> Sistem suyu azalmış (genellikle 0.5-0.8 bar altı).</p>
+
+<p><strong>Çözüm:</strong> Musluk altındaki doldurma musluğunu açın, bar göstergesi 1.0-1.5 arası gelince kapatın.</p>
+
+<h3>E15 - Yüksek Su Basıncı</h3>
+<p><strong>Anlamı:</strong> Basınç 3 bar üzerine çıkmış.</p>
+
+<p><strong>Çözüm:</strong> Radyatörlerin hava purjöründen biraz su salın veya tahliye musluğundan su bırakın.</p>
+
+<h2>Markaya Göre Kod Farklılıkları</h2>
+
+<h4>Vaillant Kombi Kodları</h4>
+<ul>
+<li>F.0 - Ateşleme arızası</li>
+<li>F.1 - Aşırı ısınma</li>
+<li>F.4 - Baca hatası</li>
+<li>F.22 - Düşük basınç</li>
+<li>F.28 - Gaz valfi hatası</li>
+</ul>
+
+<h4>Buderus Kombi Kodları</h4>
+<ul>
+<li>6A - Ateşleme arızası</li>
+<li>6A (171) - Ateşleme başarısız</li>
+<li>A9 (101) - Aşırı ısınma</li>
+<li>5U (117) - Baca hatası</li>
+</ul>
+
+<h4>Bosch Kombi Kodları</h4>
+<ul>
+<li>EA - Ateşleme arızası</li>
+<li>CE - Aşırı ısınma</li>
+<li>C6 - Fan hatası/baca</li>
+<li>C7 - Düşük basınç</li>
+</ul>
+
+<h4>E.C.A Kombi Kodları</h4>
+<ul>
+<li>E01 - Ateşleme</li>
+<li>E02 - Aşırı ısınma</li>
+<li>E03 - Baca</li>
+<li>E10 - Düşük basınç</li>
+</ul>
+
+<h2>Reset Nasıl Yapılır?</h2>
+
+<h3>Yöntem 1 - Fişten Çekme</h3>
+<ul>
+<li>Kombiyi kapatın</li>
+<li>Fişi 1 dakika çekin</li>
+<li>Takın ve çalıştırın</li>
+</ul>
+
+<h3>Yöntem 2 - Reset Tuşu</h3>
+<ul>
+<li>Bazı modellerde "Reset" tuşu vardır</li>
+<li>5 saniye basılı tutun</li>
+<li>Kod temizlenir</li>
+</ul>
+
+<h2>Ne Zaman Servis Çağrılır?</h2>
+
+<p>Aşağıdaki durumlarda kendiniz müdahale etmeyin:</p>
+
+<ul>
+<li>Reset sonrası kod tekrar geliyorsa</li>
+<li>Gaz kokusu alırsanız (acil gaz servisi: 187)</li>
+<li>Suyu doldurmanıza rağmen basınç düşüyorsa (sızıntı var)</li>
+<li>Birkaç farklı kod birden görüyorsanız</li>
+<li>Elektronik veya gaz valfi sorunu şüphesi varsa</li>
+</ul>
+
+<h2>Bakım İle Arızaları Önleme</h2>
+
+<ul>
+<li>Yılda bir yetkili servis bakımı yaptırın</li>
+<li>Filtreleri temizleyin</li>
+<li>Suyu kontrol edin, düşükse doldurun</li>
+<li>Radyatörleri havadan arındırın</li>
+<li>Bacanın önünün açık olduğundan emin olun</li>
+</ul>
+
+<h2>Onarım Maliyetleri (2026)</h2>
+
+<ul>
+<li>Ateşleme trafosu: 400-800 TL</li>
+<li>Ateşleme elektrodu: 200-400 TL</li>
+<li>Pompa değişimi: 800-1500 TL</li>
+<li>Üç yollu vana: 600-1200 TL</li>
+<li>Fan motoru: 500-1000 TL</li>
+<li>Kart tamiri: 1000-2000 TL</li>
+</ul>
+
+<p>Not: Fiyatlar marka ve modele göre değişir.</p>
+    5:["$","div",null,{"className":"prose prose-lg prose-slate max-w-none blog-content","dangerouslySetInnerHTML":{"__html":"$a"}}]
+6:["$","div",null,{"className":"mt-12 pt-8 border-t border-slate-200","children":["$","div",null,{"className":"bg-blue-50 rounded-2xl p-8","children":[["$","h3",null,{"className":"text-xl font-bold text-slate-900 mb-3","children":"Profesyonel Yardım mı Lazım?"}],["$","p",null,{"className":"text-slate-700 mb-6","children":"Uzman teknisyenlerimiz 7/24 hizmetinizdedir. Arıza tespiti ücretsizdir."}],["$","$Lb",null,{"size":"lg","className":"w-full md:w-auto","children":["$","$L2",null,{"href":"/iletisim","className":"text-white font-bold","children":"Ücretsiz Servis Talebi Oluştur"}]}]]}]}]
+7:["$","section",null,{"className":"py-8 bg-slate-100 border-t border-slate-200","children":["$","div",null,{"className":"mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl","children":["$","div",null,{"className":"text-center","children":["$","p",null,{"className":"text-sm text-slate-600 leading-relaxed max-w-4xl mx-auto","children":[["$","span",null,{"className":"font-semibold","children":"Önemli Bilgilendirme: "}],"Firmamız, yukarıdaki markaların yetkili servisi veya iş ortağı değildir. Tüm bakım ve onarım hizmetleri, alanında uzman ekibimiz tarafından bağımsız özel servis kapsamında sunulmaktadır. Markaların isimleri sadece bilgilendirici amaçlıdır."]}]}]}]}]
+8:["$","script","script-0",{"src":"/_next/static/chunks/6da1d94b4d50d6f8.js","async":true}]
+9:["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]
+e:null

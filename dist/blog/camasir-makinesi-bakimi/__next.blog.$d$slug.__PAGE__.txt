@@ -1,0 +1,126 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/e36e4c9d55fdd7c7.js","/_next/static/chunks/cc4d8deedf9adcdf.js","/_next/static/chunks/b46b7d9a60e213ee.js","/_next/static/chunks/6da1d94b4d50d6f8.js"],""]
+9:I[59544,["/_next/static/chunks/e36e4c9d55fdd7c7.js","/_next/static/chunks/cc4d8deedf9adcdf.js","/_next/static/chunks/b46b7d9a60e213ee.js","/_next/static/chunks/6da1d94b4d50d6f8.js"],"Button"]
+a:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+b:"$Sreact.suspense"
+0:{"buildId":"ly1JmiYOGB9yJrykdnv88","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Çamaşır Makinesi Bakımı: Ayda Bir Yapmanız Gereken 10 İşlem\",\"description\":\"Düzenli bakım ile çamaşır makinenizin ömrünü 5 yıl uzatabilirsiniz. Kireç temizliği, filtre kontrolü, lastik conta bakımı ve diğer önemli bakım adımlarını öğrenin.\",\"author\":{\"@type\":\"Organization\",\"name\":\"En Yakın Servis Hizmetleri\",\"url\":\"https://turkiyeteknikservis.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"En Yakın Servis Hizmetleri\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://turkiyeteknikservis.com/logo.png\"}},\"datePublished\":\"2026-03-05\",\"dateModified\":\"2026-03-05\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://turkiyeteknikservis.com/blog/camasir-makinesi-bakimi\"},\"keywords\":\"çamaşır makinesi, bakım, temizlik, kireç çözme, küf önleme\",\"articleSection\":\"Bakım ve Temizlik\"}"}}],["$","section",null,{"className":"py-12 lg:py-16 bg-gradient-to-b from-white via-blue-50/30 to-white relative overflow-hidden","children":[["$","div",null,{"className":"absolute inset-0 overflow-hidden pointer-events-none","children":[["$","div",null,{"className":"absolute -top-20 -left-20 w-64 h-64 bg-blue-100/50 rounded-full blur-3xl"}],["$","div",null,{"className":"absolute -bottom-32 -right-20 w-96 h-96 bg-blue-50/50 rounded-full blur-3xl"}]]}],["$","div",null,{"className":"mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10","children":["$","article",null,{"className":"max-w-4xl mx-auto bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden","children":["$","div",null,{"className":"p-8 md:p-12","children":[["$","div",null,{"className":"mb-6","children":["$","$L2",null,{"href":"/blog","className":"inline-flex items-center gap-2 text-slate-600 hover:text-blue-900 font-medium transition-colors","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-left w-4 h-4","aria-hidden":"true","children":[["$","path","1l729n",{"d":"m12 19-7-7 7-7"}],["$","path","x3x0zl",{"d":"M19 12H5"}],"$undefined"]}],"Geri"]}]}],["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-blue-100 text-blue-900 text-sm font-bold px-4 py-2 rounded-full","children":"Bakım ve Temizlik"}]}],["$","h1",null,{"className":"text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6 leading-tight","children":"Çamaşır Makinesi Bakımı: Ayda Bir Yapmanız Gereken 10 İşlem"}],["$","p",null,{"className":"text-xl text-slate-600 mb-6 leading-relaxed","children":"Düzenli bakım ile çamaşır makinenizin ömrünü 5 yıl uzatabilirsiniz. Kireç temizliği, filtre kontrolü, lastik conta bakımı ve diğer önemli bakım adımlarını öğrenin."}],["$","div",null,{"className":"flex flex-wrap items-center gap-4 text-sm text-slate-500 mb-8 pb-8 border-b border-slate-200","children":[["$","span",null,{"className":"font-medium","children":"2026-03-05"}],["$","span",null,{"children":"•"}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","$L2","çamaşır makinesi",{"href":"/blog?kategori=bakim","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","çamaşır makinesi"]}],["$","$L2","bakım",{"href":"/blog?kategori=bakim","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","bakım"]}],["$","$L2","temizlik",{"href":"/blog?kategori=bakim","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","temizlik"]}],["$","$L2","kireç çözme",{"href":"/blog?kategori=bakim","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","kireç çözme"]}],["$","$L2","küf önleme",{"href":"/blog?kategori=bakim","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","küf önleme"]}]]}]]}],"$L3","$L4"]}]}]}]]}],false,"$L5"],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
+8:T125a,
+<h2>Neden Çamaşır Makinesi Bakımı Önemli?</h2>
+
+<p>Düzenli bakım yapılan bir çamaşır makinesi ortalama 12-15 yıl çalışırken, bakımsız makineler 7-8 yılda arızalanır. Ayrıca düzenli bakım, elektrik ve su faturalarınızda %20-30 tasarruf sağlar. Kireçlenme, küf ve kötü kokuları önler.</p>
+
+<h2>Ayda Bir Yapılması Gerekenler</h2>
+
+<h3>1. Kazan Temizliği (Drum Clean)</h3>
+<p><strong>Neden:</strong> Kazan iç yüzeyinde deterjan kalıntıları, kireç ve küf birikir.</p>
+
+<p><strong>Nasıl:</strong></p>
+<ul>
+<li>Makineyi boş çalıştırın</li>
+<li>90°C program seçin</li>
+<li>2 su bardağı beyaz sirke veya çamaşır suyu ekleyin</li>
+<li>Program bitince kapağı açık bırakın</li>
+</ul>
+
+<h3>2. Filtre Temizliği</h3>
+<p><strong>Neden:</strong> Filtre tıkanırsa makine su alamaz veya boşaltamaz. Para, toka, saç tokası gibi cisimler birikebilir.</p>
+
+<p><strong>Nasıl:</strong></p>
+<ul>
+<li>Makineyi kapatın</li>
+<li>Ön alt kısımdaki filtre kapağını açın</li>
+<li>Filtreyi saat yönünde çevirerek çıkarın</li>
+<li>Musluk altında fırça ile temizleyin</li>
+<li>Takın ve kapağı kapatın</li>
+</ul>
+
+<h3>3. Su Giriş Filtresi Temizliği</h3>
+<p><strong>Neden:</strong> Kireç ve pas tıkanıklığı su akışını engeller.</p>
+
+<p><strong>Nasıl:</strong></p>
+<ul>
+<li>Su vanasını kapatın</li>
+<li>Giriş hortumunu sökün</li>
+<li>Valf içindeki plastik eleği çıkarıp temizleyin</li>
+<li>Sirke ile bekletip fırçalayın</li>
+</ul>
+
+<h3>4. Lastik Conta Temizliği</h3>
+<p><strong>Neden:</strong> Conta aralarında küf ve kirlilik birikir, kokular oluşur.</p>
+
+<p><strong>Nasıl:</strong></p>
+<ul>
+<li>Contayı nazikçe geriye doğru çekin</li>
+<li>Islak bezle silin</li>
+<li>Karbonat ve su karışımı ile temizleyin</li>
+<li>Tamamen kuruyana kadar kapağı açık bırakın</li>
+</ul>
+
+<h3>5. Deterjan Çekmecesi Temizliği</h3>
+<p><strong>Neden:</strong> Deterjan kalıntıları birikir, küflenir ve kokar.</p>
+
+<p><strong>Nasıl:</strong> Çekmeceyi çıkarıp musluk altında fırça ile temizleyin. Kurutup takın.</p>
+
+<h3>6. Makineyi Açık Bırakma</h3>
+<p><strong>Neden:</strong> Hava sirkülasyonu küf ve kokuyu önler.</p>
+
+<p><strong>Nasıl:</strong> Her yıkamadan sonra kapağı ve deterjan çekmecesini 2-3 saat açık bırakın.</p>
+
+<h3>7. Kireç Çözücü Kullanımı</h3>
+<p><strong>Neden:</strong> Özellikle sert su bölgelerinde kireç birikimi makineyi yıpratır.</p>
+
+<p><strong>Nasıl:</strong> Ayda bir kireç çözücü ürün kullanın veya 2 su bardağı sirke ile 60°C boş program yapın.</p>
+
+<h3>8. Yüksek Sıcaklıkta Yıkama</h3>
+<p><strong>Neden:</strong> Sadece 30-40°C yıkama küf oluşumuna neden olur.</p>
+
+<p><strong>Nasıl:</strong> Ayda en az bir kez 60-90°C program kullanın.</p>
+
+<h3>9. Hortum Kontrolü</h3>
+<p><strong>Neden:</strong> Hortumlar çatlayabilir, kıvrılabilir.</p>
+
+<p><strong>Nasıl:</strong> Su giriş ve tahliye hortumlarını kontrol edin. Kıvrıkları düzeltin, çatlak varsa değiştirin.</p>
+
+<h3>10. Denge Ayarı Kontrolü</h3>
+<p><strong>Neden:</strong> Dengesiz makine aşırı titreşim yapar, parçaları yıpratır.</p>
+
+<p><strong>Nasıl:</strong> Makineyi dengeleyin, ayaklarının sert zeminle temas ettiğinden emin olun.</p>
+
+<h2>Yılda Bir Yapılması Gerekenler</h2>
+
+<ul>
+<li><strong>Profesyonel bakım:</strong> Yetkili servisten genel kontrol ve bakım yaptırın</li>
+<li><strong>Tahliye pompası kontrolü:</strong> Pompayı söküp içindeki cisimleri temizleyin</li>
+<li><strong>Kapı kilidi yağlama:</strong> Mekanik kilidi hafifçe yağlayın</li>
+<li><strong>Elektrik kablosu kontrolü:</strong> Kablo ve fişte yıpranma olup olmadığını kontrol edin</li>
+</ul>
+
+<h2>Yapılmaması Gerekenler</h2>
+
+<ul>
+<li>Çok fazla deterjan kullanmayın (köpük yapar, pompayı zorlar)</li>
+<li>Sıcak çamaşırları koymayın (lastik contayı yıpratır)</li>
+<li>Fazla yüklemeyin (kapağı zorlar, motoru yıpratır)</li>
+<li>Metal tokaları, fermuarları açık bırakmayın (kazanı çizip paslanmaya neden olur)</li>
+<li>Kağıt mendil, sakız vb. cebinizde unutmayın</li>
+</ul>
+
+<h2>Bakım Malzemeleri</h2>
+
+<ul>
+<li>Beyaz sirke (kireç ve küf için)</li>
+<li>Karbonat (koku ve leke için)</li>
+<li>Eski diş fırçası (filtre ve detay temizlik için)</li>
+<li>Mikrofiber bez</li>
+<li>Ticari kireç çözücü (ayda bir)</li>
+</ul>
+
+<h2>Sonuç</h2>
+
+<p>Düzenli bakım yaparak çamaşır makinenizin ömrünü uzatabilir, arızaları önleyebilir ve daha hijyenik yıkama yapabilirsiniz. Ayda bir saatinizi ayırarak bu 10 adımı uygulayın, makineniz size uzun yıllar sorunsuz hizmet edecektir.</p>
+    3:["$","div",null,{"className":"prose prose-lg prose-slate max-w-none blog-content","dangerouslySetInnerHTML":{"__html":"$8"}}]
+4:["$","div",null,{"className":"mt-12 pt-8 border-t border-slate-200","children":["$","div",null,{"className":"bg-blue-50 rounded-2xl p-8","children":[["$","h3",null,{"className":"text-xl font-bold text-slate-900 mb-3","children":"Profesyonel Yardım mı Lazım?"}],["$","p",null,{"className":"text-slate-700 mb-6","children":"Uzman teknisyenlerimiz 7/24 hizmetinizdedir. Arıza tespiti ücretsizdir."}],["$","$L9",null,{"size":"lg","className":"w-full md:w-auto","children":["$","$L2",null,{"href":"/iletisim","className":"text-white font-bold","children":"Ücretsiz Servis Talebi Oluştur"}]}]]}]}]
+5:["$","section",null,{"className":"py-8 bg-slate-100 border-t border-slate-200","children":["$","div",null,{"className":"mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl","children":["$","div",null,{"className":"text-center","children":["$","p",null,{"className":"text-sm text-slate-600 leading-relaxed max-w-4xl mx-auto","children":[["$","span",null,{"className":"font-semibold","children":"Önemli Bilgilendirme: "}],"Firmamız, yukarıdaki markaların yetkili servisi veya iş ortağı değildir. Tüm bakım ve onarım hizmetleri, alanında uzman ekibimiz tarafından bağımsız özel servis kapsamında sunulmaktadır. Markaların isimleri sadece bilgilendirici amaçlıdır."]}]}]}]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/6da1d94b4d50d6f8.js","async":true}]
+7:["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]
+c:null
