@@ -1,0 +1,228 @@
+'use client';
+
+import Link from 'next/link';
+import Image from 'next/image';
+import { Phone, Mail, Clock, ChevronDown, ChevronUp } from 'lucide-react';
+import { Container } from '@/components/ui';
+import { services, cities } from '@/data';
+import { useState } from 'react';
+
+export function Footer() {
+  const [isExpanded, setIsExpanded] = useState(false);
+  return (
+    <footer className="bg-gradient-to-b from-slate-50 to-white text-slate-900 relative overflow-hidden">
+      {/* Dekoratif Arka Plan */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-20 -right-20 w-64 h-64 bg-blue-100/30 rounded-full blur-3xl" />
+        <div className="absolute -bottom-20 -left-20 w-80 h-80 bg-blue-50/40 rounded-full blur-3xl" />
+      </div>
+
+      <Container className="relative z-10">
+        <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+          {/* Logo ve İletişim */}
+          <div>
+            <div className="mb-5">
+              <Image 
+                src="/logo.png" 
+                alt="En Yakın Servis Hizmetleri" 
+                width={200} 
+                height={70}
+                className="h-14 w-auto"
+              />
+            </div>
+            <p className="text-slate-700 text-sm leading-relaxed mb-6">
+              Türkiye genelinde beyaz eşya, kombi ve klima servis hizmetlerinde güvenilir adresiniz. 
+              Profesyonel ekibimiz ve hızlı servis anlayışımızla yanınızdayız.
+            </p>
+            <div className="space-y-4 text-sm">
+              <div className="flex items-center gap-3">
+                <div className="w-9 h-9 bg-blue-100 rounded-lg flex items-center justify-center">
+                  <Phone className="w-4 h-4 text-blue-900" />
+                </div>
+                <a href="tel:+908503041517" className="text-blue-900 font-semibold hover:text-blue-700 transition-colors">
+                  0850 304 15 17
+                </a>
+              </div>
+              
+              <div className="flex items-center gap-3">
+                <div className="w-9 h-9 bg-blue-100 rounded-lg flex items-center justify-center">
+                  <Mail className="w-4 h-4 text-blue-900" />
+                </div>
+                <a href="mailto:info@enyakinservishizmetleri.com" className="text-blue-900 font-semibold hover:text-blue-700 transition-colors">
+                  info@enyakinservishizmetleri.com
+                </a>
+              </div>
+              
+              <div className="flex items-center gap-3">
+                <div className="w-9 h-9 bg-blue-100 rounded-lg flex items-center justify-center">
+                  <Clock className="w-4 h-4 text-blue-900" />
+                </div>
+                <span className="text-slate-700 font-medium">7/24 Hizmet</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Hizmetlerimiz */}
+          <div>
+            <h3 className="text-slate-900 font-bold mb-5 text-lg flex items-center gap-2">
+              <div className="w-1 h-5 bg-blue-900 rounded-full" />
+              Hizmetlerimiz
+            </h3>
+            
+            <ul className="space-y-3">
+              {services.map((service) => (
+                <li key={service.id}>
+                  <Link
+                    href={`/${service.slug}`}
+                    className="text-sm text-slate-700 hover:text-blue-900 transition-colors flex items-center gap-2 group"
+                  >
+                    <span className="w-1.5 h-1.5 bg-blue-400 rounded-full group-hover:bg-blue-900 transition-colors" />
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link
+                  href="/ariza-kodlari"
+                  className="text-sm text-slate-700 hover:text-blue-900 transition-colors flex items-center gap-2 group"
+                >
+                  <span className="w-1.5 h-1.5 bg-blue-400 rounded-full group-hover:bg-blue-900 transition-colors" />
+                  Arıza Kodları
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Servis Bölgeleri */}
+          <div>
+            <h3 className="text-slate-900 font-bold mb-5 text-lg flex items-center gap-2">
+              <div className="w-1 h-5 bg-blue-900 rounded-full" />
+              Servis Bölgeleri
+            </h3>
+            
+            <ul className="space-y-3">
+              {cities.slice(0, 6).map((city) => (
+                <li key={city.id}>
+                  <Link
+                    href={`/${city.slug}`}
+                    className="text-sm text-slate-700 hover:text-blue-900 transition-colors flex items-center gap-2 group"
+                  >
+                    <span className="w-1.5 h-1.5 bg-blue-400 rounded-full group-hover:bg-blue-900 transition-colors" />
+                    {city.name} Teknik Servis
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link
+                  href="/servis-bolgeleri"
+                  className="text-sm text-blue-900 font-semibold hover:text-blue-700 transition-colors flex items-center gap-2"
+                >
+                  <span>Tüm Bölgeler →</span>
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Kurumsal */}
+          <div>
+            <h3 className="text-slate-900 font-bold mb-5 text-lg flex items-center gap-2">
+              <div className="w-1 h-5 bg-blue-900 rounded-full" />
+              Kurumsal
+            </h3>
+            
+            <ul className="space-y-3">
+              {[
+                { name: 'Hakkımızda', href: '/hakkimizda' },
+                { name: 'İletişim', href: '/iletisim' },
+                { name: 'Servis Bölgeleri', href: '/servis-bolgeleri' },
+                { name: 'Blog', href: '/blog' },
+              ].map((item) => (
+                <li key={item.name}>
+                  <Link 
+                    href={item.href} 
+                    className="text-sm text-slate-700 hover:text-blue-900 transition-colors flex items-center gap-2 group"
+                  >
+                    <span className="w-1.5 h-1.5 bg-blue-400 rounded-full group-hover:bg-blue-900 transition-colors" />
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        {/* Alt Bilgi */}
+        <div className="py-8 border-t border-slate-200">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+            <p className="text-slate-700 font-medium">
+              © {new Date().getFullYear()} <span className="text-slate-900 font-bold">En Yakın Servis Hizmetleri</span>. Tüm hakları saklıdır.
+            </p>
+            <span className="text-slate-600">
+              Bu site üzerinde sunulan hizmetler, bağımsız servis sağlayıcıları tarafından verilmektedir.
+            </span>
+          </div>
+        </div>
+      </Container>
+
+      {/* Yasal Uyarı */}
+    <div className="py-8 text-xs text-slate-600 leading-relaxed text-center max-w-4xl mx-auto">
+      <div className="flex flex-wrap justify-center gap-4 mb-4 text-sm">
+        <Link href="/gizlilik-politikasi" className="text-blue-900 hover:text-blue-700 font-medium">
+          Gizlilik Politikası
+        </Link>
+        <span className="text-slate-400">|</span>
+        <Link href="/gizlilik-politikasi" className="text-blue-900 hover:text-blue-700 font-medium">
+          KVKK Aydınlatma Metni
+        </Link>
+        <span className="text-slate-400">|</span>
+        <Link href="/iletisim" className="text-blue-900 hover:text-blue-700 font-medium">
+          İletişim
+        </Link>
+      </div>
+      
+      <p className="font-bold text-slate-900 mb-3 text-sm">
+        En Yakın Servis Hizmetleri - Yasal Uyarı ve Bilgilendirme
+      </p>
+      
+      <p className="mb-4 text-slate-700">
+        Bu site, adı geçen markaların resmi veya yetkili servisi değildir. Sunulan hizmetler özel / bağımsız teknik servis kapsamında verilmektedir. 
+        Marka isimleri ve logoları, tüketiciyi bilgilendirme amacıyla kullanılmaktadır.
+      </p>
+
+      {!isExpanded && (
+        <button
+          onClick={() => setIsExpanded(true)}
+          className="inline-flex items-center gap-1.5 text-blue-900 hover:text-blue-700 transition-colors font-bold"
+        >
+          Devamını oku
+          <ChevronDown className="w-4 h-4" />
+        </button>
+      )}
+
+      {isExpanded && (
+        <>
+          <p className="mb-4 text-slate-700">
+            Bu internet sitesi üzerinden sunulan tüm hizmetler, ilgili marka veya markaların resmi, yetkili, ana servis ya da üretici destek ağı kapsamında 
+            yer almamaktadır. En Yakın Servis Hizmetleri; üretici, ithalatçı veya distribütör firmalardan tamamen bağımsız olarak faaliyet gösteren, özel servis 
+            statüsünde hizmet sunan bir teknik servis kuruluşudur.
+          </p>
+          <p className="mb-4 text-slate-700">
+            Sunulan teknik servis hizmetleri; bakım, onarım, arıza tespiti, parça değişimi ve teknik destek işlemlerini kapsamakta olup, ağırlıklı olarak garanti 
+            süresi sona ermiş cihazlar için ücretli olarak sağlanmaktadır.
+          </p>
+          <p className="mb-5 text-slate-700">
+            Kullanıcılar, siteyi ziyaret ederek ve hizmet talebi oluşturarak bu bilgilendirme ve yasal uyarı metnini okumuş ve kabul etmiş sayılır.
+          </p>
+          <button
+            onClick={() => setIsExpanded(false)}
+            className="inline-flex items-center gap-1.5 text-blue-900 hover:text-blue-700 transition-colors font-bold"
+          >
+            Kısalt
+            <ChevronUp className="w-4 h-4" />
+          </button>
+        </>
+      )}
+    </div>
+  </footer>
+  );
+}
