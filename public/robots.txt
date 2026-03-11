@@ -1,0 +1,152 @@
+# Bot Yönetimi ve SEO Koruma Kuralları
+
+# İzin Verilen Botlar (Öncelikli)
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp (Yahoo)
+Allow: /
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 3
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 3
+
+User-agent: Applebot
+Allow: /
+
+# Sosyal Medya Botları (Open Graph, Twitter Card için gerekli)
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# SEO Araçları
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 5
+
+User-agent: DotBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: Rogerbot
+Allow: /
+Crawl-delay: 5
+
+# Zararlı Botları Engelle (SEO'ya zarar vermeyenler)
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: AhrefsBot-JS
+Disallow: /
+
+User-agent: SemrushBot-BA
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: MegaIndex.ru
+Disallow: /
+
+User-agent: serpstatbot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DomainStatsBot
+Disallow: /
+
+User-agent: MagentaNews
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: Python-requests
+Disallow: /
+
+User-agent: curl
+Disallow: /
+
+User-agent: wget
+Disallow: /
+
+User-agent: Java
+Disallow: /
+
+User-agent: Go-http-client
+Disallow: /
+
+User-agent: Node
+Disallow: /
+
+User-agent: PostmanRuntime
+Disallow: /
+
+# Genel Kurallar
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /private/
+Disallow: /*?*sayfa=
+Disallow: /*?*kategori=
+Disallow: /search?
+
+Crawl-delay: 2
+
+# Sitemap
+Sitemap: https://turkiyeteknikservis.com/sitemap.xml
