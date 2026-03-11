@@ -1,31 +1,22 @@
-import { Metadata } from 'next';
+'use client';
+
 import Link from 'next/link';
-import { Container, Card, CardContent } from '@/components/ui';
+import { useSearchParams } from 'next/navigation';
+import { Container } from '@/components/ui';
 import { Hero, BlogGrid, Breadcrumb, Disclaimer } from '@/components/sections';
 import { Pagination } from '@/components/ui/Pagination';
 import { blogPosts, blogCategories } from '@/data/blogs';
 import { BookOpen, Filter } from 'lucide-react';
+import Head from 'next/head';
+import { Suspense } from 'react';
 
-export const metadata: Metadata = {
-  title: 'Blog | Teknik Servis Yazıları ve Arıza Rehberleri',
-  description: 'Beyaz eşya arıza rehberleri, çamaşır makinesi, bulaşık makinesi ve buzdolabı sorunlarına çözümler. Uzman teknik servis tavsiyeleri ve bakım ipuçları.',
-  alternates: {
-    canonical: 'https://turkiyeteknikservis.com/blog'
-  }
-};
-
-interface Props {
-  searchParams: Promise<{ sayfa?: string; kategori?: string }>;
-}
-
-export default async function BlogPage({ searchParams }: Props) {
-  const params = await searchParams;
-  const currentPage = parseInt(params.sayfa || '1', 10);
-  const selectedCategory = params.kategori;
+function BlogContent() {
+  const searchParams = useSearchParams();
+  const currentPage = parseInt(searchParams.get('sayfa') || '1', 10);
+  const selectedCategory = searchParams.get('kategori');
   
   const postsPerPage = 12;
   
-  // Filtreleme
   let filteredPosts = blogPosts;
   let categoryName = null;
   
@@ -46,21 +37,27 @@ export default async function BlogPage({ searchParams }: Props) {
     ...(categoryName ? [{ label: categoryName }] : []),
   ];
 
+  const title = categoryName || "Teknik Servis Blog";
+  const description = categoryName 
+    ? `${categoryName} kategorisindeki ${totalPosts} blog yazısı`
+    : `Tüm blog yazılarımız - Toplam ${totalPosts} yazı`;
+
   return (
-    <>
+    <div>
+      <Head>
+        <title>{title} | En Yakın Servis Hizmetleri</title>
+        <meta name="description" content={description} />
+      </Head>
+      
       <Container className="mt-4">
         <Breadcrumb items={breadcrumbItems} />
       </Container>
       
       <Hero 
-        title={categoryName || "Teknik Servis Blog"}
-        subtitle={categoryName 
-          ? `${categoryName} kategorisindeki ${totalPosts} blog yazısı`
-          : `Tüm blog yazılarımız - Toplam ${totalPosts} yazı`
-        }
+        title={title}
+        subtitle={description}
       />
       
-      {/* Kategoriler Filtre */}
       <section className="py-8 bg-slate-50 border-b border-slate-200 sticky top-20 z-40">
         <Container>
           <div className="flex flex-wrap items-center gap-3">
@@ -101,42 +98,47 @@ export default async function BlogPage({ searchParams }: Props) {
           </div>
         </Container>
       </section>
-      
-      {/* Blog Yazıları */}
-      <section id="yazilar" className="py-20 lg:py-28 bg-gradient-to-b from-white via-blue-50/30 to-white relative overflow-hidden min-h-[600px]">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute -top-20 -left-20 w-64 h-64 bg-blue-100/50 rounded-full blur-3xl" />
-          <div className="absolute -bottom-32 -right-20 w-96 h-96 bg-blue-50/50 rounded-full blur-3xl" />
-        </div>
 
-        <Container className="relative z-10">
-          {paginatedPosts.length > 0 ? (
-            <>
-              <BlogGrid posts={paginatedPosts} columns={3} />
-              
-              {totalPages > 1 && (
-                <Pagination 
-                  currentPage={currentPage}
-                  totalPages={totalPages}
-                  baseUrl={selectedCategory ? `/blog?kategori=${selectedCategory}` : '/blog'}
-                />
-              )}
-            </>
-          ) : (
-            <div className="text-center py-16">
-              <p className="text-slate-600 text-lg mb-6">Bu kategoride henüz blog yazısı bulunmamaktadır.</p>
-              <Link 
-                href="/blog"
-                className="inline-flex items-center gap-2 bg-blue-900 text-white font-bold px-6 py-3 rounded-xl hover:bg-blue-800 transition-all"
-              >
-                Tüm Yazıları Gör
-              </Link>
+      <section id="yazilar" className="py-12 md:py-16 bg-white">
+        <Container>
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-2xl mb-4">
+              <BookOpen className="w-8 h-8 text-blue-900" />
             </div>
+            
+            <h2 className="text-3xl font-bold text-slate-900 mb-3">
+              {categoryName || 'Tüm Yazılar'}
+            </h2>
+            
+            <p className="text-slate-600 max-w-2xl mx-auto">
+              {selectedCategory
+                ? `${categoryName} kategorisindeki tüm teknik servis yazılarımız.`
+                : 'Beyaz eşya, kombi ve klima ile ilgili tüm blog yazılarımız.'
+              }
+            </p>
+          </div>
+
+          <BlogGrid posts={paginatedPosts} />
+
+          {totalPages > 1 && (
+            <Pagination 
+              currentPage={currentPage}
+              totalPages={totalPages}
+              baseUrl="/blog"
+            />
           )}
         </Container>
       </section>
-      
+
       <Disclaimer />
-    </>
+    </div>
+  );
+}
+
+export default function BlogPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Yükleniyor...</div>}>
+      <BlogContent />
+    </Suspense>
   );
 }

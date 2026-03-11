@@ -21,6 +21,11 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   ...generateBaseSEO(),
   metadataBase: new URL('https://turkiyeteknikservis.com'),
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({

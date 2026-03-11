@@ -4,6 +4,8 @@ import { services } from '@/data/services';
 import { blogPosts } from '@/data/blogs';
 import { brands } from '@/data/markalar';
 
+export const dynamic = 'force-static';
+
 const BASE_URL = 'https://turkiyeteknikservis.com';
 const CURRENT_DATE = new Date('2026-03-11');
 
