@@ -23,27 +23,35 @@ export function useCityDetection() {
         return;
       }
 
-      try {
-        // Try to get city from IP
-        const response = await fetch('https://ipapi.co/json/');
-        const data = await response.json();
-        
-        if (data.city) {
-          const cityName = data.city.toLowerCase();
-          // Find matching Turkish city
-          const matchedCity = cities.find(c => 
-            c.name.toLowerCase().includes(cityName) ||
-            cityName.includes(c.name.toLowerCase())
-          );
+      // IP API çağrısını idle time'a ertele
+      const fetchCityData = async () => {
+        try {
+          const response = await fetch('https://ipapi.co/json/');
+          const data = await response.json();
+          
+          if (data.city) {
+            const cityName = data.city.toLowerCase();
+            const matchedCity = cities.find(c => 
+              c.name.toLowerCase().includes(cityName) ||
+              cityName.includes(c.name.toLowerCase())
+            );
 
-          if (matchedCity) {
-            const cityData = { name: matchedCity.name, slug: matchedCity.slug };
-            setCity(cityData);
-            localStorage.setItem('userCity', JSON.stringify(cityData));
+            if (matchedCity) {
+              const cityData = { name: matchedCity.name, slug: matchedCity.slug };
+              setCity(cityData);
+              localStorage.setItem('userCity', JSON.stringify(cityData));
+            }
           }
+        } catch (error) {
+          console.log('Could not detect city');
         }
-      } catch (error) {
-        console.log('Could not detect city');
+      };
+
+      // Sayfa yüklendikten sonra idle time'da çalıştır
+      if (typeof window !== 'undefined' && 'requestIdleCallback' in window) {
+        window.requestIdleCallback(() => fetchCityData(), { timeout: 5000 });
+      } else {
+        setTimeout(fetchCityData, 3000);
       }
       
       setLoading(false);

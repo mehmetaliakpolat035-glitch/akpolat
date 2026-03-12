@@ -23,12 +23,14 @@ export function Hero({ title, subtitle, city }: HeroProps) {
       {/* Arka Plan Görseli - Daha Belirgin */}
       <div className="absolute inset-0">
         <Image 
-          src="/banner.jpg"
+          src="/banner.webp"
           alt="Teknik Servis"
           fill
           className="object-cover"
           priority
           fetchPriority="high"
+          quality={80}
+          sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 via-slate-900/50 to-transparent" />
       </div>

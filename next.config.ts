@@ -16,6 +16,7 @@ const nextConfig: NextConfig = {
   // Modern JavaScript hedefi
   experimental: {
     esmExternals: true,
+    optimizePackageImports: ['lucide-react'],
   },
 };
 
