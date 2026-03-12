@@ -76,8 +76,8 @@ export default function ContactPage() {
                   <MessageCircle className="w-8 h-8 text-green-700 group-hover:text-white transition-colors" />
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2 text-lg">WhatsApp</h3>
-                <a href="https://wa.me/905321234567" className="text-blue-900 font-bold hover:text-blue-700 transition-colors text-lg">
-                  0532 123 45 67
+                <a href="https://wa.me/905558947176" className="text-blue-900 font-bold hover:text-blue-700 transition-colors text-lg">
+                  0555 894 71 76
                 </a>
                 <p className="text-sm text-slate-600 mt-2 font-medium">Anında Yanıt</p>
               </CardContent>
