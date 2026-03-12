@@ -1,0 +1,10 @@
+# Modern tarayıcıları hedefle - polyfill'leri kaldır
+# Son 2 Chrome, Firefox, Safari, Edge versiyonu
+# ES6+ özelliklerini native olarak destekleyen tarayıcılar
+
+last 2 Chrome versions
+last 2 Firefox versions
+last 2 Safari versions
+last 2 Edge versions
+not IE 11
+not dead
