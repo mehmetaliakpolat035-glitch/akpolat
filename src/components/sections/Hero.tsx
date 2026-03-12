@@ -28,6 +28,7 @@ export function Hero({ title, subtitle, city }: HeroProps) {
           fill
           className="object-cover"
           priority
+          fetchPriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 via-slate-900/50 to-transparent" />
       </div>

@@ -1,21 +1,29 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Montserrat } from "next/font/google";
 import "./globals.css";
 import { Header, Footer, StickyCTA } from "@/components/layout";
 import { CityProvider } from "@/components/CityProvider";
 import { generateBaseSEO } from "@/lib/seo";
-import { CookieConsent } from "@/components/CookieConsent";
+import dynamic from "next/dynamic";
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
   weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-montserrat",
   weight: ["600", "700", "800"],
+  display: "swap",
+});
+
+// CookieConsent'i lazy load ile yükle - ilk render'ı engellemez
+const CookieConsent = dynamic(() => import("@/components/CookieConsent").then(mod => mod.CookieConsent), {
+  ssr: false,
+  loading: () => null,
 });
 
 export const metadata: Metadata = {
@@ -28,14 +36,23 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr">
-      <body className={`${inter.variable} ${montserrat.variable} font-sans antialiased bg-white text-slate-900`}>
+    <html lang="tr" className={`${inter.variable} ${montserrat.variable}`}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      </head>
+      <body className="font-sans antialiased bg-white text-slate-900">
         <CityProvider>
           <Header />
           <main>{children}</main>

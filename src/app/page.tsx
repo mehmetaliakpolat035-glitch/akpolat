@@ -1,10 +1,28 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Hero, ServiceHelp, TrustSection, CityCoverage, BrandGrid, FAQSection, ContactCTA, BlogGrid } from '@/components/sections';
+import { Hero, ServiceHelp, TrustSection, ContactCTA } from '@/components/sections';
 import { generateLocalBusinessSchema } from '@/lib/seo';
 import { Container, Button } from '@/components/ui';
 import { getFeaturedBlogs } from '@/data/blogs';
 import { BookOpen, ArrowRight } from 'lucide-react';
+import dynamic from 'next/dynamic';
+
+// Alt kısımdaki bileşenleri lazy load ile yükle
+const CityCoverage = dynamic(() => import('@/components/sections').then(mod => mod.CityCoverage), {
+  loading: () => <div className="py-20 bg-slate-50 animate-pulse" />
+});
+
+const BrandGrid = dynamic(() => import('@/components/sections').then(mod => mod.BrandGrid), {
+  loading: () => <div className="py-20 bg-white animate-pulse" />
+});
+
+const FAQSection = dynamic(() => import('@/components/sections').then(mod => mod.FAQSection), {
+  loading: () => <div className="py-20 bg-slate-50 animate-pulse" />
+});
+
+const BlogGrid = dynamic(() => import('@/components/sections').then(mod => mod.BlogGrid), {
+  loading: () => <div className="py-10 animate-pulse"><div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div className="grid grid-cols-1 md:grid-cols-3 gap-6"><div className="h-64 bg-slate-200 rounded-2xl"/><div className="h-64 bg-slate-200 rounded-2xl"/><div className="h-64 bg-slate-200 rounded-2xl"/></div></div></div>
+});
 
 export const metadata: Metadata = {
   title: 'En Yakın Servis Hizmetleri | Beyaz Eşya, Kombi, Klima Servisi',
