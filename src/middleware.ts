@@ -87,7 +87,6 @@ const TURKEY_CITIES: Record<string, string> = {
   '78': 'karabuk',
   '67': 'zonguldak',
   '74': 'bartin',
-  '78': 'karabuk',
   '18': 'cankiri',
   '66': 'yozgat',
   '40': 'kirsehir',
