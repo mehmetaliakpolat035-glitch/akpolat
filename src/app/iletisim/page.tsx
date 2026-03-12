@@ -1,28 +1,8 @@
 import { Metadata } from 'next';
 import { Container, Card, CardContent } from '@/components/ui';
 import { Hero, ContactCTA } from '@/components/sections';
+import { ContactForm } from '@/components/forms';
 import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react';
-import dynamic from 'next/dynamic';
-
-// ContactForm'u lazy load ile yükle - ilk render'ı engellemez
-const ContactForm = dynamic(() => import('@/components/forms').then(mod => mod.ContactForm), {
-  ssr: false,
-  loading: () => (
-    <div className="py-20 bg-gradient-to-b from-white to-blue-50/30">
-      <div className="max-w-2xl mx-auto px-4">
-        <div className="bg-white rounded-3xl shadow-xl p-8 md:p-12">
-          <div className="animate-pulse space-y-4">
-            <div className="h-4 bg-slate-200 rounded w-3/4 mx-auto"></div>
-            <div className="h-10 bg-slate-200 rounded"></div>
-            <div className="h-10 bg-slate-200 rounded"></div>
-            <div className="h-32 bg-slate-200 rounded"></div>
-            <div className="h-12 bg-slate-200 rounded w-1/2 mx-auto"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  ),
-});
 
 export const metadata: Metadata = {
   title: 'İletişim',

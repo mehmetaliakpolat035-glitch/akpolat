@@ -4,7 +4,7 @@ import "./globals.css";
 import { Header, Footer, StickyCTA } from "@/components/layout";
 import { CityProvider } from "@/components/CityProvider";
 import { generateBaseSEO } from "@/lib/seo";
-import dynamic from "next/dynamic";
+import { CookieConsent } from "@/components/CookieConsent";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -18,12 +18,6 @@ const montserrat = Montserrat({
   variable: "--font-montserrat",
   weight: ["600", "700", "800"],
   display: "swap",
-});
-
-// CookieConsent'i lazy load ile yükle - ilk render'ı engellemez
-const CookieConsent = dynamic(() => import("@/components/CookieConsent").then(mod => mod.CookieConsent), {
-  ssr: false,
-  loading: () => null,
 });
 
 export const metadata: Metadata = {
