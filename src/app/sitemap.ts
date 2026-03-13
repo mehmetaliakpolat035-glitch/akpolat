@@ -6,7 +6,7 @@ import { brands } from '@/data/markalar';
 
 export const dynamic = 'force-static';
 
-const BASE_URL = 'https://enyakinsevishismetleri.com.tr';
+const BASE_URL = 'https://enyakinservishizmetleri.com.tr';
 const CURRENT_DATE = new Date('2026-03-11');
 
 export default function sitemap(): MetadataRoute.Sitemap {
