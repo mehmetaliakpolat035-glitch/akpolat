@@ -5,6 +5,7 @@ import { Header, Footer, StickyCTA } from "@/components/layout";
 import { CityProvider } from "@/components/CityProvider";
 import { generateBaseSEO } from "@/lib/seo";
 import { CookieConsent } from "@/components/CookieConsent";
+import { ReCaptcha } from "@/components/ReCaptcha";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -51,6 +52,7 @@ export default function RootLayout({
           <Footer />
           <StickyCTA />
           <CookieConsent />
+          <ReCaptcha />
         </CityProvider>
       </body>
     </html>
