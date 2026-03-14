@@ -63,8 +63,8 @@ export default function ContactPage() {
                   <Phone className="w-8 h-8 text-blue-900 group-hover:text-white transition-colors" />
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2 text-lg">Telefon</h3>
-                <a href="tel:+908503041517" className="text-blue-900 font-bold hover:text-blue-700 transition-colors text-lg">
-                  0850 304 15 17
+                <a href="tel:+908503041507" className="text-blue-900 font-bold hover:text-blue-700 transition-colors text-lg">
+                  0850 304 1507
                 </a>
                 <p className="text-sm text-slate-600 mt-2 font-medium">7/24 Hizmet</p>
               </CardContent>

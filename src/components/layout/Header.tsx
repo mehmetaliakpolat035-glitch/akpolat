@@ -142,7 +142,7 @@ export function Header() {
               <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
                 <Phone className="w-5 h-5" />
               </div>
-              <span>0850 304 15 17</span>
+              <span>0850 304 1507</span>
             </a>
             
             <Button size="lg" className="shadow-lg shadow-blue-900/20">
@@ -202,13 +202,13 @@ export function Header() {
             
             <div className="mt-4 pt-4 border-t border-slate-200 px-4">
               <a
-                href="tel:+908503041517"
+href="tel:+908503041507"
                 className="flex items-center gap-3 text-blue-900 font-bold text-lg mb-3"
               >
                 <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
                   <Phone className="w-5 h-5" />
                 </div>
-                <span>0850 304 15 17</span>
+<span>0850 304 1507</span>
               </a>
               
               <Button className="w-full">

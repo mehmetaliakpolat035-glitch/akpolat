@@ -58,11 +58,11 @@ export function ContactCTA() {
               </Button>
               
               <a
-                href="tel:+908503041517"
+                href="tel:+908503041507"
                 className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-3.5 font-bold hover:bg-white/10 transition-colors rounded-xl"
               >
                 <Phone className="w-5 h-5" />
-                0850 304 15 17
+                0850 304 1507
               </a>
             </div>
           </div>
