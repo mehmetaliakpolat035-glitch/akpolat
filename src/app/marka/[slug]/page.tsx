@@ -148,10 +148,10 @@ export default async function BrandDetailPage({ params }: Props) {
 
             <div className="text-center">
               <a 
-                href="tel:+908503041507" 
+                href="tel:+908503047814" 
                 className="inline-block bg-blue-900 text-white font-bold px-8 py-3 hover:bg-blue-800 transition-colors"
               >
-                Hemen Ara: 0850 304 1507
+                Hemen Ara: 0850 304 7814
               </a>
             </div>
           </div>

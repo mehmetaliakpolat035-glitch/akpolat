@@ -917,7 +917,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>İzmir Servis Telefonu</h2>
 
-<p><strong>0850 304 1507</strong> numaralı telefondan 7/24 bize ulaşabilirsiniz. Çağrı merkezimiz İzmir'deki en yakın servis ustasını yönlendirir.</p>
+<p><strong>0850 304 7814</strong> numaralı telefondan 7/24 bize ulaşabilirsiniz. Çağrı merkezimiz İzmir'deki en yakın servis ustasını yönlendirir.</p>
 
 <h2>Servis Ücretleri ve Fiyatlar (2026)</h2>
 
@@ -1074,7 +1074,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Manisa Servis Telefonu</h2>
 
-<p><strong>0850 304 1507</strong> numaralı telefondan 7 gün 24 saat bize ulaşabilirsiniz. Çağrı merkezimiz Manisa'daki en yakın servis ustasını yönlendirir.</p>
+<p><strong>0850 304 7814</strong> numaralı telefondan 7 gün 24 saat bize ulaşabilirsiniz. Çağrı merkezimiz Manisa'daki en yakın servis ustasını yönlendirir.</p>
 
 <h2>Manisa Servis Ücretleri (2026)</h2>
 
@@ -1273,7 +1273,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Hafta içi:</strong> 08:00 - 20:00</li>
 <li><strong>Cumartesi:</strong> 09:00 - 18:00</li>
 <li><strong>Pazar:</strong> 10:00 - 16:00</li>
-<li><strong>7/24 Acil:</strong> 0850 304 1507</li>
+<li><strong>7/24 Acil:</strong> 0850 304 7814</li>
 </ul>
 
 <h2>Servis Bölgelerimiz</h2>
@@ -1308,7 +1308,7 @@ export const blogPosts: BlogPost[] = [
 <h2>Aynı Gün Servis Süreci</h2>
 
 <h3>1. Çağrı Alma (0-15 dk)</h3>
-<p>0850 304 1507 numaralı telefondan bize ulaşın. Çağrı merkezi temsilcimiz arıza tipini öğrenir, cihaz marka ve modelini not alır, adres bilgilerinizi kaydeder.</p>
+<p>0850 304 7814 numaralı telefondan bize ulaşın. Çağrı merkezi temsilcimiz arıza tipini öğrenir, cihaz marka ve modelini not alır, adres bilgilerinizi kaydeder.</p>
 
 <h3>2. Usta Yönlendirme (15-30 dk)</h3>
 <p>Adresinize en yakın servis ustası belirlenir ve yönlendirilir.</p>
@@ -1334,7 +1334,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Servis Çağırma</h2>
 
-<p>Telefon: 0850 304 1507<br>
+<p>Telefon: 0850 304 7814<br>
 Çalışma saatleri: 7 gün 24 saat çağrı alımı<br>
 Servis süresi: Aynı gün içinde</p>
     `,
@@ -1381,7 +1381,7 @@ Servis süresi: Aynı gün içinde</p>
 
 <h2>İletişim ve Servis Talebi</h2>
 
-<p>Telefon: 0850 304 1507<br>
+<p>Telefon: 0850 304 7814<br>
 Çalışma saatleri: Hafta içi 08:00-20:00, Cumartesi 09:00-18:00, Pazar 10:00-16:00<br>
 Acil servis: 7/24 çağrı alımı</p>
     `,
@@ -1500,7 +1500,7 @@ Acil servis: 7/24 çağrı alımı</p>
 <li>Buzdolabına yeni gıda koymayın</li>
 <li>Kapağı mümkün olduğunca kapalı tutun</li>
 <li>İçindeki gıdaları komşularınıza veya buzluğa aktarın</li>
-<li>Aynı gün servis çağırın (0850 304 1507)</li>
+<li>Aynı gün servis çağırın (0850 304 7814)</li>
 </ul>
 
 <h2>Buzdolabı Soğutmuyor - 8 Neden</h2>

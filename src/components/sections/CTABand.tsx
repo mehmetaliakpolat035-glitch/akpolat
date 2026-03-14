@@ -34,11 +34,11 @@ export function CTABand() {
             
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <a 
-                href="tel:+908503041507"
+                href="tel:+908503047814"
                 className="flex items-center gap-3 bg-white text-blue-900 font-bold px-6 py-3 rounded hover:bg-blue-50 transition-colors shadow-lg"
               >
                 <Phone className="w-5 h-5" />
-                <span className="text-lg">0850 304 1507</span>
+                <span className="text-lg">0850 304 7814</span>
               </a>
               <Link 
                 href="/iletisim"
