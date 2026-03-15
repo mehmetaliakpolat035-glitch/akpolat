@@ -25,9 +25,10 @@ export const metadata: Metadata = {
   ...generateBaseSEO(),
   metadataBase: new URL('https://turkiyeteknikservis.com'),
   icons: {
-    icon: '/favicon.svg',
-    shortcut: '/favicon.svg',
-    apple: '/favicon.svg',
+    icon: [
+      { url: '/favicon.ico', sizes: '32x32' },
+    ],
+    shortcut: '/favicon.ico',
   },
 };
 
