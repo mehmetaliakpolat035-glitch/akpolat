@@ -599,7 +599,7 @@ export const blogPosts: BlogPost[] = [
 <h2>Yılda Bir Yapılması Gerekenler</h2>
 
 <ul>
-<li><strong>Profesyonel bakım:</strong> Yetkili servisten genel kontrol ve bakım yaptırın</li>
+<li><strong>Profesyonel bakım:</strong> Deneyimli teknik servisten genel kontrol ve bakım yaptırın</li>
 <li><strong>Tahliye pompası kontrolü:</strong> Pompayı söküp içindeki cisimleri temizleyin</li>
 <li><strong>Kapı kilidi yağlama:</strong> Mekanik kilidi hafifçe yağlayın</li>
 <li><strong>Elektrik kablosu kontrolü:</strong> Kablo ve fişte yıpranma olup olmadığını kontrol edin</li>
@@ -898,7 +898,7 @@ export const blogPosts: BlogPost[] = [
 <p>Parça değişimi gerekmeyen arızaların %90'ını evinizde, yerinde çözüyoruz. Zaman kaybı yok, cihazı servise götürme derdi yok.</p>
 
 <h3>Uygun Fiyat Politikası</h3>
-<p>Yetkili servislere göre %30-40 daha uygun fiyatlar. İşçilik garantili, şeffaf fiyatlandırma. Önce fiyat bilgisi, sonra onay.</p>
+<p>Marka servislerine göre %30-40 daha uygun fiyatlar. İşçilik garantili, şeffaf fiyatlandırma. Önce fiyat bilgisi, sonra onay.</p>
 
 <h3>Garantili İşçilik</h3>
 <p>Tüm tamirlerimiz 1 yıl işçilik garantilidir. Aynı arıza tekrarlarsa ücretsiz servis.</p>
@@ -1055,7 +1055,7 @@ export const blogPosts: BlogPost[] = [
 <p>Arızaların çoğunu evinizde, yerinde çözüyoruz. Cihazı servise götürme derdi yok.</p>
 
 <h3>Ekonomik Fiyatlar</h3>
-<p>Yetkili servislere göre %30-40 daha uygun fiyatlarla kaliteli hizmet.</p>
+<p>Marka servislerine göre %30-40 daha uygun fiyatlarla kaliteli hizmet.</p>
 
 <h3>1 Yıl İşçilik Garantisi</h3>
 <p>Tüm tamirlerimizde 1 yıl işçilik garantisi. Aynı arıza tekrarlarsa ücretsiz servis.</p>
@@ -1246,7 +1246,7 @@ export const blogPosts: BlogPost[] = [
 <p>Bosch orijinal yedek parçalarını kullanıyoruz. Parça kodları ile doğru parça temini.</p>
 
 <h3>Uygun Fiyat</h3>
-<p>Yetkili servislere göre %30-40 daha ekonomik fiyatlarla aynı kalitede hizmet.</p>
+<p>Marka servislerine göre %30-40 daha ekonomik fiyatlarla aynı kalitede hizmet.</p>
 
 <h3>Hızlı Servis</h3>
 <p>Aynı gün içinde servis imkanı. Acil durumlarda 2 saat içinde müdahale.</p>

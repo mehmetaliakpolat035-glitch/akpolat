@@ -3,13 +3,11 @@
 import { useState } from 'react';
 import { Send, CheckCircle, AlertCircle } from 'lucide-react';
 import { Container, Card, CardContent, Button } from '@/components/ui';
-import { cities, services } from '@/data';
+
 
 interface FormData {
   name: string;
   phone: string;
-  city: string;
-  service: string;
   message: string;
 }
 
@@ -17,8 +15,6 @@ export function ContactForm() {
   const [formData, setFormData] = useState<FormData>({
     name: '',
     phone: '',
-    city: '',
-    service: '',
     message: ''
   });
   
@@ -28,7 +24,7 @@ export function ContactForm() {
     e.preventDefault();
     
     setStatus('success');
-    setFormData({ name: '', phone: '', city: '', service: '', message: '' });
+    setFormData({ name: '', phone: '', message: '' });
     
     setTimeout(() => setStatus('idle'), 5000);
   };
@@ -92,46 +88,6 @@ export function ContactForm() {
                     className="w-full px-4 py-2.5 border border-slate-300 focus:ring-2 focus:ring-blue-900 focus:border-blue-900 transition-colors"
                     placeholder="0555 123 45 67"
                   />
-                </div>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <label htmlFor="city" className="block text-sm font-medium text-slate-700 mb-1.5">
-                      Şehir *
-                    </label>
-                    <select
-                      id="city"
-                      name="city"
-                      value={formData.city}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-2.5 border border-slate-300 focus:ring-2 focus:ring-blue-900 focus:border-blue-900 transition-colors"
-                    >
-                      <option value="">Şehir seçin</option>
-                      {cities.map(city => (
-                        <option key={city.id} value={city.slug}>{city.name}</option>
-                      ))}
-                    </select>
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="service" className="block text-sm font-medium text-slate-700 mb-1.5">
-                      Hizmet Türü *
-                    </label>
-                    <select
-                      id="service"
-                      name="service"
-                      value={formData.service}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-2.5 border border-slate-300 focus:ring-2 focus:ring-blue-900 focus:border-blue-900 transition-colors"
-                    >
-                      <option value="">Hizmet türü seçin</option>
-                      {services.map(service => (
-                        <option key={service.id} value={service.slug}>{service.name}</option>
-                      ))}
-                    </select>
-                  </div>
                 </div>
                 
                 <div>
