@@ -142,7 +142,7 @@ export function Header() {
               <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
                 <Phone className="w-5 h-5" />
               </div>
-              <span>0850 304 7814</span>
+              <span>08503047814</span>
             </a>
             
             <Button size="lg" className="shadow-lg shadow-blue-900/20">
@@ -208,7 +208,7 @@ href="tel:+908503047814"
                 <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
                   <Phone className="w-5 h-5" />
                 </div>
-<span>0850 304 7814</span>
+<span>08503047814</span>
               </a>
               
               <Button className="w-full">

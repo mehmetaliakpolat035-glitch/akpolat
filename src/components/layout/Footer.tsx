@@ -40,7 +40,7 @@ export function Footer() {
                   <Phone className="w-4 h-4 text-blue-900" />
                 </div>
                 <a href="tel:+908503047814" className="text-blue-900 font-semibold hover:text-blue-700 transition-colors">
-                  0850 304 7814
+                  08503047814
                 </a>
               </div>
               

@@ -62,7 +62,7 @@ export function ContactCTA() {
                 className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-3.5 font-bold hover:bg-white/10 transition-colors rounded-xl"
               >
                 <Phone className="w-5 h-5" />
-                0850 304 7814
+                08503047814
               </a>
             </div>
           </div>
