@@ -78,9 +78,9 @@ export default function PrivacyPage() {
               <h3 className="text-lg font-bold text-slate-900 mt-6 mb-3">Veri Sorumlusu</h3>
               <p className="text-slate-700 leading-relaxed mb-4">
                 <strong>En Yakın Servis Hizmetleri</strong><br />
-                Telefon: 0850 304 7814<br />
+                Telefon: 08503047814<br />
                 E-posta: info@turkiyeteknikservis.com<br />
-                Adres: [İşletme adresi]
+                Adres: 1451 Sokak No:11/A Doğanlar/İzmir
               </p>
 
               <h3 className="text-lg font-bold text-slate-900 mt-6 mb-3">İşlenen Kişisel Veriler</h3>
@@ -134,7 +134,7 @@ export default function PrivacyPage() {
               </ul>
               <p className="text-slate-700 leading-relaxed mb-4">
                 Haklarınızı kullanmak için <strong>info@turkiyeteknikservis.com</strong> adresine 
-                e-posta gönderebilir veya <strong>0850 304 7814</strong> numaralı telefonu arayabilirsiniz.
+                e-posta gönderebilir veya <strong>08503047814</strong> numaralı telefonu arayabilirsiniz.
               </p>
             </div>
           </section>
@@ -217,7 +217,7 @@ export default function PrivacyPage() {
                 </div>
                 <div>
                   <div className="text-sm text-slate-500">Telefon</div>
-                  <div className="font-semibold text-slate-900">0850 304 7814</div>
+                  <div className="font-semibold text-slate-900">08503047814</div>
                 </div>
               </a>
 
