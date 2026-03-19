@@ -136,7 +136,7 @@ export function Header() {
 
           <div className="hidden lg:flex items-center gap-5">
             <a
-              href="tel:+908503041517"
+              href="tel:+908503047814"
               className="flex items-center gap-2 text-blue-900 font-bold text-lg hover:text-blue-700 transition-colors"
             >
               <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
