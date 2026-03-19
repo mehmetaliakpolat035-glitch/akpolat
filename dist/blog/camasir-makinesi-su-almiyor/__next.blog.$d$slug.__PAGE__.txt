@@ -1,0 +1,180 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/4f149785b15617ff.js","/_next/static/chunks/4b6b63d07f9420ed.js","/_next/static/chunks/e36e4c9d55fdd7c7.js","/_next/static/chunks/cc4d8deedf9adcdf.js","/_next/static/chunks/9c86c645fed640c2.js"],""]
+f:I[59544,["/_next/static/chunks/4f149785b15617ff.js","/_next/static/chunks/4b6b63d07f9420ed.js","/_next/static/chunks/e36e4c9d55fdd7c7.js","/_next/static/chunks/cc4d8deedf9adcdf.js","/_next/static/chunks/9c86c645fed640c2.js"],"Button"]
+10:I[39964,["/_next/static/chunks/4f149785b15617ff.js","/_next/static/chunks/4b6b63d07f9420ed.js","/_next/static/chunks/e36e4c9d55fdd7c7.js","/_next/static/chunks/cc4d8deedf9adcdf.js","/_next/static/chunks/9c86c645fed640c2.js"],"Card"]
+11:I[39964,["/_next/static/chunks/4f149785b15617ff.js","/_next/static/chunks/4b6b63d07f9420ed.js","/_next/static/chunks/e36e4c9d55fdd7c7.js","/_next/static/chunks/cc4d8deedf9adcdf.js","/_next/static/chunks/9c86c645fed640c2.js"],"CardContent"]
+1f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+20:"$Sreact.suspense"
+0:{"buildId":"Ho2e4b35jx9z89Bgl0rAu","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Çamaşır Makinesi Su Almıyor - 12 Neden ve Kesin Çözümler\",\"description\":\"Çamaşır makinesi su almıyor sorunu en yaygın beyaz eşya arızalarından biridir. Su vanası, elektronik kart, su giriş valfi ve hortum tıkanıklığı gibi birçok nedenden kaynaklanabilir. Bu kapsamlı rehberde tüm nedenleri ve adım adım çözüm yöntemlerini bulacaksınız.\",\"author\":{\"@type\":\"Organization\",\"name\":\"En Yakın Servis Hizmetleri\",\"url\":\"https://turkiyeteknikservis.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"En Yakın Servis Hizmetleri\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://turkiyeteknikservis.com/logo.png\"}},\"datePublished\":\"2026-03-11\",\"dateModified\":\"2026-03-11\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://turkiyeteknikservis.com/blog/camasir-makinesi-su-almiyor\"},\"keywords\":\"çamaşır makinesi, su almıyor, arıza, çözüm, su giriş valfi, elektromanyetik valf, presostat\",\"articleSection\":\"Genel Arıza Konuları\"}"}}],["$","section",null,{"className":"py-12 lg:py-16 bg-gradient-to-b from-white via-blue-50/30 to-white relative overflow-hidden","children":[["$","div",null,{"className":"absolute inset-0 overflow-hidden pointer-events-none","children":[["$","div",null,{"className":"absolute -top-20 -left-20 w-64 h-64 bg-blue-100/50 rounded-full blur-3xl"}],["$","div",null,{"className":"absolute -bottom-32 -right-20 w-96 h-96 bg-blue-50/50 rounded-full blur-3xl"}]]}],["$","div",null,{"className":"mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10","children":["$","article",null,{"className":"max-w-4xl mx-auto bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden","children":["$","div",null,{"className":"p-8 md:p-12","children":[["$","div",null,{"className":"mb-6","children":["$","$L2",null,{"href":"/blog","className":"inline-flex items-center gap-2 text-slate-600 hover:text-blue-900 font-medium transition-colors","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-left w-4 h-4","aria-hidden":"true","children":[["$","path","1l729n",{"d":"m12 19-7-7 7-7"}],["$","path","x3x0zl",{"d":"M19 12H5"}],"$undefined"]}],"Geri"]}]}],["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-blue-100 text-blue-900 text-sm font-bold px-4 py-2 rounded-full","children":"Genel Arıza Konuları"}]}],["$","h1",null,{"className":"text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6 leading-tight","children":"Çamaşır Makinesi Su Almıyor - 12 Neden ve Kesin Çözümler"}],["$","p",null,{"className":"text-xl text-slate-600 mb-6 leading-relaxed","children":"Çamaşır makinesi su almıyor sorunu en yaygın beyaz eşya arızalarından biridir. Su vanası, elektronik kart, su giriş valfi ve hortum tıkanıklığı gibi birçok nedenden kaynaklanabilir. Bu kapsamlı rehberde tüm nedenleri ve adım adım çözüm yöntemlerini bulacaksınız."}],["$","div",null,{"className":"flex flex-wrap items-center gap-4 text-sm text-slate-500 mb-8 pb-8 border-b border-slate-200","children":[["$","span",null,{"className":"font-medium","children":"2026-03-11"}],["$","span",null,{"children":"•"}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","$L2","çamaşır makinesi",{"href":"/blog?kategori=genel-ariza","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","çamaşır makinesi"]}],["$","$L2","su almıyor",{"href":"/blog?kategori=genel-ariza","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","su almıyor"]}],"$L3","$L4","$L5","$L6","$L7"]}]]}],"$L8","$L9"]}]}]}]]}],"$La","$Lb"],["$Lc"],"$Ld"]}],"loading":null,"isPartial":false}
+3:["$","$L2","arıza",{"href":"/blog?kategori=genel-ariza","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","arıza"]}]
+4:["$","$L2","çözüm",{"href":"/blog?kategori=genel-ariza","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","çözüm"]}]
+5:["$","$L2","su giriş valfi",{"href":"/blog?kategori=genel-ariza","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","su giriş valfi"]}]
+6:["$","$L2","elektromanyetik valf",{"href":"/blog?kategori=genel-ariza","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","elektromanyetik valf"]}]
+7:["$","$L2","presostat",{"href":"/blog?kategori=genel-ariza","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","presostat"]}]
+e:T2184,<h2>Çamaşır Makinesi Neden Su Almaz?</h2>
+
+<p>Çamaşır makinesinin su almaması, modern hayatın en can sıkıcı sorunlarından biridir. Bu problemi anlamak için önce makinenin su alma sisteminin nasıl çalıştığını bilmek gerekir. Çamaşır makinesi, program başladığında elektronik kartın komutuyla su giriş valfini açar ve suyu kazana doldurur. Bu süreçte birçok bileşen devreye girer.</p>
+
+<h3>En Yaygın 12 Neden</h3>
+
+<h4>1. Su Vanası Kapalı veya Arızalı</h4>
+<p>En basit ama en sık görülen sorun su vanasının kapalı olmasıdır. Kontrol edin, vananın tamamen açık olduğundan emin olun. Vanayı saat yönünde çevirerek açabilirsiniz. Vanadan su geliyor ama makine almıyorsa, vana arızalı olabilir. Paslanmış veya kireçlenmiş vanalar su akışını kısıtlayabilir.</p>
+
+<p><strong>Çözüm:</strong> Vanayı kontrol edin, gerekirse temizleyin veya değiştirin. Vananın giriş ve çıkış filtrelerini temizleyin.</p>
+
+<h4>2. Su Giriş Hortumu Tıkalı veya Kıvrık</h4>
+<p>Zamanla su giriş hortumunda kireç birikimi veya tortulanma olabilir. Özellikle sert su kullanan bölgelerde bu sorun daha yaygındır. Hortumun kıvrık olduğu durumlarda su akışı tamamen kesilebilir.</p>
+
+<p><strong>Çözüm:</strong> Hortumun düz olduğundan emin olun. Hortumun makine girişindeki filtreyi çıkarıp temizleyin. Hortumun diğer ucundaki eleği de temizleyin.</p>
+
+<h4>3. Su Giriş Valfi (Elektromanyetik Valf) Arızası</h4>
+<p>Su giriş valfi, elektrik sinyaliyle açılıp kapanan bir mekanizmadır. Bobin arızası, valf mekanizmasının sıkışması veya elektrik bağlantısındaki sorunlar valfin çalışmamasına neden olur. Valfin omru genellikle 5-8 yıldır.</p>
+
+<p><strong>Çözüm:</strong> Multimetre ile valf bobinini kontrol edin. Normalde 2-4 kOhm arası direnç göstermelidir. Arızalıysa valfi değiştirin. Teknik servis yardımı önerilir.</p>
+
+<h4>4. Basınç Anahtarı (Presostat) Arızası</h4>
+<p>Presostat, kazandaki su seviyesini algılar ve su doldurma işlemini kontrol eder. Arızalı presostat makinenin su almasını engelleyebilir veya sürekli su almasına neden olabilir.</p>
+
+<p><strong>Çözüm:</strong> Presostatın hortum bağlantılarını kontrol edin. Hortum tıkalıysa temizleyin. Elektronik presostat arızalıysa değiştirilmesi gerekir.</p>
+
+<h4>5. Su Basıncı Yetersizliği</h4>
+<p>Çamaşır makineleri minimum 0,5 bar su basıncı gerektirir. Apartmanların üst katlarında, su kesintilerinin yaşandığı bölgelerde veya pompa kullanılmayan sistemlerde bu sorun yaşanabilir.</p>
+
+<p><strong>Çözüm:</strong> Su basıncını ölçün. Yetersizse hidrofor veya basınç artırıcı pompa kullanın.</p>
+
+<h4>6. Elektronik Kart Arızası</h4>
+<p>Elektronik kart, su alma valfine komut gönderen beynidir. Güç dalgalanmaları, yaşlanma veya nem nedeniyle kart arızalanabilir. Bu durumda makine hiçbir fonksiyonu yerine getiremeyebilir.</p>
+
+<p><strong>Çözüm:</strong> Teknik servis çağırın. Kart tamiri veya değişimi gerekir.</p>
+
+<h4>7. Kapı Kilidi (Emniyet Kilidi) Arızası</h4>
+<p>Kapı kilidi, makinenin kapısı tamamen kapanmadan çalışmasını engeller. Kilidin mikro anahtarı arızalıysa veya kilitleme mekanizması bozuksa, makine su alma işlemine başlamaz.</p>
+
+<p><strong>Çözüm:</strong> Kapının tamamen kapandığından emin olun. Kilidi kontrol edin, gerekirse değiştirin.</p>
+
+<h4>8. Su Giriş Filtresi Tıkalı</h4>
+<p>Su giriş valfinin arkasındaki küçük filtre, kireç ve pas parçacıklarını tutar. Zamanla bu filtre tıkanabilir ve su akışını engelleyebilir.</p>
+
+<p><strong>Çözüm:</strong> Makineyi kapatın, vanayı kapatın. Hortumu sökün ve filtreyi fırça yardımıyla temizleyin.</p>
+
+<h4>9. Su Sebili (Aquastop) Hortumu Arızası</h4>
+<p>Modern çamaşır makinelerinde su sızıntısını önlemek için akıllı hortumlar kullanılır. Bu hortumlar tıkanabilir veya mekanizması bozulabilir.</p>
+
+<p><strong>Çözüm:</strong> Hortumu kontrol edin, gerekirse standart hortumla değiştirin veya yeni aquastop hortumu takın.</p>
+
+<h4>10. Program Seçici Arızası</h4>
+<p>Mekanik veya elektronik program seçici arızalıysa, makine hiçbir programa başlamayabilir veya sadece belirli fonksiyonları çalıştıramayabilir.</p>
+
+<p><strong>Çözüm:</strong> Farklı programlar deneyin. Sorun devam ederse teknik servis çağırın.</p>
+
+<h4>11. Motor Arızası</h4>
+<p>Motor arızası genellikle makinenin hiç çalışmamasına neden olur, ancak bazı durumlarda su alma aşamasında da sorun yaratabilir. Karbon fırçalar bitmiş olabilir.</p>
+
+<p><strong>Çözüm:</strong> Motor kontrolü ve tamiri için teknik servis gerekir.</p>
+
+<h4>12. Kazan Taşması Koruması Aktif</h4>
+<p>Kazanda suyun aşırı yükseldiğini algılayan sensörler, emniyet için su almayı engelleyebilir. Bu durum genellikle presostat arızasından kaynaklanır.</p>
+
+<p><strong>Çözüm:</strong> Presostatı kontrol edin. Kazanın drenajını sağlayın.</p>
+
+<h2>Kendiniz Çözebileceğiniz Adımlar</h2>
+
+<h3>1. Adım: Temel Kontroller</h3>
+<ul>
+<li>Su vanasının açık olduğundan emin olun</li>
+<li>Elektrik fişinin takılı olduğunu kontrol edin</li>
+<li>Kapağın tam kapandığını kontrol edin</li>
+<li>Program seçicinin doğru konumda olduğundan emin olun</li>
+</ul>
+
+<h3>2. Adım: Hortum Kontrolü</h3>
+<ul>
+<li>Su giriş hortumunu kontrol edin, kıvrık olmamalı</li>
+<li>Hortum girişindeki filtreyi temizleyin</li>
+<li>Hortumda çatlak veya delik olup olmadığını kontrol edin</li>
+</ul>
+
+<h3>3. Adım: Filtre Temizliği</h3>
+<ul>
+<li>Makineyi kapatın ve fişini çekin</li>
+<li>Su vanasını kapatın</li>
+<li>Su giriş hortumunu sökün</li>
+<li>Valf arkasındaki filtreyi fırça ve sirke ile temizleyin</li>
+<li>Takın ve test edin</li>
+</ul>
+
+<h2>Ne Zaman Servis Çağırmalısınız?</h2>
+
+<p>Aşağıdaki durumlarda profesyonel teknik servis desteği almanız gerekir:</p>
+
+<ul>
+<li>Temel kontrolleri yaptınız ama sorun devam ediyorsa</li>
+<li>Su giriş valfi değişimi gerekiyorsa</li>
+<li>Elektronik kart veya presostat arızası şüphesi varsa</li>
+<li>Motor veya pompa arızası durumunda</li>
+<li>Garanti kapsamındaysanız (kendi tamiriniz garantiyi geçersiz kılabilir)</li>
+</ul>
+
+<h2>Çamaşır Makinesi Su Almama Sorunu Onarım Maliyetleri</h2>
+
+<p>Ortalama onarım maliyetleri (2026):</p>
+
+<ul>
+<li>Su giriş valfi değişimi: 400-700 TL</li>
+<li>Presostat değişimi: 350-600 TL</li>
+<li>Su giriş hortumu değişimi: 150-300 TL</li>
+<li>Kapı kilidi değişimi: 300-500 TL</li>
+<li>Elektronik kart tamiri: 800-1500 TL</li>
+<li>Motor tamiri/değişimi: 1000-2000 TL</li>
+</ul>
+
+<p><strong>Not:</strong> Fiyatlar marka ve modele göre değişiklik gösterebilir. Yerel servisler için arıza tespit ücreti genellikle 200-400 TL arasındadır.</p>
+
+<h2>Sorunu Önlemek İçin Bakım İpuçları</h2>
+
+<ul>
+<li>Ayda bir su giriş filtresini temizleyin</li>
+<li>3 ayda bir kireç çözücü kullanın</li>
+<li>Hortumları düzenli olarak kontrol edin, kıvrılmaları önleyin</li>
+<li>Su vanasını tam açık tutun, yarım açık vanalar valfi zorlar</li>
+<li>Yılda bir kez profesyonel bakım yaptırın</li>
+<li>Sert su kullanıyorsanız su yumuşatıcı cihaz düşünün</li>
+</ul>
+
+<h2>Sıkça Sorulan Sorular</h2>
+
+<h4>Çamaşır makinesi az su alıyor, sebep ne olabilir?</h4>
+<p>Kısmen tıkalı su giriş filtresi, yetersiz su basıncı veya arızalı presostat neden olabilir. Filtreyi temizleyin ve basıncı kontrol edin.</p>
+
+<h4>Yeni makine neden su almıyor?</h4>
+<p>Tesisat bağlantısı yanlış yapılmış olabilir, giriş hortumunda tıkanıklık olabilir veya ulaşım sırasında valf hasar görmüş olabilir. Teknik servisten kurulum kontrolü isteyin.</p>
+
+<h4>Su alma süresi normalde ne kadar sürer?</h4>
+<p>Normal şartlarda 1-3 dakika içinde gerekli su miktarı alınır. 5 dakikadan uzun sürüyorsa bir sorun vardır.</p>
+
+<h4>Kendi valfimi değiştirebilir miyim?</h4>
+<p>Evet, teknik bilginiz varsa valf değişimi yapabilirsiniz. Ancak yanlış bağlantı sızıntıya neden olabilir. Emin değilseniz servis çağırın.</p>
+
+<h2>Sonuç</h2>
+
+<p>Çamaşır makinesi su almama sorunu genellikle basit nedenlerden kaynaklanır. Su vanası, hortum ve filtre gibi temel kontrolleri yaparak çoğu sorunu kendiniz çözebilirsiniz. Ancak elektronik parça değişimi gerektiren durumlarda profesyonel destek almanız daha güvenli olacaktır. Düzenli bakım ile bu sorunların çoğunu önleyebilirsiniz.</p>
+    8:["$","div",null,{"className":"prose prose-lg prose-slate max-w-none blog-content","dangerouslySetInnerHTML":{"__html":"$e"}}]
+9:["$","div",null,{"className":"mt-12 pt-8 border-t border-slate-200","children":["$","div",null,{"className":"bg-blue-50 rounded-2xl p-8","children":[["$","h3",null,{"className":"text-xl font-bold text-slate-900 mb-3","children":"Profesyonel Yardım mı Lazım?"}],["$","p",null,{"className":"text-slate-700 mb-6","children":"Uzman teknisyenlerimiz 7/24 hizmetinizdedir. Arıza tespiti ücretsizdir."}],["$","$Lf",null,{"size":"lg","className":"w-full md:w-auto","children":["$","$L2",null,{"href":"/iletisim","className":"text-white font-bold","children":"Ücretsiz Servis Talebi Oluştur"}]}]]}]}]
+a:["$","section",null,{"className":"py-16 lg:py-20 bg-slate-50 border-t border-slate-200","children":["$","div",null,{"className":"mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl","children":[["$","div",null,{"className":"flex items-center justify-between mb-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"text-2xl font-bold text-slate-900","children":"İlgili Yazılar"}],["$","p",null,{"className":"text-slate-600 mt-1","children":"Aynı kategoriden benzer içerikler"}]]}],["$","$L2",null,{"href":"/blog?kategori=genel-ariza","className":"text-blue-900 font-bold hover:underline","children":"Tümünü Gör →"}]]}],["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6","children":[["$","$L2","2",{"href":"/blog/bulasik-makinesi-su-bosaltmiyor","children":["$","$L10",null,{"className":"border border-slate-200 hover:border-blue-900 hover:shadow-2xl transition-all duration-300 h-full group overflow-hidden","children":[["$","div",null,{"className":"h-1 w-full bg-red-500"}],["$","$L11",null,{"className":"p-5","children":[["$","div",null,{"className":"flex items-center justify-between mb-3","children":[["$","div",null,{"className":"inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-red-50 text-red-600","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-triangle-alert w-3.5 h-3.5","aria-hidden":"true","children":[["$","path","wmoenq",{"d":"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"}],["$","path","juzpu7",{"d":"M12 9v4"}],["$","path","p32p05",{"d":"M12 17h.01"}],"$undefined"]}],["$","span",null,{"className":"text-xs font-semibold uppercase tracking-wide","children":"Arıza"}]]}],["$","span",null,{"className":"text-xs text-slate-400","children":"2026-03-10"}]]}],["$","h3",null,{"className":"text-lg font-bold text-slate-900 mb-3 line-clamp-2 group-hover:text-blue-900 transition-colors","children":"Bulaşık Makinesi Su Boşaltmıyor - 10 Adımda Kesin Çözüm"}],["$","p",null,{"className":"text-sm text-slate-700 mb-4 line-clamp-3 leading-relaxed","children":"Bulaşık makinesi su boşaltmıyor sorunu, kullanıcıların en sık karşılaştığı problemlerden biridir. Tahliye pompası, filtre tıkanıklığı, gider hortumu ve elektronik arızaları bu kapsamlı rehberde ele alıyoruz."}],["$","div",null,{"className":"flex flex-wrap gap-1.5 mb-4","children":[["$","span","0",{"className":"text-[11px] px-2.5 py-1 bg-blue-50 text-blue-800 rounded-full font-medium","children":"bulaşık makinesi"}],["$","span","1",{"className":"text-[11px] px-2.5 py-1 bg-blue-50 text-blue-800 rounded-full font-medium","children":"su boşaltmıyor"}],["$","span","2",{"className":"text-[11px] px-2.5 py-1 bg-blue-50 text-blue-800 rounded-full font-medium","children":"tahliye pompası"}]]}],["$","div",null,{"className":"flex items-center justify-between pt-3 border-t border-slate-100","children":["$","span",null,{"className":"inline-flex items-center gap-1 text-sm font-semibold text-blue-900 group-hover:gap-2 transition-all","children":["Devamını Oku",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right w-4 h-4 group-hover:translate-x-1 transition-transform","aria-hidden":"true","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]]}]]}]}],["$","$L2","3",{"href":"/blog/buzdolabi-sogutmuyor","children":["$","$L10",null,{"className":"border border-slate-200 hover:border-blue-900 hover:shadow-2xl transition-all duration-300 h-full group overflow-hidden","children":[["$","div",null,{"className":"h-1 w-full bg-red-500"}],["$","$L11",null,{"className":"p-5","children":[["$","div",null,{"className":"flex items-center justify-between mb-3","children":[["$","div",null,{"className":"inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-red-50 text-red-600","children":["$L12","$L13"]}],"$L14"]}],"$L15","$L16","$L17","$L18"]}]]}]}],"$L19"]}]]}]}]
+b:["$","section",null,{"className":"py-12 bg-slate-50 border-t border-slate-200","children":["$","div",null,{"className":"mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl","children":["$","div",null,{"className":"max-w-5xl mx-auto","children":[["$","div",null,{"className":"text-center mb-8","children":[["$","h2",null,{"className":"text-2xl font-bold text-slate-900 mb-2","children":"En Yakın Servis Hizmetleri - Yasal Uyarı ve Bilgilendirme"}],["$","div",null,{"className":"w-24 h-1 bg-blue-600 mx-auto rounded-full"}]]}],["$","div",null,{"className":"space-y-6 text-slate-700","children":[["$","div",null,{"className":"bg-white rounded-xl p-6 shadow-sm border border-slate-200","children":[["$","h3",null,{"className":"text-lg font-bold text-slate-900 mb-3 flex items-center gap-2","children":[["$","span",null,{"className":"w-2 h-2 bg-blue-600 rounded-full"}],"Özel Servis Statüsü ve Marka Bağımsızlığı"]}],["$","p",null,{"className":"leading-relaxed mb-4","children":"Bu internet sitesi, bağımsız bir özel teknik servis tarafından işletilmektedir. Sunulan tüm hizmetler, ilgili markaların resmi veya yetkili servis hizmetleri değildir. Web sitemizde adı geçen marka isimleri, logo ve ticari unvanlar ilgili firmaların tescilli markalarıdır ve yalnızca cihazların hangi markalara ait olduğunu belirtmek amacıyla kullanılmaktadır."}],["$","p",null,{"className":"leading-relaxed","children":"Firmamız; üretici, ithalatçı veya distribütör firmalardan tamamen bağımsız olarak faaliyet gösteren, özel servis statüsünde hizmet sunan bir teknik servis kuruluşudur. İlgili markalar ile herhangi bir resmî ortaklık, yetkilendirme, temsil, lisans, sponsorluk veya distribütörlük ilişkimiz bulunmamaktadır."}]]}],["$","div",null,{"className":"bg-white rounded-xl p-6 shadow-sm border border-slate-200","children":[["$","h3",null,{"className":"text-lg font-bold text-slate-900 mb-3 flex items-center gap-2","children":[["$","span",null,{"className":"w-2 h-2 bg-blue-600 rounded-full"}],"Hizmet Kapsamı ve Garanti Durumu"]}],["$","p",null,{"className":"leading-relaxed mb-4","children":"Sunulan teknik servis hizmetleri; bakım, onarım, arıza tespiti, parça değişimi ve teknik destek işlemlerini kapsamakta olup, ağırlıklı olarak garanti süresi sona ermiş cihazlar için ücretli olarak sağlanmaktadır. Tüm servis hizmetleri, garanti kapsamı dışında kalan cihazlar için sunulmakta olup; kullanıcılar bu konuda açık ve şeffaf şekilde bilgilendirilmektedir."}],["$","p",null,{"className":"leading-relaxed mb-4","children":"Garanti süresi devam eden ürünler için kullanıcıların, ilgili markanın resmi yetkili servisleri ile doğrudan iletişime geçmeleri önerilmektedir. Firmamız, ilgili markaların resmi servis prosedürleri, garanti koşulları, fiyat politikaları veya kampanyaları üzerinde herhangi bir yetkiye sahip değildir."}],["$","div",null,{"className":"bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg","children":["$","p",null,{"className":"text-sm font-semibold text-blue-900","children":"Önemli Not: Değişimi yapılan yedek parçalar, firmamız bünyesinde 1 (bir) yıl garanti kapsamındadır. Bu garanti, yalnızca değişimi yapılan parçayı kapsamakta olup; kullanıcı hataları, harici müdahaleler, sıvı teması, voltaj dalgalanmaları veya kullanım koşullarına aykırı durumları kapsam dışı bırakabilir."}]}]]}],["$","div",null,{"className":"bg-white rounded-xl p-6 shadow-sm border border-slate-200","children":[["$","h3",null,{"className":"text-lg font-bold text-slate-900 mb-3 flex items-center gap-2","children":[["$","span",null,{"className":"w-2 h-2 bg-blue-600 rounded-full"}],"Servis Süreci ve Müşteri Onayı"]}],["$","p",null,{"className":"leading-relaxed mb-4","children":"Servis talebi oluşturulmasının ardından, alanında deneyimli teknisyenlerimiz müşterinin belirtmiş olduğu adrese yönlendirilir ve cihaz üzerinde detaylı bir arıza tespit süreci gerçekleştirilir. Tespit edilen arıza durumu, yapılması planlanan işlemler, kullanılacak yedek parçalar ve toplam hizmet bedeli, müşteriye açık ve şeffaf bir şekilde bildirilir."}],"$L1a"]}],"$L1b","$L1c","$L1d","$L1e"]}]]}]}]}]
+c:["$","script","script-0",{"src":"/_next/static/chunks/9c86c645fed640c2.js","async":true}]
+d:["$","$L1f",null,{"children":["$","$20",null,{"name":"Next.MetadataOutlet","children":"$@21"}]}]
+12:["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-triangle-alert w-3.5 h-3.5","aria-hidden":"true","children":[["$","path","wmoenq",{"d":"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"}],["$","path","juzpu7",{"d":"M12 9v4"}],["$","path","p32p05",{"d":"M12 17h.01"}],"$undefined"]}]
+13:["$","span",null,{"className":"text-xs font-semibold uppercase tracking-wide","children":"Arıza"}]
+14:["$","span",null,{"className":"text-xs text-slate-400","children":"2026-03-09"}]
+15:["$","h3",null,{"className":"text-lg font-bold text-slate-900 mb-3 line-clamp-2 group-hover:text-blue-900 transition-colors","children":"Buzdolabı Soğutmuyor - 15 Neden ve Kesin Çözümler"}]
+16:["$","p",null,{"className":"text-sm text-slate-700 mb-4 line-clamp-3 leading-relaxed","children":"Buzdolabı soğutmuyor sorunu gıdaların bozulmasına ve ciddi ekonomik kayba neden olur. Kompresör, gaz kaçağı, termostat, buzlanma ve elektronik arızaların detaylı çözümlerini bu rehberde bulabilirsiniz."}]
+17:["$","div",null,{"className":"flex flex-wrap gap-1.5 mb-4","children":[["$","span","0",{"className":"text-[11px] px-2.5 py-1 bg-blue-50 text-blue-800 rounded-full font-medium","children":"buzdolabı"}],["$","span","1",{"className":"text-[11px] px-2.5 py-1 bg-blue-50 text-blue-800 rounded-full font-medium","children":"soğutmuyor"}],["$","span","2",{"className":"text-[11px] px-2.5 py-1 bg-blue-50 text-blue-800 rounded-full font-medium","children":"kompresör"}]]}]
+18:["$","div",null,{"className":"flex items-center justify-between pt-3 border-t border-slate-100","children":["$","span",null,{"className":"inline-flex items-center gap-1 text-sm font-semibold text-blue-900 group-hover:gap-2 transition-all","children":["Devamını Oku",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right w-4 h-4 group-hover:translate-x-1 transition-transform","aria-hidden":"true","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]
+19:["$","$L2","22",{"href":"/blog/camasir-makinesi-sikmiyor","children":["$","$L10",null,{"className":"border border-slate-200 hover:border-blue-900 hover:shadow-2xl transition-all duration-300 h-full group overflow-hidden","children":[["$","div",null,{"className":"h-1 w-full bg-red-500"}],["$","$L11",null,{"className":"p-5","children":[["$","div",null,{"className":"flex items-center justify-between mb-3","children":[["$","div",null,{"className":"inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-red-50 text-red-600","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-triangle-alert w-3.5 h-3.5","aria-hidden":"true","children":[["$","path","wmoenq",{"d":"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"}],["$","path","juzpu7",{"d":"M12 9v4"}],["$","path","p32p05",{"d":"M12 17h.01"}],"$undefined"]}],["$","span",null,{"className":"text-xs font-semibold uppercase tracking-wide","children":"Arıza"}]]}],["$","span",null,{"className":"text-xs text-slate-400","children":"2026-03-06"}]]}],["$","h3",null,{"className":"text-lg font-bold text-slate-900 mb-3 line-clamp-2 group-hover:text-blue-900 transition-colors","children":"Çamaşır Makinesi Sıkmıyor - 10 Neden ve Kesin Çözümler"}],["$","p",null,{"className":"text-sm text-slate-700 mb-4 line-clamp-3 leading-relaxed","children":"Çamaşır makinesi sıkmıyor sorunu en yaygın beyaz eşya arızalarındandır. Motor, kapak kilidi, kayış ve elektronik kart arızaları neden olabilir. Bu kapsamlı rehberde tüm nedenleri ve çözümleri bulacaksınız."}],["$","div",null,{"className":"flex flex-wrap gap-1.5 mb-4","children":[["$","span","0",{"className":"text-[11px] px-2.5 py-1 bg-blue-50 text-blue-800 rounded-full font-medium","children":"çamaşır makinesi sıkmıyor"}],["$","span","1",{"className":"text-[11px] px-2.5 py-1 bg-blue-50 text-blue-800 rounded-full font-medium","children":"çamaşır makinesi arıza"}],["$","span","2",{"className":"text-[11px] px-2.5 py-1 bg-blue-50 text-blue-800 rounded-full font-medium","children":"çamaşır makinesi tamiri"}]]}],["$","div",null,{"className":"flex items-center justify-between pt-3 border-t border-slate-100","children":["$","span",null,{"className":"inline-flex items-center gap-1 text-sm font-semibold text-blue-900 group-hover:gap-2 transition-all","children":["Devamını Oku",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right w-4 h-4 group-hover:translate-x-1 transition-transform","aria-hidden":"true","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]]}]]}]}]
+1a:["$","p",null,{"className":"leading-relaxed font-semibold text-slate-900","children":"Müşteri onayı alınmadan herhangi bir onarım, parça değişimi veya müdahalede bulunulmaz. Onaylanarak gerçekleştirilen işlemler kapsamında değişimi yapılan yedek parçalar, firmamız tarafından sağlanmakta olup, 1 (bir) yıl süreyle parça garantisi kapsamındadır."}]
+1b:["$","div",null,{"className":"bg-white rounded-xl p-6 shadow-sm border border-slate-200","children":[["$","h3",null,{"className":"text-lg font-bold text-slate-900 mb-3 flex items-center gap-2","children":[["$","span",null,{"className":"w-2 h-2 bg-blue-600 rounded-full"}],"Google Ads Politika ve Şeffaflık Bildirimi"]}],["$","p",null,{"className":"leading-relaxed mb-4","children":"Bu web sitesinde sunulan tüm hizmetler ve yayınlanan reklamlar; Google Ads reklam politikaları, tüketicinin korunması mevzuatı ve etik ticaret kurallarına uygun olarak yürütülmektedir. Özellikle Google Ads'in \"Kabul Edilemez İş Uygulamaları (Unacceptable Business Practices)\" politikası kapsamında:"}],["$","ul",null,{"className":"list-disc pl-6 space-y-2 mb-4","children":[["$","li",null,{"children":"Kullanıcıları yanıltan, yanlış yönlendiren veya aldatıcı ifadeler kullanılmamaktadır."}],["$","li",null,{"children":"Yetkili servis, resmi temsilci veya marka ortağı izlenimi oluşturacak hiçbir içerik, görsel veya reklam metni yer almamaktadır."}],["$","li",null,{"children":"Hizmet koşulları, servis kapsamı, ücretlendirme ve garanti durumu açık ve şeffaf şekilde belirtilmektedir."}],["$","li",null,{"children":"Tüketicinin karar verme sürecini manipüle eden, baskı kuran veya yanıltıcı ticari uygulamalardan kaçınılmaktadır."}],["$","li",null,{"children":"Marka haklarını ihlal eden veya haksız rekabete yol açabilecek herhangi bir reklam faaliyeti yürütülmemektedir."}],["$","li",null,{"children":"Google Ads tarafından tanımlanan kabul edilemez iş uygulamalarına karşı sıfır tolerans politikası uygulanmaktadır."}]]}],["$","p",null,{"className":"leading-relaxed","children":"Amacımız, kullanıcıların doğru bilgiye ulaşmasını sağlamak ve güvenilir, şeffaf bir servis deneyimi sunmaktır. Marka logo ve görselleri kullanılmamaktadır. Kullanıcıları yanlış yönlendirecek, baskı oluşturacak veya gerçeğe aykırı bilgi içeren reklam ve içerikler yayınlanmamaktadır."}]]}]
+1c:["$","div",null,{"className":"bg-white rounded-xl p-6 shadow-sm border border-slate-200","children":[["$","h3",null,{"className":"text-lg font-bold text-slate-900 mb-3 flex items-center gap-2","children":[["$","span",null,{"className":"w-2 h-2 bg-blue-600 rounded-full"}],"Yasal Uyarı ve Sorumluluk Reddi"]}],["$","p",null,{"className":"leading-relaxed mb-4","children":"Sitemizde yer alan içeriklerde, reklam alanlarında veya hizmet açıklamalarında \"yetkili servis\", \"resmi servis\" ya da benzeri ifadeler kullanılmamakta olup, tüm servis faaliyetleri özel teknik servis kapsamında yürütülmektedir. İşçilik ve servis süreçleri, yürürlükteki tüketici mevzuatına ve hizmet sözleşmelerine uygun şekilde yürütülmektedir."}],["$","p",null,{"className":"leading-relaxed mb-4","children":"Web sitemizde yer alan tüm içerikler, bilgilendirme amaçlı olarak hazırlanmış olup; zaman içerisinde güncellenebilir, değiştirilebilir veya kaldırılabilir. Firmamız, site içeriğinde yer alan bilgilerin doğruluğu ve güncelliği konusunda azami özeni göstermesine rağmen, oluşabilecek yazım hataları, teknik aksaklıklar veya üçüncü taraf kaynaklı bilgi değişikliklerinden sorumlu tutulamaz."}]]}]
+1d:["$","div",null,{"className":"bg-gradient-to-r from-blue-50 to-slate-50 rounded-xl p-6 border border-blue-200","children":[["$","h3",null,{"className":"text-lg font-bold text-slate-900 mb-3 flex items-center gap-2","children":[["$","span",null,{"className":"w-2 h-2 bg-blue-600 rounded-full"}],"Kullanıcı Kabul Beyanı"]}],["$","p",null,{"className":"leading-relaxed mb-4","children":"Kullanıcılar, siteyi ziyaret ederek ve hizmet talebi oluşturarak bu bilgilendirme ve yasal uyarı metnini okumuş ve kabul etmiş sayılır. Bu site Google Ads politikalarına, tüketici mevzuatına ve etik ticaret kurallarına uygun şekilde faaliyet göstermektedir."}],["$","p",null,{"className":"leading-relaxed","children":"Firmamız, yürürlükteki yasa ve yönetmelikler çerçevesinde faaliyet göstermekte olup; tüketici haklarına, şeffaf hizmet anlayışına ve dürüst ticari uygulamalara önem vermektedir. Şeffaflık ve kullanıcı güveni önceliğimizdir. Hizmetlerimiz ile ilgili her türlü soru, görüş ve talep için iletişim kanallarımız üzerinden tarafımızla iletişime geçilebilir."}]]}]
+1e:["$","div",null,{"className":"bg-slate-900 text-white rounded-xl p-6 text-center","children":[["$","p",null,{"className":"text-lg font-bold mb-2","children":"Özetle:"}],["$","p",null,{"className":"text-slate-300","children":"Yetkili servis değildir. Garanti dışı cihazlara özel servis. Marka isimleri ve logoları bilgilendirme amacıyla kullanılmaktadır. Tüm hizmetler bağımsız özel teknik servis kapsamında sunulmaktadır."}]]}]
+21:null
