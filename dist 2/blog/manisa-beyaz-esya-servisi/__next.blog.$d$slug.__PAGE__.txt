@@ -1,0 +1,166 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/b639898689980cb9.js","/_next/static/chunks/a9f46703877e423b.js","/_next/static/chunks/e36e4c9d55fdd7c7.js","/_next/static/chunks/cc4d8deedf9adcdf.js","/_next/static/chunks/6da1d94b4d50d6f8.js"],""]
+e:I[59544,["/_next/static/chunks/b639898689980cb9.js","/_next/static/chunks/a9f46703877e423b.js","/_next/static/chunks/e36e4c9d55fdd7c7.js","/_next/static/chunks/cc4d8deedf9adcdf.js","/_next/static/chunks/6da1d94b4d50d6f8.js"],"Button"]
+f:I[39964,["/_next/static/chunks/b639898689980cb9.js","/_next/static/chunks/a9f46703877e423b.js","/_next/static/chunks/e36e4c9d55fdd7c7.js","/_next/static/chunks/cc4d8deedf9adcdf.js","/_next/static/chunks/6da1d94b4d50d6f8.js"],"Card"]
+10:I[39964,["/_next/static/chunks/b639898689980cb9.js","/_next/static/chunks/a9f46703877e423b.js","/_next/static/chunks/e36e4c9d55fdd7c7.js","/_next/static/chunks/cc4d8deedf9adcdf.js","/_next/static/chunks/6da1d94b4d50d6f8.js"],"CardContent"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+0:{"buildId":"EqNhf8e79DB_RGU5dpGFq","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Manisa Beyaz Eşya Servisi - Hızlı ve Garantili Teknik Servis\",\"description\":\"Manisa beyaz eşya servisi için En Yakın Servis Hizmetleri olarak Merkez, Akhisar, Turgutlu, Salihli ve tüm ilçelerde profesyonel teknik servis hizmeti sunuyoruz. Aynı gün servis, uygun fiyat.\",\"author\":{\"@type\":\"Organization\",\"name\":\"En Yakın Servis Hizmetleri\",\"url\":\"https://turkiyeteknikservis.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"En Yakın Servis Hizmetleri\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://turkiyeteknikservis.com/logo.png\"}},\"datePublished\":\"2026-03-02\",\"dateModified\":\"2026-03-02\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://turkiyeteknikservis.com/blog/manisa-beyaz-esya-servisi\"},\"keywords\":\"manisa beyaz eşya servisi, manisa teknik servis, manisa klima servisi, manisa servis, akhisar, turgutlu, salihli\",\"articleSection\":\"Yerel Hizmetler\"}"}}],["$","section",null,{"className":"py-12 lg:py-16 bg-gradient-to-b from-white via-blue-50/30 to-white relative overflow-hidden","children":[["$","div",null,{"className":"absolute inset-0 overflow-hidden pointer-events-none","children":[["$","div",null,{"className":"absolute -top-20 -left-20 w-64 h-64 bg-blue-100/50 rounded-full blur-3xl"}],["$","div",null,{"className":"absolute -bottom-32 -right-20 w-96 h-96 bg-blue-50/50 rounded-full blur-3xl"}]]}],["$","div",null,{"className":"mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10","children":["$","article",null,{"className":"max-w-4xl mx-auto bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden","children":["$","div",null,{"className":"p-8 md:p-12","children":[["$","div",null,{"className":"mb-6","children":["$","$L2",null,{"href":"/blog","className":"inline-flex items-center gap-2 text-slate-600 hover:text-blue-900 font-medium transition-colors","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-left w-4 h-4","aria-hidden":"true","children":[["$","path","1l729n",{"d":"m12 19-7-7 7-7"}],["$","path","x3x0zl",{"d":"M19 12H5"}],"$undefined"]}],"Geri"]}]}],["$","div",null,{"className":"mb-6","children":["$","span",null,{"className":"inline-block bg-blue-100 text-blue-900 text-sm font-bold px-4 py-2 rounded-full","children":"Yerel Hizmetler"}]}],["$","h1",null,{"className":"text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6 leading-tight","children":"Manisa Beyaz Eşya Servisi - Hızlı ve Garantili Teknik Servis"}],["$","p",null,{"className":"text-xl text-slate-600 mb-6 leading-relaxed","children":"Manisa beyaz eşya servisi için En Yakın Servis Hizmetleri olarak Merkez, Akhisar, Turgutlu, Salihli ve tüm ilçelerde profesyonel teknik servis hizmeti sunuyoruz. Aynı gün servis, uygun fiyat."}],["$","div",null,{"className":"flex flex-wrap items-center gap-4 text-sm text-slate-500 mb-8 pb-8 border-b border-slate-200","children":[["$","span",null,{"className":"font-medium","children":"2026-03-02"}],["$","span",null,{"children":"•"}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","$L2","manisa beyaz eşya servisi",{"href":"/blog?kategori=yerel","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","manisa beyaz eşya servisi"]}],["$","$L2","manisa teknik servis",{"href":"/blog?kategori=yerel","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","manisa teknik servis"]}],["$","$L2","manisa klima servisi",{"href":"/blog?kategori=yerel","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","manisa klima servisi"]}],"$L3","$L4","$L5","$L6"]}]]}],"$L7","$L8"]}]}]}]]}],"$L9","$La"],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+3:["$","$L2","manisa servis",{"href":"/blog?kategori=yerel","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","manisa servis"]}]
+4:["$","$L2","akhisar",{"href":"/blog?kategori=yerel","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","akhisar"]}]
+5:["$","$L2","turgutlu",{"href":"/blog?kategori=yerel","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","turgutlu"]}]
+6:["$","$L2","salihli",{"href":"/blog?kategori=yerel","className":"text-blue-900 hover:text-blue-700 font-medium","children":["#","salihli"]}]
+d:T1751,<h2>Manisa Beyaz Eşya Servisi Hizmetleri</h2>
+
+<p>Manisa'da beyaz eşya servisi mi arıyorsunuz? En Yakın Servis Hizmetleri olarak Manisa merkez ve tüm ilçelerinde çamaşır makinesi, buzdolabı, bulaşık makinesi, klima ve kombi tamir hizmetleri sunuyoruz. Yerinde servis, aynı gün müdahale, garantili işçilik.</p>
+
+<h2>Manisa'da Servis Verdiğimiz Bölgeler</h2>
+
+<p>Manisa genelinde geniş servis ağımızla hizmetinizdeyiz:</p>
+
+<ul>
+<li><strong>Manisa Merkez:</strong> Şehzadeler ve Yunusemre ilçeleri</li>
+<li><strong>Akhisar:</strong> Merkez ve köyler dahil</li>
+<li><strong>Turgutlu:</strong> Merkez ve Urganlı</li>
+<li><strong>Salihli:</strong> Merkez ve Adala bölgesi</li>
+<li><strong>Alaşehir:</strong> Merkez ve köyler</li>
+<li><strong>Soma:</strong> Merkez ve Kınık</li>
+<li><strong>Kırkağaç:</strong> Merkez ve çevre</li>
+<li><strong>Saruhanlı:</strong> Merkez ve kasabalar</li>
+<li><strong>Gölmarmara:</strong> Tüm mahalleler</li>
+<li><strong>Gördes:</strong> Tüm bölgeler</li>
+<li><strong>Demirci:</strong> Merkez ve köyler</li>
+<li><strong>Köprübaşı:</strong> Tüm mahalleler</li>
+<li><strong>Sarıgöl:</strong> Merkez ve bağlı köyler</li>
+<li><strong>Selendi:</strong> Tüm bölgeler</li>
+<li><strong>Ahmetli:</strong> Merkez ve kasabalar</li>
+</ul>
+
+<h2>Manisa Çamaşır Makinesi Servisi</h2>
+
+<p>Tüm marka ve modellerde çamaşır makinesi tamiri:</p>
+
+<ul>
+<li><strong>Su almıyor:</strong> Vana, hortum, valf kontrolü ve tamiri</li>
+<li><strong>Sıkmıyor:</strong> Motor, kapak kilit, kayış tamiri</li>
+<li><strong>Boşaltmıyor:</strong> Pompa, filtre, hortum temizliği</li>
+<li><strong>Ses yapıyor:</strong> Rulman, amortisör kontrolü</li>
+<li><strong>Titreşim yapıyor:</strong> Ayak dengeleme ve amortisör</li>
+<li><strong>Kapı kilitlenmiyor:</strong> Kilit mekanizması değişimi</li>
+</ul>
+
+<p><strong>Hizmet verdiğimiz markalar:</strong> Bosch, Arçelik, Beko, Samsung, LG, Vestel, Regal, Profilo, Siemens, Hotpoint, Indesit</p>
+
+<h2>Manisa Buzdolabı Servisi</h2>
+
+<p>Buzdolabı arızalarında uzman çözüm:</p>
+
+<ul>
+<li><strong>Soğutmuyor:</strong> Gaz kaçağı, kompresör, termostat</li>
+<li><strong>Dondurucu çalışmıyor:</strong> Buz makinesi ve fan tamiri</li>
+<li><strong>Buzlanma yapıyor:</strong> Rezistans ve termostat değişimi</li>
+<li><strong>Su damlatıyor:</strong> Tahliye ve conta değişimi</li>
+<li><strong>Ses yapıyor:</strong> Kompresör ve fan motoru</li>
+<li><strong>Işık yanmıyor:</strong> Lamba ve anahtar tamiri</li>
+</ul>
+
+<p><strong>Özel hizmet:</strong> Yerinde gaz dolumu, kompresör değişimi, anakart tamiri</p>
+
+<h2>Manisa Bulaşık Makinesi Servisi</h2>
+
+<p>Bulaşık makinesi sorunlarında hızlı müdahale:</p>
+
+<ul>
+<li><strong>Yıkamıyor:</strong> Pompa, filtre, sprey kolu temizliği</li>
+<li><strong>Su ısıtmıyor:</strong> Rezistans ve termostat</li>
+<li><strong>Tablet eritmiyor:</strong> Tablet gözü ve kapak mekanizması</li>
+<li><strong>Kapak kapanmıyor:</strong> Kilit ve yay değişimi</li>
+<li><strong>Su sızıntısı:</strong> Conta, Hortum, pompa conta</li>
+<li><strong>Köpürme yapıyor:</strong> Parlatıcı ve tuz ayarı</li>
+</ul>
+
+<h2>Manisa Klima Servisi</h2>
+
+<p>Klima bakım, tamir ve montaj hizmetleri:</p>
+
+<ul>
+<li>Yıllık bakım ve temizlik</li>
+<li>Gaz dolumu (R410A, R32, R134A)</li>
+<li>Soğutmuyor/ısıtmıyor tamiri</li>
+<li>Kart tamiri ve değişimi</li>
+<li>Kompresör değişimi</li>
+<li>Fan motoru tamiri</li>
+<li>Montaj ve demontaj</li>
+<li>Boru çekimi ve gaz kaçağı tespiti</li>
+</ul>
+
+<h2>Manisa Kombi Servisi</h2>
+
+<p>Kış hazırlığı ve kombi tamiri:</p>
+
+<ul>
+<li>Yıllık bakım ve petek temizliği</li>
+<li>Arıza kodları ve tamiri (E01, E02, E03)</li>
+<li>Pompa değişimi</li>
+<li>Üç yollu vana tamiri</li>
+<li>Genleşme tankı değişimi</li>
+<li>Kart tamiri</li>
+</ul>
+
+<h2>Manisa'da Neden Bizi Tercih Etmelisiniz?</h2>
+
+<h3>Aynı Gün Servis Garantisi</h3>
+<p>Manisa merkez ve ilçelerinde aynı gün içinde kapınızdayız. Acil durumlarda 2 saat içinde müdahale.</p>
+
+<h3>Yerinde Tamir Avantajı</h3>
+<p>Arızaların çoğunu evinizde, yerinde çözüyoruz. Cihazı servise götürme derdi yok.</p>
+
+<h3>Ekonomik Fiyatlar</h3>
+<p>Yetkili servislere göre %30-40 daha uygun fiyatlarla kaliteli hizmet.</p>
+
+<h3>1 Yıl İşçilik Garantisi</h3>
+<p>Tüm tamirlerimizde 1 yıl işçilik garantisi. Aynı arıza tekrarlarsa ücretsiz servis.</p>
+
+<h3>Orjinal Parça Kullanımı</h3>
+<p>Tüm markaların orijinal yedek parçalarını temin ediyoruz. Garantili parça değişimi.</p>
+
+<h2>Manisa Servis Çalışma Saatleri</h2>
+
+<ul>
+<li><strong>Hafta içi:</strong> 08:00 - 20:00</li>
+<li><strong>Cumartesi:</strong> 09:00 - 18:00</li>
+<li><strong>Pazar:</strong> 10:00 - 16:00 (Acil servis)</li>
+<li><strong>Resmi tatiller:</strong> Acil servis hizmeti</li>
+</ul>
+
+<h2>Manisa Servis Telefonu</h2>
+
+<p><strong>0850 304 15 07</strong> numaralı telefondan 7 gün 24 saat bize ulaşabilirsiniz. Çağrı merkezimiz Manisa'daki en yakın servis ustasını yönlendirir.</p>
+
+<h2>Manisa Servis Ücretleri (2026)</h2>
+
+<ul>
+<li>Teknik kontrol ve arıza tespiti: 250-400 TL</li>
+<li>Çamaşır makinesi tamiri: 400-1500 TL (parça hariç)</li>
+<li>Buzdolabı tamiri: 500-2000 TL (parça hariç)</li>
+<li>Klima bakımı: 300-500 TL</li>
+<li>Klima gaz dolumu: 800-1500 TL (gaz tipine göre)</li>
+<li>Kombi bakımı: 400-700 TL</li>
+</ul>
+
+<p><strong>Not:</strong> Fiyatlar arıza tipine, cihaz modeline ve parça ihtiyacına göre değişir. Kesin fiyat için ücretsiz keşif yapılır.</p>
+
+<h2>Müşteri Memnuniyeti</h2>
+
+<p>"Akhisar'da çamaşır makinem bozuldu, aynı gün geldiler, gayet hızlı ve profesyonel çalıştılar." - Fatma Y.</p>
+
+<p>"Turgutlu'da buzdolabım soğutmuyordu, gaz dolumu yaptılar, şu an çok iyi çalışıyor." - Ali K.</p>
+
+<p>"Merkez'de klima bakımı yaptırdım, tertemiz işçi, fiyat da makul. Teşekkürler." - Selin B.</p>
+    7:["$","div",null,{"className":"prose prose-lg prose-slate max-w-none blog-content","dangerouslySetInnerHTML":{"__html":"$d"}}]
+8:["$","div",null,{"className":"mt-12 pt-8 border-t border-slate-200","children":["$","div",null,{"className":"bg-blue-50 rounded-2xl p-8","children":[["$","h3",null,{"className":"text-xl font-bold text-slate-900 mb-3","children":"Profesyonel Yardım mı Lazım?"}],["$","p",null,{"className":"text-slate-700 mb-6","children":"Uzman teknisyenlerimiz 7/24 hizmetinizdedir. Arıza tespiti ücretsizdir."}],["$","$Le",null,{"size":"lg","className":"w-full md:w-auto","children":["$","$L2",null,{"href":"/iletisim","className":"text-white font-bold","children":"Ücretsiz Servis Talebi Oluştur"}]}]]}]}]
+9:["$","section",null,{"className":"py-16 lg:py-20 bg-slate-50 border-t border-slate-200","children":["$","div",null,{"className":"mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl","children":[["$","div",null,{"className":"flex items-center justify-between mb-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"text-2xl font-bold text-slate-900","children":"İlgili Yazılar"}],["$","p",null,{"className":"text-slate-600 mt-1","children":"Aynı kategoriden benzer içerikler"}]]}],["$","$L2",null,{"href":"/blog?kategori=yerel","className":"text-blue-900 font-bold hover:underline","children":"Tümünü Gör →"}]]}],["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6","children":[["$","$L2","17",{"href":"/blog/izmir-beyaz-esya-servisi","children":["$","$Lf",null,{"className":"border border-slate-200 hover:border-blue-900 hover:shadow-2xl transition-all duration-300 h-full group overflow-hidden","children":[["$","div",null,{"className":"h-1 w-full bg-pink-500"}],["$","$L10",null,{"className":"p-5","children":[["$","div",null,{"className":"flex items-center justify-between mb-3","children":[["$","div",null,{"className":"inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-pink-50 text-pink-600","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-map-pin w-3.5 h-3.5","aria-hidden":"true","children":[["$","path","1r0f0z",{"d":"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"}],["$","circle","ilqhr7",{"cx":"12","cy":"10","r":"3"}],"$undefined"]}],["$","span",null,{"className":"text-xs font-semibold uppercase tracking-wide","children":"Yerel"}]]}],["$","span",null,{"className":"text-xs text-slate-400","children":"2026-03-01"}]]}],["$","h3",null,{"className":"text-lg font-bold text-slate-900 mb-3 line-clamp-2 group-hover:text-blue-900 transition-colors","children":"İzmir Beyaz Eşya Servisi - En Yakın ve Hızlı Teknik Servis Hizmeti"}],["$","p",null,{"className":"text-sm text-slate-700 mb-4 line-clamp-3 leading-relaxed","children":"İzmir beyaz eşya servisi arıyorsanız, En Yakın Servis Hizmetleri olarak Konak, Karşıyaka, Bornova, Buca ve tüm ilçelerde hızlı teknik servis hizmeti sunuyoruz. Aynı gün servis, yerinde tamir, uygun fiyat."}],["$","div",null,{"className":"flex flex-wrap gap-1.5 mb-4","children":[["$","span","0",{"className":"text-[11px] px-2.5 py-1 bg-blue-50 text-blue-800 rounded-full font-medium","children":"izmir beyaz eşya servisi"}],["$","span","1",{"className":"text-[11px] px-2.5 py-1 bg-blue-50 text-blue-800 rounded-full font-medium","children":"izmir teknik servis"}],["$","span","2",{"className":"text-[11px] px-2.5 py-1 bg-blue-50 text-blue-800 rounded-full font-medium","children":"izmir klima servisi"}]]}],["$","div",null,{"className":"flex items-center justify-between pt-3 border-t border-slate-100","children":["$","span",null,{"className":"inline-flex items-center gap-1 text-sm font-semibold text-blue-900 group-hover:gap-2 transition-all","children":["Devamını Oku",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right w-4 h-4 group-hover:translate-x-1 transition-transform","aria-hidden":"true","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]]}]]}]}]]}]]}]}]
+a:["$","section",null,{"className":"py-8 bg-slate-100 border-t border-slate-200","children":["$","div",null,{"className":"mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl","children":["$","div",null,{"className":"text-center","children":["$","p",null,{"className":"text-sm text-slate-600 leading-relaxed max-w-4xl mx-auto","children":[["$","span",null,{"className":"font-semibold","children":"Önemli Bilgilendirme: "}],"Firmamız, yukarıdaki markaların yetkili servisi veya iş ortağı değildir. Tüm bakım ve onarım hizmetleri, alanında uzman ekibimiz tarafından bağımsız özel servis kapsamında sunulmaktadır. Markaların isimleri sadece bilgilendirici amaçlıdır."]}]}]}]}]
+b:["$","script","script-0",{"src":"/_next/static/chunks/6da1d94b4d50d6f8.js","async":true}]
+c:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+13:null

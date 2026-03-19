@@ -5,7 +5,7 @@ import { Header, Footer, StickyCTA } from "@/components/layout";
 import { CityProvider } from "@/components/CityProvider";
 import { generateBaseSEO } from "@/lib/seo";
 import { CookieConsent } from "@/components/CookieConsent";
-import { ReCaptcha } from "@/components/ReCaptcha";
+import { TurnstileGate } from "@/components/TurnstileGate";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -47,14 +47,15 @@ export default function RootLayout({
       <head>
       </head>
       <body className="font-sans antialiased bg-white text-slate-900">
-        <CityProvider>
-          <Header />
-          <main>{children}</main>
-          <Footer />
-          <StickyCTA />
-          <CookieConsent />
-          <ReCaptcha />
-        </CityProvider>
+        <TurnstileGate>
+          <CityProvider>
+            <Header />
+            <main>{children}</main>
+            <Footer />
+            <StickyCTA />
+            <CookieConsent />
+          </CityProvider>
+        </TurnstileGate>
       </body>
     </html>
   );

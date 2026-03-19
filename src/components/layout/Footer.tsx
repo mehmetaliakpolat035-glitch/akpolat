@@ -2,13 +2,11 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Phone, Mail, Clock, ChevronDown, ChevronUp } from 'lucide-react';
+import { Phone, Mail, Clock } from 'lucide-react';
 import { Container } from '@/components/ui';
 import { services, cities } from '@/data';
-import { useState } from 'react';
 
 export function Footer() {
-  const [isExpanded, setIsExpanded] = useState(false);
   return (
     <footer className="bg-gradient-to-b from-slate-50 to-white text-slate-900 relative overflow-hidden">
       {/* Dekoratif Arka Plan */}
@@ -165,64 +163,51 @@ export function Footer() {
       </Container>
 
       {/* Yasal Uyarı */}
-    <div className="py-8 text-xs text-slate-600 leading-relaxed text-center max-w-4xl mx-auto">
-      <div className="flex flex-wrap justify-center gap-4 mb-4 text-sm">
-        <Link href="/gizlilik-politikasi" className="text-blue-900 hover:text-blue-700 font-medium">
-          Gizlilik Politikası
-        </Link>
-        <span className="text-slate-400">|</span>
-        <Link href="/gizlilik-politikasi" className="text-blue-900 hover:text-blue-700 font-medium">
-          KVKK Aydınlatma Metni
-        </Link>
-        <span className="text-slate-400">|</span>
-        <Link href="/iletisim" className="text-blue-900 hover:text-blue-700 font-medium">
-          İletişim
-        </Link>
+      <div className="bg-slate-100 py-8">
+        <Container>
+          <div className="max-w-4xl mx-auto text-center">
+            <p className="font-bold text-slate-900 mb-4 text-base">
+              En Yakın Servis Hizmetleri - Yasal Uyarı ve Bilgilendirme
+            </p>
+            
+            <div className="text-sm text-slate-700 leading-relaxed space-y-4">
+              <p>
+                Bu site, adı geçen markaların resmi veya yetkili servisi değildir. Sunulan hizmetler özel / bağımsız teknik servis kapsamında verilmektedir. 
+                Marka isimleri ve logoları, tüketiciyi bilgilendirme amacıyla kullanılmaktadır.
+              </p>
+              
+              <p>
+                Bu internet sitesi üzerinden sunulan tüm hizmetler, ilgili marka veya markaların resmi, yetkili, ana servis ya da üretici destek ağı kapsamında 
+                yer almamaktadır. En Yakın Servis Hizmetleri; üretici, ithalatçı veya distribütör firmalardan tamamen bağımsız olarak faaliyet gösteren, özel servis 
+                statüsünde hizmet sunan bir teknik servis kuruluşudur.
+              </p>
+              
+              <p>
+                Sunulan teknik servis hizmetleri; bakım, onarım, arıza tespiti, parça değişimi ve teknik destek işlemlerini kapsamakta olup, ağırlıklı olarak garanti 
+                süresi sona ermiş cihazlar için ücretli olarak sağlanmaktadır.
+              </p>
+              
+              <p className="font-semibold text-slate-900">
+                Kullanıcılar, siteyi ziyaret ederek ve hizmet talebi oluşturarak bu bilgilendirme ve yasal uyarı metnini okumuş ve kabul etmiş sayılır.
+              </p>
+            </div>
+            
+            <div className="flex flex-wrap justify-center gap-4 mt-6 pt-6 border-t border-slate-300 text-sm">
+              <Link href="/gizlilik-politikasi" className="text-blue-900 hover:text-blue-700 font-medium">
+                Gizlilik Politikası
+              </Link>
+              <span className="text-slate-400">|</span>
+              <Link href="/gizlilik-politikasi" className="text-blue-900 hover:text-blue-700 font-medium">
+                KVKK Aydınlatma Metni
+              </Link>
+              <span className="text-slate-400">|</span>
+              <Link href="/iletisim" className="text-blue-900 hover:text-blue-700 font-medium">
+                İletişim
+              </Link>
+            </div>
+          </div>
+        </Container>
       </div>
-      
-      <p className="font-bold text-slate-900 mb-3 text-sm">
-        En Yakın Servis Hizmetleri - Yasal Uyarı ve Bilgilendirme
-      </p>
-      
-      <p className="mb-4 text-slate-700">
-        Bu site, adı geçen markaların resmi veya yetkili servisi değildir. Sunulan hizmetler özel / bağımsız teknik servis kapsamında verilmektedir. 
-        Marka isimleri ve logoları, tüketiciyi bilgilendirme amacıyla kullanılmaktadır.
-      </p>
-
-      {!isExpanded && (
-        <button
-          onClick={() => setIsExpanded(true)}
-          className="inline-flex items-center gap-1.5 text-blue-900 hover:text-blue-700 transition-colors font-bold"
-        >
-          Devamını oku
-          <ChevronDown className="w-4 h-4" />
-        </button>
-      )}
-
-      {isExpanded && (
-        <>
-          <p className="mb-4 text-slate-700">
-            Bu internet sitesi üzerinden sunulan tüm hizmetler, ilgili marka veya markaların resmi, yetkili, ana servis ya da üretici destek ağı kapsamında 
-            yer almamaktadır. En Yakın Servis Hizmetleri; üretici, ithalatçı veya distribütör firmalardan tamamen bağımsız olarak faaliyet gösteren, özel servis 
-            statüsünde hizmet sunan bir teknik servis kuruluşudur.
-          </p>
-          <p className="mb-4 text-slate-700">
-            Sunulan teknik servis hizmetleri; bakım, onarım, arıza tespiti, parça değişimi ve teknik destek işlemlerini kapsamakta olup, ağırlıklı olarak garanti 
-            süresi sona ermiş cihazlar için ücretli olarak sağlanmaktadır.
-          </p>
-          <p className="mb-5 text-slate-700">
-            Kullanıcılar, siteyi ziyaret ederek ve hizmet talebi oluşturarak bu bilgilendirme ve yasal uyarı metnini okumuş ve kabul etmiş sayılır.
-          </p>
-          <button
-            onClick={() => setIsExpanded(false)}
-            className="inline-flex items-center gap-1.5 text-blue-900 hover:text-blue-700 transition-colors font-bold"
-          >
-            Kısalt
-            <ChevronUp className="w-4 h-4" />
-          </button>
-        </>
-      )}
-    </div>
   </footer>
   );
 }
