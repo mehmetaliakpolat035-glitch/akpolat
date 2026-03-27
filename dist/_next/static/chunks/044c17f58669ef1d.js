@@ -831,7 +831,7 @@
 
 <h2>İzmir Servis Telefonu</h2>
 
-<p><strong>08503047814</strong> numaralı telefondan 7/24 bize ulaşabilirsiniz. \xc7ağrı merkezimiz İzmir'deki en yakın servis ustasını y\xf6nlendirir.</p>
+<p><strong>444 0 398</strong> numaralı telefondan 7/24 bize ulaşabilirsiniz. \xc7ağrı merkezimiz İzmir'deki en yakın servis ustasını y\xf6nlendirir.</p>
 
 <h2>Servis \xdccretleri ve Fiyatlar (2026)</h2>
 
@@ -977,7 +977,7 @@
 
 <h2>Manisa Servis Telefonu</h2>
 
-<p><strong>08503047814</strong> numaralı telefondan 7 g\xfcn 24 saat bize ulaşabilirsiniz. \xc7ağrı merkezimiz Manisa'daki en yakın servis ustasını y\xf6nlendirir.</p>
+<p><strong>444 0 398</strong> numaralı telefondan 7 g\xfcn 24 saat bize ulaşabilirsiniz. \xc7ağrı merkezimiz Manisa'daki en yakın servis ustasını y\xf6nlendirir.</p>
 
 <h2>Manisa Servis \xdccretleri (2026)</h2>
 
