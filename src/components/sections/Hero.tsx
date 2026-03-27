@@ -83,9 +83,9 @@ export function Hero({ title, subtitle, city }: HeroProps) {
                 size="lg" 
                 className="bg-white/95 text-blue-900 hover:bg-white shadow-xl"
               >
-                <a href="tel:+908503047814" className="flex items-center gap-2 font-bold">
+                <a href="tel:+904440398" className="flex items-center gap-2 font-bold">
                   <Phone className="w-5 h-5" />
-                  08503047814
+                  444 0 398
                 </a>
               </Button>
             </div>

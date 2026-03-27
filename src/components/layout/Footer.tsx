@@ -37,8 +37,8 @@ export function Footer() {
                 <div className="w-9 h-9 bg-blue-100 rounded-lg flex items-center justify-center">
                   <Phone className="w-4 h-4 text-blue-900" />
                 </div>
-                <a href="tel:+908503047814" className="text-blue-900 font-semibold hover:text-blue-700 transition-colors">
-                  08503047814
+                <a href="tel:+904440398" className="text-blue-900 font-semibold hover:text-blue-700 transition-colors">
+                  444 0 398
                 </a>
               </div>
               

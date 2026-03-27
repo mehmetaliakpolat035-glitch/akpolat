@@ -58,11 +58,11 @@ export function ContactCTA() {
               </Button>
               
               <a
-                href="tel:+908503047814"
+                href="tel:+904440398"
                 className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-3.5 font-bold hover:bg-white/10 transition-colors rounded-xl"
               >
                 <Phone className="w-5 h-5" />
-                08503047814
+                444 0 398
               </a>
             </div>
           </div>
