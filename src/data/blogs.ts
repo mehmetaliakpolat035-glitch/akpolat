@@ -917,7 +917,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>İzmir Servis Telefonu</h2>
 
-<p><strong>08503047814</strong> numaralı telefondan 7/24 bize ulaşabilirsiniz. Çağrı merkezimiz İzmir'deki en yakın servis ustasını yönlendirir.</p>
+<p><strong>444 0 398</strong> numaralı telefondan 7/24 bize ulaşabilirsiniz. Çağrı merkezimiz İzmir'deki en yakın servis ustasını yönlendirir.</p>
 
 <h2>Servis Ücretleri ve Fiyatlar (2026)</h2>
 
@@ -1074,7 +1074,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Manisa Servis Telefonu</h2>
 
-<p><strong>08503047814</strong> numaralı telefondan 7 gün 24 saat bize ulaşabilirsiniz. Çağrı merkezimiz Manisa'daki en yakın servis ustasını yönlendirir.</p>
+<p><strong>444 0 398</strong> numaralı telefondan 7 gün 24 saat bize ulaşabilirsiniz. Çağrı merkezimiz Manisa'daki en yakın servis ustasını yönlendirir.</p>
 
 <h2>Manisa Servis Ücretleri (2026)</h2>
 

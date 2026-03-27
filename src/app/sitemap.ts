@@ -6,7 +6,7 @@ import { brands } from '@/data/markalar';
 
 export const dynamic = 'force-static';
 
-const BASE_URL = 'https://enyakinservishizmetleri.com.tr';
+const BASE_URL = 'https://turkiyeteknikservis.com';
 const CURRENT_DATE = new Date('2026-03-11');
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -176,20 +176,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  // 11. Blog Kategorileri
-  const categories = [
-    'genel-ariza', 'marka-ariza', 'ariza-kodlari', 'sss', 
-    'kendi-yap', 'parca', 'bakim', 'rehber'
-  ];
-  
-  for (const cat of categories) {
-    sitemapEntries.push({
-      url: `${BASE_URL}/blog?kategori=${cat}`,
-      lastModified: CURRENT_DATE,
-      changeFrequency: 'weekly',
-      priority: 0.6,
-    });
-  }
+  // 11. Blog Kategorileri - Remove query params (not SEO friendly)
+  // Categories should be implemented as /blog/kategori/[slug] for better SEO
 
   // 12. Önemli İlçeler
   for (const city of cities) {

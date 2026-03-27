@@ -343,7 +343,7 @@ export function generateLocalBusinessSchema(city?: string) {
     '@type': 'LocalBusiness',
     name: 'En Yakın Servis Hizmetleri',
     description: 'Türkiye genelinde beyaz eşya, kombi ve klima teknik servis hizmeti',
-    telephone: '+90-850-304-7814',
+    telephone: '+90-444-0-398',
     email: 'info@enyakinservishizmetleri.com',
     priceRange: '$$',
     areaServed: {
