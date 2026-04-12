@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { Container, Card, CardContent } from '@/components/ui';
 import { Hero, Breadcrumb, Disclaimer } from '@/components/sections';
 import { getBrandBySlug, brands } from '@/data/markalar';
+import { toAbsoluteUrl } from '@/lib/site';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -33,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${brand.name} ${serviceNames[brand.category]} Servisi | Türkiye Teknik Servis`,
     description: `${brand.name} ${serviceNames[brand.category]} servis hizmetleri. Profesyonel teknik destek, hızlı servis, garantili işçilik.`,
     alternates: {
-      canonical: `https://turkiyeteknikservis.com/marka/${slug}`,
+      canonical: toAbsoluteUrl(`/marka/${slug}`),
     },
   };
 }

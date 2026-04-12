@@ -2,12 +2,13 @@ import { Metadata } from 'next';
 import { Container } from '@/components/ui';
 import { Hero, TrustSection } from '@/components/sections';
 import { Award, Users, MapPin, Wrench } from 'lucide-react';
+import { toAbsoluteUrl } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Hakkımızda',
   description: 'En Yakın Servis Hizmetleri olarak beyaz eşya, kombi ve klima servis hizmetlerinde yılların deneyimi ile profesyonel teknik destek sunuyoruz.',
   alternates: {
-    canonical: 'https://turkiyeteknikservis.com/hakkimizda'
+    canonical: toAbsoluteUrl('/hakkimizda')
   }
 };
 

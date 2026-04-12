@@ -3,12 +3,13 @@ import Link from 'next/link';
 import { Container, Card, CardContent } from '@/components/ui';
 import { Hero, Breadcrumb, Disclaimer } from '@/components/sections';
 import { getBrandsByCategory } from '@/data/markalar';
+import { toAbsoluteUrl } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Servis Verdiğimiz Markalar | Türkiye Teknik Servis',
   description: 'Tüm beyaz eşya, kombi ve klima markaları için profesyonel teknik servis hizmeti. Arçelik, Beko, Bosch, Viessmann, Daikin ve daha fazlası.',
   alternates: {
-    canonical: 'https://turkiyeteknikservis.com/marka',
+    canonical: toAbsoluteUrl('/marka'),
   },
 };
 

@@ -6,6 +6,7 @@ import { Disclaimer, BlogGrid } from '@/components/sections';
 import { blogPosts, getBlogBySlug, getBlogsByCategory, blogCategories, BlogPost } from '@/data/blogs';
 import { Button } from '@/components/ui';
 import { ArrowLeft } from 'lucide-react';
+import { SITE_URL, toAbsoluteUrl } from '@/lib/site';
 
 function generateArticleSchema(post: BlogPost) {
   const categoryName = blogCategories.find(c => c.id === post.category)?.name || post.category;
@@ -18,21 +19,21 @@ function generateArticleSchema(post: BlogPost) {
     author: {
       '@type': 'Organization',
       name: 'En Yakın Servis Hizmetleri',
-      url: 'https://turkiyeteknikservis.com'
+      url: SITE_URL
     },
     publisher: {
       '@type': 'Organization',
       name: 'En Yakın Servis Hizmetleri',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://turkiyeteknikservis.com/logo.png'
+        url: toAbsoluteUrl('/logo.png')
       }
     },
     datePublished: post.createdAt,
     dateModified: post.createdAt,
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://turkiyeteknikservis.com/blog/${post.slug}`
+      '@id': toAbsoluteUrl(`/blog/${post.slug}`)
     },
     keywords: post.tags.join(', '),
     articleSection: categoryName
@@ -57,7 +58,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: 'Blog Yazısı Bulunamadı' };
   }
   
-  const canonicalUrl = `https://turkiyeteknikservis.com/blog/${slug}`;
+  const canonicalUrl = toAbsoluteUrl(`/blog/${slug}`);
   
   return {
     title: post.title,

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { getServiceBySlug } from '@/data/services';
 import { getCityBySlug } from '@/data/cities';
+import { SITE_EMAIL, SITE_NAME, SITE_URL, toAbsoluteUrl } from '@/lib/site';
 
 // Kapsamlı anahtar kelime grupları
 const serviceKeywords: Record<string, string[]> = {
@@ -165,9 +166,9 @@ export function generateBaseSEO(): Metadata {
     },
     description: 'Türkiye genelinde beyaz eşya, kombi ve klima servis hizmeti. İzmir, İstanbul, Ankara ve tüm illerde profesyonel teknik destek. 7/24 hizmet, garantili işçilik, yerinde tamir. En yakın servis için hemen arayın!',
     keywords: allKeywords.slice(0, 50), // Max 50 keywords
-    authors: [{ name: 'En Yakın Servis Hizmetleri' }],
-    creator: 'En Yakın Servis Hizmetleri',
-    publisher: 'En Yakın Servis Hizmetleri',
+    authors: [{ name: SITE_NAME }],
+    creator: SITE_NAME,
+    publisher: SITE_NAME,
     robots: {
       index: true,
       follow: true,
@@ -182,8 +183,8 @@ export function generateBaseSEO(): Metadata {
     openGraph: {
       type: 'website',
       locale: 'tr_TR',
-      url: 'https://turkiyeteknikservis.com',
-      siteName: 'En Yakın Servis Hizmetleri',
+      url: SITE_URL,
+      siteName: SITE_NAME,
       title: 'En Yakın Servis Hizmetleri | Beyaz Eşya, Kombi, Klima Servisi | Türkiye Geneli',
       description: 'Türkiye genelinde beyaz eşya, kombi ve klima servis hizmeti. İzmir, İstanbul, Ankara ve tüm illerde profesyonel teknik destek. 7/24 hizmet, garantili işçilik.',
       images: [
@@ -202,9 +203,9 @@ export function generateBaseSEO(): Metadata {
       images: ['/banner.webp']
     },
     alternates: {
-      canonical: 'https://turkiyeteknikservis.com',
+      canonical: SITE_URL,
       languages: {
-        'tr-TR': 'https://turkiyeteknikservis.com'
+        'tr-TR': SITE_URL
       }
     },
     other: {
@@ -225,7 +226,7 @@ export function generateServicePageSEO(serviceSlug: string): Metadata {
   const keywords = serviceKeywords[serviceSlug] || service.keywords;
   const title = `${service.name} | ${service.name} Tamiri ve Bakımı | Türkiye Geneli`;
   const description = `${service.name} için profesyonel tamiri, bakımı ve arıza servisi. Türkiye genelinde 7/24 hizmet, yerinde tamir, garantili işçilik. En yakın ${service.name.toLowerCase()} için hemen arayın!`;
-  const canonicalUrl = `https://turkiyeteknikservis.com/${serviceSlug}`;
+  const canonicalUrl = toAbsoluteUrl(`/${serviceSlug}`);
 
   return {
     title,
@@ -237,7 +238,7 @@ export function generateServicePageSEO(serviceSlug: string): Metadata {
       type: 'website',
       locale: 'tr_TR',
       url: canonicalUrl,
-      siteName: 'En Yakın Servis Hizmetleri',
+      siteName: SITE_NAME,
       images: [
         {
           url: '/banner.webp',
@@ -268,7 +269,7 @@ export function generateCityPageSEO(citySlug: string): Metadata {
   const cityKeywordsList = cityVariations(city.name);
   const title = `${city.name} Teknik Servis | Beyaz Eşya, Kombi, Klima | ${city.name} Servisi`;
   const description = `${city.name} ve tüm ilçelerinde beyaz eşya, kombi ve klima servis hizmeti. ${city.name}'da profesyonel teknik destek, yerinde tamir, 7/24 hizmet. En yakın servis için hemen arayın!`;
-  const canonicalUrl = `https://turkiyeteknikservis.com/${citySlug}`;
+  const canonicalUrl = toAbsoluteUrl(`/${citySlug}`);
 
   return {
     title,
@@ -280,7 +281,7 @@ export function generateCityPageSEO(citySlug: string): Metadata {
       type: 'website',
       locale: 'tr_TR',
       url: canonicalUrl,
-      siteName: 'En Yakın Servis Hizmetleri'
+      siteName: SITE_NAME
     },
     twitter: {
       card: 'summary_large_image',
@@ -310,7 +311,7 @@ export function generateCityServicePageSEO(citySlug: string, serviceSlug: string
   
   const title = `${city.name} ${service.name} | ${service.name} Tamiri ${city.name} | Yerinde Servis`;
   const description = `${city.name} ${service.name.toLowerCase()} için profesyonel tamiri ve bakımı. ${city.name} merkez ve tüm ilçelerinde 7/24 hizmet, yerinde tamir, garantili işçilik. Hemen arayın!`;
-  const canonicalUrl = `https://turkiyeteknikservis.com/${citySlug}/${serviceSlug}`;
+  const canonicalUrl = toAbsoluteUrl(`/${citySlug}/${serviceSlug}`);
 
   return {
     title,
@@ -322,7 +323,7 @@ export function generateCityServicePageSEO(citySlug: string, serviceSlug: string
       type: 'website',
       locale: 'tr_TR',
       url: canonicalUrl,
-      siteName: 'En Yakın Servis Hizmetleri'
+      siteName: SITE_NAME
     },
     alternates: {
       canonical: canonicalUrl
@@ -338,10 +339,10 @@ export function generateLocalBusinessSchema(city?: string) {
   const baseSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: 'En Yakın Servis Hizmetleri',
+    name: SITE_NAME,
     description: 'Türkiye genelinde beyaz eşya, kombi ve klima teknik servis hizmeti',
     telephone: '+90-444-0-398',
-    email: 'info@enyakinservishizmetleri.com',
+    email: SITE_EMAIL,
     priceRange: '$$',
     areaServed: {
       '@type': 'Country',
@@ -351,7 +352,7 @@ export function generateLocalBusinessSchema(city?: string) {
     openingHours: 'Mo-Su 00:00-24:00',
     paymentAccepted: ['Cash', 'Credit Card', 'Bank Transfer'],
     currenciesAccepted: 'TRY',
-    url: 'https://turkiyeteknikservis.com',
+    url: SITE_URL,
     sameAs: [
       'https://facebook.com/enyakinservishizmetleri',
       'https://instagram.com/enyakinservishizmetleri',
@@ -396,7 +397,7 @@ export function generateServiceSchema(serviceSlug: string, city?: string) {
     description: service.description,
     provider: {
       '@type': 'Organization',
-      name: 'En Yakın Servis Hizmetleri'
+      name: SITE_NAME
     },
     serviceType: service.name,
     areaServed: city ? {
@@ -499,15 +500,15 @@ export function generateArticleSchema(post: {
     image: '/banner.webp',
     author: {
       '@type': 'Organization',
-      name: 'En Yakın Servis Hizmetleri',
-      url: 'https://turkiyeteknikservis.com'
+      name: SITE_NAME,
+      url: SITE_URL
     },
     publisher: {
       '@type': 'Organization',
-      name: 'En Yakın Servis Hizmetleri',
+      name: SITE_NAME,
       logo: {
         '@type': 'ImageObject',
-        url: 'https://turkiyeteknikservis.com/logo.png'
+        url: toAbsoluteUrl('/logo.png')
       }
     },
     datePublished: post.createdAt,
@@ -517,7 +518,7 @@ export function generateArticleSchema(post: {
     inLanguage: 'tr-TR',
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://turkiyeteknikservis.com/blog/${post.slug}`
+      '@id': toAbsoluteUrl(`/blog/${post.slug}`)
     }
   };
 }

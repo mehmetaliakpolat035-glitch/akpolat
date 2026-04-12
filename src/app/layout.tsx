@@ -6,6 +6,7 @@ import { CityProvider } from "@/components/CityProvider";
 import { generateBaseSEO } from "@/lib/seo";
 import { CookieConsent } from "@/components/CookieConsent";
 import { TurnstileGate } from "@/components/TurnstileGate";
+import { SITE_URL } from "@/lib/site";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -23,7 +24,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   ...generateBaseSEO(),
-  metadataBase: new URL('https://turkiyeteknikservis.com'),
+  metadataBase: new URL(SITE_URL),
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: '32x32' },

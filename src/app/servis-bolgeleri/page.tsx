@@ -5,12 +5,13 @@ import { Hero, Breadcrumb } from '@/components/sections';
 import { cities } from '@/data/cities';
 import { services } from '@/data/services';
 import { MapPin } from 'lucide-react';
+import { toAbsoluteUrl } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Servis Bölgeleri',
   description: 'Türkiye genelinde 81 ilde teknik servis hizmeti verdiğimiz şehirler ve ilçeler. İzmir, Manisa, İstanbul, Ankara, Bursa ve tüm iller.',
   alternates: {
-    canonical: 'https://turkiyeteknikservis.com/servis-bolgeleri',
+    canonical: toAbsoluteUrl('/servis-bolgeleri'),
   },
 };
 

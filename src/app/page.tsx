@@ -6,6 +6,7 @@ import { Container, Button } from '@/components/ui';
 import { getFeaturedBlogs } from '@/data/blogs';
 import { BookOpen, ArrowRight } from 'lucide-react';
 import dynamic from 'next/dynamic';
+import { SITE_URL } from '@/lib/site';
 
 // Alt kısımdaki bileşenleri lazy load ile yükle
 const CityCoverage = dynamic(() => import('@/components/sections').then(mod => mod.CityCoverage), {
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   title: 'En Yakın Servis Hizmetleri | Beyaz Eşya, Kombi, Klima Servisi',
   description: 'Türkiye genelinde beyaz eşya, kombi ve klima servis hizmeti. İzmir, Manisa, İstanbul, Ankara ve tüm illerde profesyonel teknik destek. Hızlı servis, garantili işçilik.',
   alternates: {
-    canonical: 'https://turkiyeteknikservis.com'
+    canonical: SITE_URL
   }
 };
 

@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next';
+import { SITE_URL, toAbsoluteUrl } from '@/lib/site';
 
 export const dynamic = 'force-static';
 
@@ -26,7 +27,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/admin/'],
       },
     ],
-    sitemap: 'https://turkiyeteknikservis.com/sitemap.xml',
-    host: 'https://turkiyeteknikservis.com',
+    sitemap: toAbsoluteUrl('/sitemap.xml'),
+    host: SITE_URL,
   };
 }

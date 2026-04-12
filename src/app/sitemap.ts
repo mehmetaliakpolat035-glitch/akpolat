@@ -2,10 +2,11 @@ import { MetadataRoute } from 'next';
 import { cities } from '@/data/cities';
 import { blogPosts } from '@/data/blogs';
 import { brands } from '@/data/markalar';
+import { SITE_URL } from '@/lib/site';
 
 export const dynamic = 'force-static';
 
-const BASE_URL = 'https://turkiyeteknikservis.com';
+const BASE_URL = SITE_URL;
 const BUILD_DATE = new Date();
 
 export default function sitemap(): MetadataRoute.Sitemap {

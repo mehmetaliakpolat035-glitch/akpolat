@@ -1,12 +1,13 @@
 import { Metadata } from 'next';
 import { Container, Card, CardContent, Badge } from '@/components/ui';
 import { Hero, Breadcrumb } from '@/components/sections';
+import { toAbsoluteUrl } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Arıza Kodları',
   description: 'Beyaz eşya, kombi ve klima arıza kodları. Cihazınızda görülen arıza kodlarının anlamları ve çözüm önerileri.',
   alternates: {
-    canonical: 'https://turkiyeteknikservis.com/ariza-kodlari',
+    canonical: toAbsoluteUrl('/ariza-kodlari'),
   },
 };
 

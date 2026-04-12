@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { Container } from '@/components/ui';
 import { Shield, FileText, Lock, Cookie, UserCheck } from 'lucide-react';
+import { SITE_EMAIL, toAbsoluteUrl } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Gizlilik Politikası ve KVKK Aydınlatma Metni | En Yakın Servis Hizmetleri',
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: 'https://turkiyeteknikservis.com/gizlilik-politikasi',
+    canonical: toAbsoluteUrl('/gizlilik-politikasi'),
   },
 };
 
@@ -79,7 +80,7 @@ export default function PrivacyPage() {
               <p className="text-slate-700 leading-relaxed mb-4">
                 <strong>En Yakın Servis Hizmetleri</strong><br />
                 Telefon: 444 0 398<br />
-                E-posta: info@turkiyeteknikservis.com<br />
+                E-posta: {SITE_EMAIL}<br />
                 Adres: 1451 Sokak No:11/A Doğanlar/İzmir
               </p>
 
@@ -133,7 +134,7 @@ export default function PrivacyPage() {
                 <li>Veri aktarımı talep etme</li>
               </ul>
               <p className="text-slate-700 leading-relaxed mb-4">
-                Haklarınızı kullanmak için <strong>info@turkiyeteknikservis.com</strong> adresine 
+                Haklarınızı kullanmak için <strong>{SITE_EMAIL}</strong> adresine 
                 e-posta gönderebilir veya <strong>444 0 398</strong> numaralı telefonu arayabilirsiniz.
               </p>
             </div>
@@ -222,7 +223,7 @@ export default function PrivacyPage() {
               </a>
 
               <a 
-                href="mailto:info@turkiyeteknikservis.com"
+                href={`mailto:${SITE_EMAIL}`}
                 className="flex items-center gap-3 p-4 bg-white rounded-xl border border-slate-200 hover:border-blue-300 transition-colors"
               >
                 <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
@@ -232,7 +233,7 @@ export default function PrivacyPage() {
                 </div>
                 <div>
                   <div className="text-sm text-slate-500">E-posta</div>
-                  <div className="font-semibold text-slate-900">info@turkiyeteknikservis.com</div>
+                  <div className="font-semibold text-slate-900">{SITE_EMAIL}</div>
                 </div>
               </a>
             </div>

@@ -3,12 +3,13 @@ import { Container, Card, CardContent } from '@/components/ui';
 import { Hero } from '@/components/sections';
 import { ContactForm } from '@/components/forms';
 import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react';
+import { toAbsoluteUrl } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'İletişim',
   description: 'En Yakın Servis Hizmetleri iletişim bilgileri. Telefon, WhatsApp ve online randevu formu ile bize ulaşın.',
   alternates: {
-    canonical: 'https://turkiyeteknikservis.com/iletisim'
+    canonical: toAbsoluteUrl('/iletisim')
   }
 };
 
