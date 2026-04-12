@@ -95,7 +95,7 @@ export function ServiceHelp() {
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            Size Nasıl Yardımcı Olabiliriz?
+            Profesyonel Özel Servis Hizmeti
           </h2>
           
           <div className="flex items-center justify-center gap-4 mb-6">

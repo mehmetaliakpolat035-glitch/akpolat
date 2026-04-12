@@ -191,6 +191,38 @@ export function Footer() {
                 Kullanıcılar, siteyi ziyaret ederek ve hizmet talebi oluşturarak bu bilgilendirme ve yasal uyarı metnini okumuş ve kabul etmiş sayılır.
               </p>
             </div>
+
+            <div className="mt-6 rounded-2xl border border-slate-300 bg-white p-6 text-left shadow-sm">
+              <h3 className="text-base font-bold text-slate-900 mb-4">
+                İşletme Bilgileri
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-700">
+                <div>
+                  <span className="block text-xs font-semibold uppercase tracking-wide text-slate-500 mb-1">
+                    İşletme Sahibi
+                  </span>
+                  <span className="font-medium text-slate-900">Mehmet Ali Akpolat</span>
+                </div>
+                <div>
+                  <span className="block text-xs font-semibold uppercase tracking-wide text-slate-500 mb-1">
+                    Vergi Dairesi
+                  </span>
+                  <span className="font-medium text-slate-900">Hasan Tahsin</span>
+                </div>
+                <div>
+                  <span className="block text-xs font-semibold uppercase tracking-wide text-slate-500 mb-1">
+                    Vergi Numarası
+                  </span>
+                  <span className="font-medium text-slate-900">0340486063</span>
+                </div>
+                <div>
+                  <span className="block text-xs font-semibold uppercase tracking-wide text-slate-500 mb-1">
+                    Açık Adres
+                  </span>
+                  <span className="font-medium text-slate-900">Doğanlar Mah. 1451 Sk. No: 11 A Bornova / İzmir</span>
+                </div>
+              </div>
+            </div>
             
             <div className="flex flex-wrap justify-center gap-4 mt-6 pt-6 border-t border-slate-300 text-sm">
               <Link href="/gizlilik-politikasi" className="text-blue-900 hover:text-blue-700 font-medium">
