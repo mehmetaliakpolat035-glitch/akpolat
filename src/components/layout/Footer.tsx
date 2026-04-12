@@ -172,24 +172,78 @@ export function Footer() {
             
             <div className="text-sm text-slate-700 leading-relaxed space-y-4">
               <p>
-                Bu site, adı geçen markaların resmi veya yetkili servisi değildir. Sunulan hizmetler özel / bağımsız teknik servis kapsamında verilmektedir. 
-                Marka isimleri ve logoları, tüketiciyi bilgilendirme amacıyla kullanılmaktadır.
+                <strong className="text-slate-900">Yetkili servis değildir. Garanti dışı cihazlara özel servis.</strong>
               </p>
-              
+
               <p>
-                Bu internet sitesi üzerinden sunulan tüm hizmetler, ilgili marka veya markaların resmi, yetkili, ana servis ya da üretici destek ağı kapsamında 
-                yer almamaktadır. En Yakın Servis Hizmetleri; üretici, ithalatçı veya distribütör firmalardan tamamen bağımsız olarak faaliyet gösteren, özel servis 
-                statüsünde hizmet sunan bir teknik servis kuruluşudur.
+                Bu site, ilgili markaların resmi veya yetkili servisi değildir. Sunulan hizmetler özel servis kapsamında verilmektedir. Marka isimleri ve logoları, tüketiciyi bilgilendirme amacıyla kullanılmaktadır. Resmi yetkimiz bulunmayan markalar için özel servis / bağımsız teknik servis olarak hizmet veriyoruz. Sitemizde &quot;yetkili servis&quot; ibaresi kullanılmaz. Firmamız, ilgili markalardan bağımsız olarak hizmet veren özel teknik servis merkezidir. Sitemizde adı geçen marka ve logolar ilgili firmalara aittir. Servisimiz, garanti süresi dolmuş cihazlara ücretli onarım desteği sunmaktadır.
               </p>
-              
+
               <p>
-                Sunulan teknik servis hizmetleri; bakım, onarım, arıza tespiti, parça değişimi ve teknik destek işlemlerini kapsamakta olup, ağırlıklı olarak garanti 
-                süresi sona ermiş cihazlar için ücretli olarak sağlanmaktadır.
+                Değişimi yapılan yedek parçalar firmamız bünyesinde 1 yıl garanti kapsamındadır. Servis kaydı oluşturulduğunda teknisyenlerimiz adresinize gelerek arıza tespiti yapar ve onayınız dahilinde işlem başlatılır.
               </p>
-              
-              <p className="font-semibold text-slate-900">
-                Kullanıcılar, siteyi ziyaret ederek ve hizmet talebi oluşturarak bu bilgilendirme ve yasal uyarı metnini okumuş ve kabul etmiş sayılır.
+
+              <p>
+                Bu site, adı geçen markaların resmi veya yetkili servisi değildir. Sunulan tüm hizmetler özel / bağımsız teknik servis kapsamında verilmektedir. Marka isimleri yalnızca bilgilendirme amaçlı kullanılmaktadır. Firmamız, ilgili markalardan bağımsız olarak hizmet vermektedir. Garanti süresi dolmuş cihazlara ücretli onarım hizmeti sunulmaktadır.
               </p>
+
+              <p>
+                <strong className="text-slate-900">Yasal Uyarı:</strong> Bu site, ilgili markaların resmi yetkili servisi değildir. Markadan bağımsız &quot;Özel Servis&quot; olarak hizmet vermektedir. Sitede kullanılan logolar ve marka isimleri, ilgili hak sahiplerine aittir ve sadece bilgi verme amaçlı kullanılmıştır. Firmamız, garanti süresi bitmiş cihazlara ücretli teknik destek sağlamaktadır.
+              </p>
+
+              <div className="rounded-2xl border border-slate-300 bg-slate-50 p-5 space-y-4">
+                <p className="font-semibold text-slate-900">
+                  Yasal Uyarı ve Bilgilendirme
+                </p>
+                <p>
+                  Bu internet sitesi üzerinden sunulan tüm hizmetler, ilgili marka veya markaların resmi, yetkili, ana servis ya da üretici destek ağı kapsamında yer almamaktadır. Firmamız; üretici, ithalatçı veya distribütör firmalardan tamamen bağımsız olarak faaliyet gösteren, özel servis statüsünde hizmet sunan bir teknik servis kuruluşudur. Web sitemizde adı geçen marka isimleri, ürün adları, model bilgileri ve logolar; yalnızca tüketicilere cihaz uyumluluğu ve hizmet kapsamı hakkında bilgi verilmesi amacıyla kullanılmaktadır. Bu kullanım, ilgili markalar ile firmamız arasında herhangi bir yetkilendirme, temsil, lisans, sponsorluk veya ticari ortaklık ilişkisi bulunduğu anlamına gelmez.
+                </p>
+                <p>
+                  Firmamız, ilgili markaların resmi servis prosedürleri, garanti koşulları, fiyat politikaları veya kampanyaları üzerinde herhangi bir yetkiye sahip değildir. Garanti süresi devam eden ürünler için kullanıcıların, ilgili markanın resmi yetkili servisleri ile doğrudan iletişime geçmeleri önerilmektedir. Sitemizde yer alan içeriklerde, reklam alanlarında veya hizmet açıklamalarında &quot;yetkili servis&quot;, &quot;resmi servis&quot; ya da benzeri ifadeler kullanılmamakta olup, tüm servis faaliyetleri özel teknik servis kapsamında yürütülmektedir.
+                </p>
+                <p>
+                  Sunulan teknik servis hizmetleri; bakım, onarım, arıza tespiti, parça değişimi ve teknik destek işlemlerini kapsamakta olup, ağırlıklı olarak garanti süresi sona ermiş cihazlar için ücretli olarak sağlanmaktadır. Servis talebi oluşturulmasının ardından, alanında deneyimli teknisyenlerimiz müşterinin belirtmiş olduğu adrese yönlendirilir ve cihaz üzerinde detaylı bir arıza tespit süreci gerçekleştirilir. Tespit edilen arıza durumu, yapılması planlanan işlemler, kullanılacak yedek parçalar ve toplam hizmet bedeli, müşteriye açık ve şeffaf bir şekilde bildirilir.
+                </p>
+                <p>
+                  Müşteri onayı alınmadan herhangi bir onarım, parça değişimi veya müdahalede bulunulmaz. Onaylanarak gerçekleştirilen işlemler kapsamında değişimi yapılan yedek parçalar, firmamız tarafından sağlanmakta olup, 1 (bir) yıl süreyle parça garantisi kapsamındadır. Bu garanti, yalnızca değişimi yapılan parçayı kapsamakta olup; kullanıcı hataları, harici müdahaleler, sıvı teması, voltaj dalgalanmaları veya kullanım koşullarına aykırı durumları kapsam dışı bırakabilir.
+                </p>
+                <p>
+                  İşçilik ve servis süreçleri, yürürlükteki tüketici mevzuatına ve hizmet sözleşmelerine uygun şekilde yürütülmektedir. Web sitemizde yer alan tüm içerikler, bilgilendirme amaçlı olarak hazırlanmış olup; zaman içerisinde güncellenebilir, değiştirilebilir veya kaldırılabilir. Firmamız, site içeriğinde yer alan bilgilerin doğruluğu ve güncelliği konusunda azami özeni göstermesine rağmen, oluşabilecek yazım hataları, teknik aksaklıklar veya üçüncü taraf kaynaklı bilgi değişikliklerinden sorumlu tutulamaz.
+                </p>
+                <p className="font-semibold text-slate-900">
+                  Kullanıcılar, siteyi ziyaret ederek ve hizmet talebi oluşturarak bu bilgilendirme ve yasal uyarı metnini okumuş ve kabul etmiş sayılır. Firmamız, yürürlükteki yasa ve yönetmelikler çerçevesinde faaliyet göstermekte olup; tüketici haklarına, şeffaf hizmet anlayışına ve dürüst ticari uygulamalara önem vermektedir. Hizmetlerimiz ile ilgili her türlü soru, görüş ve talep için iletişim kanallarımız üzerinden tarafımızla iletişime geçilebilir.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-blue-200 bg-blue-50 p-5 space-y-4">
+                <p className="font-semibold text-slate-900">
+                  Politika ve Etik Uyum Taahhüdü
+                </p>
+                <p>
+                  Bu web sitesinde sunulan tüm hizmetler ve yayınlanan reklamlar; Google Ads reklam politikaları, tüketicinin korunması mevzuatı ve etik ticaret kurallarına uygun olarak yürütülmektedir. Özellikle Google Ads&apos;in &quot;Kabul Edilemez İş Uygulamaları (Unacceptable Business Practices)&quot; politikası kapsamında; kullanıcıları yanıltan, yanlış yönlendiren veya aldatıcı ifadeler kullanılmamaktadır. Yetkili servis, resmi temsilci veya marka ortağı izlenimi oluşturacak hiçbir içerik, görsel veya reklam metni yer almamaktadır. Hizmet koşulları, servis kapsamı, ücretlendirme ve garanti durumu açık ve şeffaf şekilde belirtilmektedir. Tüketicinin karar verme sürecini manipüle eden, baskı kuran veya yanıltıcı ticari uygulamalardan kaçınılmaktadır. Marka haklarını ihlal eden veya haksız rekabete yol açabilecek herhangi bir reklam faaliyeti yürütülmemektedir. Amacımız, kullanıcıların doğru bilgiye ulaşmasını sağlamak ve güvenilir, şeffaf bir servis deneyimi sunmaktır.
+                </p>
+                <p className="font-semibold text-slate-900">
+                  Google Ads tarafından tanımlanan kabul edilemez iş uygulamalarına karşı sıfır tolerans politikası uygulanmaktadır.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-slate-300 bg-white p-5 space-y-4">
+                <p className="font-semibold text-slate-900">
+                  Yasal Bilgilendirme ve Marka Bağımsızlığı
+                </p>
+                <p>
+                  Bu web sitesi, bağımsız bir özel teknik servis tarafından işletilmektedir. Sunulan hizmetler, ilgili markaların yetkili servis hizmetleri değildir. Web sitemizde adı geçen marka, logo ve ticari unvanlar ilgili firmaların tescilli markalarıdır ve yalnızca cihazların hangi markalara ait olduğunu belirtmek amacıyla kullanılmaktadır. İlgili markalar ile herhangi bir resmî ortaklık, yetkilendirme veya distribütörlük ilişkimiz bulunmamaktadır. Tüm servis hizmetleri, garanti kapsamı dışında kalan cihazlar için sunulmakta olup, kullanıcılar bu konuda açık ve şeffaf şekilde bilgilendirilmektedir. Google Ads reklam politikaları, tüketici mevzuatı ve haksız rekabet kurallarına uygun şekilde faaliyet göstermekteyiz. Kullanıcıları yanıltıcı, yetkili servis izlenimi oluşturan veya marka haklarını ihlal eden hiçbir reklam ve içerik kullanılmamaktadır. Şeffaflık ve kullanıcı güveni önceliğimizdir.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-slate-300 bg-white p-5 space-y-4">
+                <p className="font-semibold text-slate-900">
+                  Google Ads Politika ve Şeffaflık Bildirimi
+                </p>
+                <p>
+                  Bu web sitesi, bağımsız ve özel bir teknik servis tarafından işletilmektedir. Sunulan hizmetler, ilgili markaların yetkili servis hizmetleri değildir. Sitemizde adı geçen marka isimleri, cihazların hangi markalara ait olduğunu belirtmek amacıyla kullanılmaktadır. İlgili markalar ile herhangi bir resmî ortaklık, yetkilendirme veya distribütörlük ilişkimiz bulunmamaktadır. Marka logo ve görselleri kullanılmamaktadır. Tüm servis hizmetleri, garanti kapsamı dışında kalan cihazlar için sunulmakta olup; hizmet koşulları, servis kapsamı, ücretlendirme ve garanti durumu kullanıcıya açık ve şeffaf şekilde bildirilmektedir. Google Ads reklam politikaları kapsamında tanımlanan yanıltıcı beyanlar, yetkili servis izlenimi oluşturma, haksız rekabet, kabul edilemez iş uygulamaları ve aldatıcı ticari faaliyetlerden kesinlikle kaçınılmaktadır. Kullanıcıları yanlış yönlendirecek, baskı oluşturacak veya gerçeğe aykırı bilgi içeren reklam ve içerikler yayınlanmamaktadır. Google Ads&apos;in &quot;Unacceptable Business Practices (Kabul Edilemez İş Uygulamaları)&quot; politikasına karşı sıfır tolerans yaklaşımı benimsenmektedir. Amacımız, kullanıcıların doğru bilgiye ulaşmasını sağlamak ve güvenilir, şeffaf bir teknik servis hizmeti sunmaktır.
+                </p>
+              </div>
             </div>
 
             <div className="mt-6 rounded-2xl border border-slate-300 bg-white p-6 text-left shadow-sm">
