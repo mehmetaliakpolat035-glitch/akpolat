@@ -5,12 +5,19 @@ import { Turnstile } from '@marsidev/react-turnstile';
 import { Shield, Lock } from 'lucide-react';
 
 const SITE_KEY = '0x4AAAAAACtQAtdhhca8c3VU';
+const SHOULD_BYPASS_TURNSTILE = process.env.NODE_ENV !== 'production';
 
 export function TurnstileGate({ children }: { children: React.ReactNode }) {
   const [isVerified, setIsVerified] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    if (SHOULD_BYPASS_TURNSTILE) {
+      setIsVerified(true);
+      setIsLoading(false);
+      return;
+    }
+
     // Check if already verified in this session
     const verified = sessionStorage.getItem('turnstile-verified');
     if (verified === 'true') {
@@ -19,7 +26,7 @@ export function TurnstileGate({ children }: { children: React.ReactNode }) {
     setIsLoading(false);
   }, []);
 
-  const handleVerify = (token: string) => {
+  const handleVerify = () => {
     // Verify token with your backend or just accept it for now
     // In production, you should verify the token server-side
     sessionStorage.setItem('turnstile-verified', 'true');
