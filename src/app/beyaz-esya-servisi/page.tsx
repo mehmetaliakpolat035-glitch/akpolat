@@ -14,7 +14,8 @@ import {
   Thermometer,
   MapPin,
   Settings,
-  ArrowRight
+  ArrowRight,
+  type LucideIcon,
 } from 'lucide-react';
 
 export const metadata: Metadata = generateServicePageSEO('beyaz-esya-servisi');
@@ -36,7 +37,7 @@ function DecorativePattern() {
 }
 
 // Modern Section Header Component
-function SectionHeader({ icon: Icon, title, subtitle }: { icon: any, title: string, subtitle?: string }) {
+function SectionHeader({ icon: Icon, title, subtitle }: { icon: LucideIcon; title: string; subtitle?: string }) {
   return (
     <div className="text-center mb-12">
       <div className="flex items-center justify-center mb-4">

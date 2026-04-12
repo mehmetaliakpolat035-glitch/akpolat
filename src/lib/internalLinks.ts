@@ -1,5 +1,4 @@
 import { cities } from '@/data/cities';
-import { services } from '@/data/services';
 import { brands } from '@/data/markalar';
 
 export interface InternalLink {

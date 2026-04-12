@@ -42,7 +42,7 @@ export function useCityDetection() {
               localStorage.setItem('userCity', JSON.stringify(cityData));
             }
           }
-        } catch (error) {
+        } catch {
           console.log('Could not detect city');
         }
       };

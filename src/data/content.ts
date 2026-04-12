@@ -96,7 +96,7 @@ export const trustItems: TrustItem[] = [
   {
     icon: 'MapPin',
     title: 'Geniş Kapsama',
-    description: 'Türkiye genelinde 10+ il ve 50+ ilçede hizmet sunuyoruz. Size en yakın ekibimizi yönlendiriyoruz.'
+    description: 'Türkiye genelinde 81 ilde ve yüzlerce ilçede hizmet sunuyoruz. Size en yakın ekibimizi yönlendiriyoruz.'
   },
   {
     icon: 'Headphones',

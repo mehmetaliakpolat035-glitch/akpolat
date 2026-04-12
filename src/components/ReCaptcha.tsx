@@ -10,8 +10,7 @@ export function ReCaptcha() {
       if (typeof window !== 'undefined' && window.grecaptcha) {
         window.grecaptcha.ready(() => {
           window.grecaptcha.execute('SENIN_SITE_KEY', { action: 'homepage' })
-            .then((token: string) => {
-              // Token başarıyla alındı
+            .then(() => {
               console.log('reCAPTCHA token alındı');
             })
             .catch((error: Error) => {

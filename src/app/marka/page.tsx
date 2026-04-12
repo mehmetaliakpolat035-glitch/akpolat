@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Container, Card, CardContent } from '@/components/ui';
 import { Hero, Breadcrumb, Disclaimer } from '@/components/sections';
-import { brands, getBrandsByCategory } from '@/data/markalar';
+import { getBrandsByCategory } from '@/data/markalar';
 
 export const metadata: Metadata = {
   title: 'Servis Verdiğimiz Markalar | Türkiye Teknik Servis',

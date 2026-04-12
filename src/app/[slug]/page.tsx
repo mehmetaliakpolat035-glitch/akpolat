@@ -1,13 +1,13 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { Container, Card, CardContent, Badge, Button } from '@/components/ui';
+import { Container, Card, CardContent, Button } from '@/components/ui';
 import { Hero, Breadcrumb, BrandGrid, Disclaimer } from '@/components/sections';
 import { generateCityPageSEO, generateLocalBusinessSchema } from '@/lib/seo';
 import { cities, getCityBySlug } from '@/data/cities';
 import { services } from '@/data/services';
 import { AutoLink } from '@/lib/autoLink';
-import { MapPin, ChevronRight } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -71,7 +71,7 @@ export default async function CityPage({ params }: Props) {
         <Container>
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              {city.name}'de Hizmet Verdiğimiz Hizmetler
+              {`${city.name}'de Hizmet Verdiğimiz Hizmetler`}
             </h2>
             <div className="text-lg text-slate-600 max-w-2xl mx-auto">
               <AutoLink 
@@ -110,21 +110,19 @@ export default async function CityPage({ params }: Props) {
               {city.name} İlçeler
             </h3>
             <p className="text-slate-600">
-              {city.name}'de hizmet verdiğimiz ilçeler
+              {`${city.name}'de hizmet verdiğimiz ilçeler`}
             </p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
             {city.districts.map((district) => (
-              <Link key={district.id} href={`/${city.slug}/${district.slug}-beyaz-esya-servisi`}>
-                <Card className="hover:border-red-300 transition-colors">
-                  <CardContent className="p-3 text-center">
-                    <span className="font-medium text-slate-700 hover:text-red-600 transition-colors">
-                      {district.name}
-                    </span>
-                  </CardContent>
-                </Card>
-              </Link>
+              <Card key={district.id} className="hover:border-red-300 transition-colors">
+                <CardContent className="p-3 text-center">
+                  <span className="font-medium text-slate-700">
+                    {district.name}
+                  </span>
+                </CardContent>
+              </Card>
             ))}
           </div>
         </Container>

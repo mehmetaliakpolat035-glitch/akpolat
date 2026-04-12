@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { Container } from '@/components/ui';
-import { Shield, FileText, Lock, Eye, Cookie, UserCheck } from 'lucide-react';
+import { Shield, FileText, Lock, Cookie, UserCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Gizlilik Politikası ve KVKK Aydınlatma Metni | En Yakın Servis Hizmetleri',
@@ -184,7 +184,7 @@ export default function PrivacyPage() {
 
               <h3 className="text-lg font-bold text-slate-900 mt-6 mb-3">Çerez Yönetimi</h3>
               <p className="text-slate-700 leading-relaxed mb-4">
-                Çerez tercihlerinizi siteye ilk girişinizde gösterilen çerez banner'ı üzerinden 
+                Çerez tercihlerinizi siteye ilk girişinizde gösterilen çerez banner&apos;ı üzerinden 
                 yönetebilirsiniz. Ayrıca tarayıcı ayarlarınızdan çerezleri tamamen devre dışı 
                 bırakabilirsiniz, ancak bu durumda sitenin bazı özellikleri çalışmayabilir.
               </p>

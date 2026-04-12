@@ -87,7 +87,7 @@ export function Disclaimer() {
               <p className="leading-relaxed mb-4">
                 Bu web sitesinde sunulan tüm hizmetler ve yayınlanan reklamlar; Google Ads reklam politikaları, 
                 tüketicinin korunması mevzuatı ve etik ticaret kurallarına uygun olarak yürütülmektedir. 
-                Özellikle Google Ads'in "Kabul Edilemez İş Uygulamaları (Unacceptable Business Practices)" 
+                Özellikle Google Ads&apos;in &quot;Kabul Edilemez İş Uygulamaları (Unacceptable Business Practices)&quot; 
                 politikası kapsamında:
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-4">
@@ -112,8 +112,8 @@ export function Disclaimer() {
                 Yasal Uyarı ve Sorumluluk Reddi
               </h3>
               <p className="leading-relaxed mb-4">
-                Sitemizde yer alan içeriklerde, reklam alanlarında veya hizmet açıklamalarında "yetkili servis", 
-                "resmi servis" ya da benzeri ifadeler kullanılmamakta olup, tüm servis faaliyetleri özel teknik 
+                Sitemizde yer alan içeriklerde, reklam alanlarında veya hizmet açıklamalarında &quot;yetkili servis&quot;, 
+                &quot;resmi servis&quot; ya da benzeri ifadeler kullanılmamakta olup, tüm servis faaliyetleri özel teknik 
                 servis kapsamında yürütülmektedir. İşçilik ve servis süreçleri, yürürlükteki tüketici mevzuatına 
                 ve hizmet sözleşmelerine uygun şekilde yürütülmektedir.
               </p>

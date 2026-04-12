@@ -1,6 +1,8 @@
 // Cloudflare Pages configuration
 // import { defineConfig } from "@opennextjs/cloudflare";
 
-export default {
+const openNextConfig = {
   // Cloudflare Pages specific configuration
 };
+
+export default openNextConfig;

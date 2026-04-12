@@ -29,18 +29,13 @@ const otherNav = [
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
-  const [citySelectorOpen, setCitySelectorOpen] = useState(false);
   const servicesRef = useRef<HTMLDivElement>(null);
-  const cityRef = useRef<HTMLDivElement>(null);
-  const { city, loading, setManualCity } = useCity();
+  const { city, loading } = useCity();
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (servicesRef.current && !servicesRef.current.contains(event.target as Node)) {
         setServicesOpen(false);
-      }
-      if (cityRef.current && !cityRef.current.contains(event.target as Node)) {
-        setCitySelectorOpen(false);
       }
     }
     document.addEventListener('mousedown', handleClickOutside);

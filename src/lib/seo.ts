@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
-import { services, getServiceBySlug } from '@/data/services';
-import { cities, getCityBySlug } from '@/data/cities';
+import { getServiceBySlug } from '@/data/services';
+import { getCityBySlug } from '@/data/cities';
 
 // Kapsamlı anahtar kelime grupları
 const serviceKeywords: Record<string, string[]> = {
@@ -188,7 +188,7 @@ export function generateBaseSEO(): Metadata {
       description: 'Türkiye genelinde beyaz eşya, kombi ve klima servis hizmeti. İzmir, İstanbul, Ankara ve tüm illerde profesyonel teknik destek. 7/24 hizmet, garantili işçilik.',
       images: [
         {
-          url: '/og-image.jpg',
+          url: '/banner.webp',
           width: 1200,
           height: 630,
           alt: 'En Yakın Servis Hizmetleri - Türkiye Geneli Teknik Servis'
@@ -199,16 +199,13 @@ export function generateBaseSEO(): Metadata {
       card: 'summary_large_image',
       title: 'En Yakın Servis Hizmetleri | Beyaz Eşya, Kombi, Klima Servisi',
       description: 'Türkiye genelinde beyaz eşya, kombi ve klima servis hizmeti. 7/24 hizmet, garantili işçilik.',
-      images: ['/og-image.jpg']
+      images: ['/banner.webp']
     },
     alternates: {
       canonical: 'https://turkiyeteknikservis.com',
       languages: {
         'tr-TR': 'https://turkiyeteknikservis.com'
       }
-    },
-    verification: {
-      google: 'google-site-verification-code', // Add your code here
     },
     other: {
       'geo.region': 'TR',
@@ -243,7 +240,7 @@ export function generateServicePageSEO(serviceSlug: string): Metadata {
       siteName: 'En Yakın Servis Hizmetleri',
       images: [
         {
-          url: '/og-image.jpg',
+          url: '/banner.webp',
           width: 1200,
           height: 630,
           alt: `${service.name} - En Yakın Servis Hizmetleri`
@@ -499,7 +496,7 @@ export function generateArticleSchema(post: {
     '@type': 'Article',
     headline: post.title,
     description: post.excerpt,
-    image: '/og-image.jpg',
+    image: '/banner.webp',
     author: {
       '@type': 'Organization',
       name: 'En Yakın Servis Hizmetleri',

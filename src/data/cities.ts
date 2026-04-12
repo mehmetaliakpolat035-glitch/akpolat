@@ -217,7 +217,7 @@ export const cities: City[] = [
     districts: [
       { id: 'odunpazarı', name: 'Odunpazarı', slug: 'odunpazari', citySlug: 'eskisehir' },
       { id: 'tepebasi', name: 'Tepebaşı', slug: 'tepebasi', citySlug: 'eskisehir' },
-      { id: ' Sivrihisar', name: 'Sivrihisar', slug: 'sivrihisar', citySlug: 'eskisehir' },
+      { id: 'sivrihisar', name: 'Sivrihisar', slug: 'sivrihisar', citySlug: 'eskisehir' },
     ]
   },
   {
@@ -522,7 +522,7 @@ export const cities: City[] = [
     ]
   },
   {
-    id: ' Nevşehir',
+    id: 'nevsehir',
     name: 'Nevşehir',
     slug: 'nevsehir',
     plateCode: '50',
@@ -790,7 +790,7 @@ export const cities: City[] = [
     ]
   },
   {
-    id: ' Agri',
+    id: 'agri',
     name: 'Ağrı',
     slug: 'agri',
     plateCode: '04',

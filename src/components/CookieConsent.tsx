@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui';
 import { X, Cookie } from 'lucide-react';
@@ -67,12 +68,12 @@ export function CookieConsent() {
                 Sitemizde size en iyi deneyimi sunmak için çerezler kullanıyoruz. 
                 Çerezler, site kullanımını analiz etmek ve içeriği kişiselleştirmek için kullanılır. 
                 Çerez kullanımını kabul ederek, 
-                <a 
+                <Link 
                   href="/gizlilik-politikasi" 
                   className="text-blue-900 underline hover:no-underline font-medium"
                 >
                   Gizlilik Politikamızı
-                </a>
+                </Link>
                 {' '}kabul etmiş olursunuz.
               </p>
               <p className="text-xs text-slate-500">

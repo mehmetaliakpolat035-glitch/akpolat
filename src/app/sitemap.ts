@@ -1,27 +1,26 @@
 import { MetadataRoute } from 'next';
 import { cities } from '@/data/cities';
-import { services } from '@/data/services';
 import { blogPosts } from '@/data/blogs';
 import { brands } from '@/data/markalar';
 
 export const dynamic = 'force-static';
 
 const BASE_URL = 'https://turkiyeteknikservis.com';
-const CURRENT_DATE = new Date('2026-03-11');
+const BUILD_DATE = new Date();
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const sitemapEntries: MetadataRoute.Sitemap = [];
 
-  // 1. Ana Sayfa (En Yüksek Öncelik)
+  // 1. Ana Sayfa
   sitemapEntries.push({
     url: BASE_URL,
-    lastModified: CURRENT_DATE,
+    lastModified: BUILD_DATE,
     changeFrequency: 'daily',
     priority: 1.0,
   });
 
-  // 2. Ana Hizmet Sayfaları (Yüksek Öncelik)
-  const mainServices = [
+  // 2. Gerçekte route'u olan servis sayfaları
+  const servicePages = [
     { slug: 'beyaz-esya-servisi', priority: 0.95 },
     { slug: 'kombi-servisi', priority: 0.95 },
     { slug: 'klima-servisi', priority: 0.95 },
@@ -30,16 +29,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { slug: 'bulasik-makinesi-servisi', priority: 0.9 },
   ];
 
-  mainServices.forEach(service => {
+  servicePages.forEach((service) => {
     sitemapEntries.push({
       url: `${BASE_URL}/${service.slug}`,
-      lastModified: CURRENT_DATE,
+      lastModified: BUILD_DATE,
       changeFrequency: 'weekly',
       priority: service.priority,
     });
   });
 
-  // 3. Statik Sayfalar
+  // 3. Route'u olan statik sayfalar
   const staticPages = [
     { slug: 'hakkimizda', priority: 0.8, freq: 'monthly' as const },
     { slug: 'iletisim', priority: 0.9, freq: 'monthly' as const },
@@ -47,169 +46,68 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { slug: 'blog', priority: 0.85, freq: 'daily' as const },
     { slug: 'marka', priority: 0.8, freq: 'weekly' as const },
     { slug: 'ariza-kodlari', priority: 0.75, freq: 'monthly' as const },
+    { slug: 'gizlilik-politikasi', priority: 0.7, freq: 'yearly' as const },
   ];
 
-  staticPages.forEach(page => {
+  staticPages.forEach((page) => {
     sitemapEntries.push({
       url: `${BASE_URL}/${page.slug}`,
-      lastModified: CURRENT_DATE,
+      lastModified: BUILD_DATE,
       changeFrequency: page.freq,
       priority: page.priority,
     });
   });
 
-  // 4. Tüm Şehirler (81 il)
-  cities.forEach(city => {
-    const priority = city.priority === 'high' ? 0.85 : 
-                    city.priority === 'medium' ? 0.8 : 0.75;
-    
+  // 4. Şehir landing sayfaları
+  cities.forEach((city) => {
+    const priority = city.priority === 'high' ? 0.85 : city.priority === 'medium' ? 0.8 : 0.75;
+
     sitemapEntries.push({
       url: `${BASE_URL}/${city.slug}`,
-      lastModified: CURRENT_DATE,
+      lastModified: BUILD_DATE,
       changeFrequency: 'weekly',
       priority,
     });
   });
 
-  // 5. Şehir + Hizmet Kombinasyonları
+  // 5. Şehir + ana hizmet kombinasyonları
+  // Dynamic route sadece src/data/services içindeki 3 ana hizmet için üretiliyor.
+  const cityServicePages = [
+    { slug: 'beyaz-esya-servisi', basePriority: 0.8 },
+    { slug: 'kombi-servisi', basePriority: 0.8 },
+    { slug: 'klima-servisi', basePriority: 0.8 },
+  ];
+
   for (const city of cities) {
-    const cityPriority = city.priority === 'high' ? 0.8 : 
-                        city.priority === 'medium' ? 0.75 : 0.7;
-    
-    for (const service of mainServices) {
+    const cityPriority = city.priority === 'high' ? 0.8 : city.priority === 'medium' ? 0.75 : 0.7;
+
+    for (const service of cityServicePages) {
       sitemapEntries.push({
         url: `${BASE_URL}/${city.slug}/${service.slug}`,
-        lastModified: CURRENT_DATE,
+        lastModified: BUILD_DATE,
         changeFrequency: 'weekly',
-        priority: cityPriority,
+        priority: Math.min(cityPriority, service.basePriority),
       });
     }
   }
 
-  // 6. Marka Sayfaları (Ana Sayfalar)
+  // 6. Marka detay sayfaları
   for (const brand of brands) {
     sitemapEntries.push({
       url: `${BASE_URL}/marka/${brand.slug}`,
-      lastModified: CURRENT_DATE,
+      lastModified: BUILD_DATE,
       changeFrequency: 'weekly',
       priority: 0.75,
     });
   }
 
-  // 7. Şehir + Marka Kombinasyonları (Çok Önemli!)
-  // Her şehir için her marka
-  const priorityCities = cities.filter(c => c.priority === 'high' || c.priority === 'medium');
-  
-  for (const city of priorityCities) {
-    for (const brand of brands) {
-      sitemapEntries.push({
-        url: `${BASE_URL}/${city.slug}/marka/${brand.slug}`,
-        lastModified: CURRENT_DATE,
-        changeFrequency: 'weekly',
-        priority: 0.7,
-      });
-    }
-  }
-
-  // 8. Marka Varyasyonları (bosch-servis, arcelik-servis vb.)
-  for (const brand of brands) {
-    const brandName = brand.slug.split('-')[0]; // bosch-beyaz-esya -> bosch
-    
-    // Marka + servis varyasyonları
-    sitemapEntries.push({
-      url: `${BASE_URL}/${brandName}-servis`,
-      lastModified: CURRENT_DATE,
-      changeFrequency: 'weekly',
-      priority: 0.72,
-    });
-    
-    sitemapEntries.push({
-      url: `${BASE_URL}/${brandName}-tamir`,
-      lastModified: CURRENT_DATE,
-      changeFrequency: 'weekly',
-      priority: 0.7,
-    });
-    
-    sitemapEntries.push({
-      url: `${BASE_URL}/${brandName}-bakim`,
-      lastModified: CURRENT_DATE,
-      changeFrequency: 'weekly',
-      priority: 0.68,
-    });
-    
-    sitemapEntries.push({
-      url: `${BASE_URL}/${brandName}-ariza`,
-      lastModified: CURRENT_DATE,
-      changeFrequency: 'weekly',
-      priority: 0.68,
-    });
-  }
-
-  // 9. Şehir + Marka Varyasyonları
-  for (const city of priorityCities) {
-    for (const brand of brands) {
-      const brandName = brand.slug.split('-')[0];
-      
-      sitemapEntries.push({
-        url: `${BASE_URL}/${city.slug}/${brandName}-servis`,
-        lastModified: CURRENT_DATE,
-        changeFrequency: 'weekly',
-        priority: 0.68,
-      });
-      
-      sitemapEntries.push({
-        url: `${BASE_URL}/${city.slug}/${brandName}-tamir`,
-        lastModified: CURRENT_DATE,
-        changeFrequency: 'monthly',
-        priority: 0.65,
-      });
-    }
-  }
-
-  // 10. Blog Yazıları
+  // 7. Blog yazıları
   for (const post of blogPosts) {
     sitemapEntries.push({
       url: `${BASE_URL}/blog/${post.slug}`,
       lastModified: new Date(post.createdAt),
       changeFrequency: 'monthly',
       priority: 0.65,
-    });
-  }
-
-  // 11. Blog Kategorileri - Remove query params (not SEO friendly)
-  // Categories should be implemented as /blog/kategori/[slug] for better SEO
-
-  // 12. Önemli İlçeler
-  for (const city of cities) {
-    const topDistricts = city.districts.slice(0, 3);
-    for (const district of topDistricts) {
-      sitemapEntries.push({
-        url: `${BASE_URL}/${city.slug}/${district.slug}-beyaz-esya-servisi`,
-        lastModified: CURRENT_DATE,
-        changeFrequency: 'monthly',
-        priority: 0.55,
-      });
-      
-      // İlçe + marka kombinasyonları
-      for (const brand of brands.slice(0, 10)) { // Sadece top 10 marka
-        sitemapEntries.push({
-          url: `${BASE_URL}/${city.slug}/${district.slug}-${brand.slug}`,
-          lastModified: CURRENT_DATE,
-          changeFrequency: 'monthly',
-          priority: 0.5,
-        });
-      }
-    }
-  }
-
-  // 13. Arıza Kodu Sayfaları
-  const errorCodes = ['E01', 'E02', 'E03', 'E10', 'E15', 'F1', 'EA', 'CE'];
-  for (const code of errorCodes) {
-    sitemapEntries.push({
-      url: `${BASE_URL}/ariza-kodu-${code}`,
-      lastModified: CURRENT_DATE,
-      changeFrequency: 'monthly',
-      priority: 0.6,
     });
   }
 

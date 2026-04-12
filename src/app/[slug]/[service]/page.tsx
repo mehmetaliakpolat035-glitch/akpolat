@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { Container, Card, CardContent, Badge, Button } from '@/components/ui';
+import { Container, Card, CardContent, Button } from '@/components/ui';
 import { Hero, Breadcrumb, BrandGrid, FAQSection, Disclaimer } from '@/components/sections';
 import { generateCityServicePageSEO, generateLocalBusinessSchema, generateServiceSchema } from '@/lib/seo';
 import { cities, getCityBySlug } from '@/data/cities';
 import { services, getServiceBySlug } from '@/data/services';
-import { MapPin, ChevronRight, CheckCircle } from 'lucide-react';
+import { MapPin, CheckCircle } from 'lucide-react';
 
 interface Props {
   params: Promise<{ slug: string; service: string }>;
@@ -76,7 +76,7 @@ export default async function CityServicePage({ params }: Props) {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
             <div>
               <h2 className="text-3xl font-bold text-slate-900 mb-6">
-                {city.name}'de {service.name}
+                {`${city.name}'de ${service.name}`}
               </h2>
               <p className="text-slate-600 leading-relaxed mb-6">
                 {city.name} ilinde {service.name.toLowerCase()} hizmeti sunuyoruz. 
@@ -109,12 +109,9 @@ export default async function CityServicePage({ params }: Props) {
                   {city.districts.slice(0, 6).map((district) => (
                     <li key={district.id} className="flex items-center gap-2">
                       <MapPin className="w-4 h-4 text-red-500" />
-                      <Link 
-                        href={`/${city.slug}/${district.slug}-${serviceSlug}`}
-                        className="text-slate-600 hover:text-red-600 transition-colors"
-                      >
+                      <span className="text-slate-600">
                         {district.name} {service.name}
-                      </Link>
+                      </span>
                     </li>
                   ))}
                   {city.districts.length > 6 && (

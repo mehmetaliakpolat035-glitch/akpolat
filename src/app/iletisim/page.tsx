@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { Container, Card, CardContent } from '@/components/ui';
-import { Hero, ContactCTA } from '@/components/sections';
+import { Hero } from '@/components/sections';
 import { ContactForm } from '@/components/forms';
 import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react';
 
