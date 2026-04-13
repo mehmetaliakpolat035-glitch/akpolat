@@ -164,7 +164,7 @@ export function generateBaseSEO(): Metadata {
       default: 'En Yakın Servis Hizmetleri | Beyaz Eşya, Kombi, Klima Servisi | Türkiye Geneli',
       template: '%s | En Yakın Servis Hizmetleri'
     },
-    description: 'Türkiye genelinde beyaz eşya, kombi ve klima servis hizmeti. İzmir, İstanbul, Ankara ve tüm illerde profesyonel teknik destek. 7/24 hizmet, garantili işçilik, yerinde tamir. En yakın servis için hemen arayın!',
+    description: 'Beyaz eşya, kombi ve klima cihazları için özel servis hizmetleri hakkında bilgi alabilir, bulunduğunuz bölgeye uygun servis desteğini inceleyebilirsiniz.',
     keywords: allKeywords.slice(0, 50), // Max 50 keywords
     authors: [{ name: SITE_NAME }],
     creator: SITE_NAME,
@@ -186,7 +186,7 @@ export function generateBaseSEO(): Metadata {
       url: SITE_URL,
       siteName: SITE_NAME,
       title: 'En Yakın Servis Hizmetleri | Beyaz Eşya, Kombi, Klima Servisi | Türkiye Geneli',
-      description: 'Türkiye genelinde beyaz eşya, kombi ve klima servis hizmeti. İzmir, İstanbul, Ankara ve tüm illerde profesyonel teknik destek. 7/24 hizmet, garantili işçilik.',
+      description: 'Beyaz eşya, kombi ve klima cihazları için özel servis hizmetleri hakkında bilgi alabilir, bulunduğunuz bölgeye uygun servis desteğini inceleyebilirsiniz.',
       images: [
         {
           url: '/banner.webp',
@@ -199,7 +199,7 @@ export function generateBaseSEO(): Metadata {
     twitter: {
       card: 'summary_large_image',
       title: 'En Yakın Servis Hizmetleri | Beyaz Eşya, Kombi, Klima Servisi',
-      description: 'Türkiye genelinde beyaz eşya, kombi ve klima servis hizmeti. 7/24 hizmet, garantili işçilik.',
+      description: 'Beyaz eşya, kombi ve klima cihazları için özel servis hizmetleri hakkında bilgi alabilirsiniz.',
       images: ['/banner.webp']
     },
     alternates: {
@@ -225,7 +225,7 @@ export function generateServicePageSEO(serviceSlug: string): Metadata {
 
   const keywords = serviceKeywords[serviceSlug] || service.keywords;
   const title = `${service.name} | ${service.name} Tamiri ve Bakımı | Türkiye Geneli`;
-  const description = `${service.name} için profesyonel tamiri, bakımı ve arıza servisi. Türkiye genelinde 7/24 hizmet, yerinde tamir, garantili işçilik. En yakın ${service.name.toLowerCase()} için hemen arayın!`;
+  const description = `${service.name} için bakım, onarım ve arıza tespiti süreçleri hakkında bilgi alabilir, servis kapsamını inceleyebilirsiniz.`;
   const canonicalUrl = toAbsoluteUrl(`/${serviceSlug}`);
 
   return {
@@ -268,7 +268,7 @@ export function generateCityPageSEO(citySlug: string): Metadata {
 
   const cityKeywordsList = cityVariations(city.name);
   const title = `${city.name} Teknik Servis | Beyaz Eşya, Kombi, Klima | ${city.name} Servisi`;
-  const description = `${city.name} ve tüm ilçelerinde beyaz eşya, kombi ve klima servis hizmeti. ${city.name}'da profesyonel teknik destek, yerinde tamir, 7/24 hizmet. En yakın servis için hemen arayın!`;
+  const description = `${city.name} ve çevresinde beyaz eşya, kombi ve klima servis hizmetleri hakkında bilgi alabilir, bölge kapsamını inceleyebilirsiniz.`;
   const canonicalUrl = toAbsoluteUrl(`/${citySlug}`);
 
   return {
@@ -310,7 +310,7 @@ export function generateCityServicePageSEO(citySlug: string, serviceSlug: string
   const cityServiceKeywords = serviceKeywordsList.map(kw => `${city.name} ${kw}`);
   
   const title = `${city.name} ${service.name} | ${service.name} Tamiri ${city.name} | Yerinde Servis`;
-  const description = `${city.name} ${service.name.toLowerCase()} için profesyonel tamiri ve bakımı. ${city.name} merkez ve tüm ilçelerinde 7/24 hizmet, yerinde tamir, garantili işçilik. Hemen arayın!`;
+  const description = `${city.name} bölgesinde ${service.name.toLowerCase()} için bakım, onarım ve servis kapsamı hakkında bilgi alabilirsiniz.`;
   const canonicalUrl = toAbsoluteUrl(`/${citySlug}/${serviceSlug}`);
 
   return {

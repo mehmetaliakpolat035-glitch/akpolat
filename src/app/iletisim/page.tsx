@@ -17,7 +17,7 @@ export default function ContactPage() {
     <>
       <Hero 
         title="İletişim"
-        subtitle="Bizimle iletişime geçin, en kısa sürede yanınızdayız"
+        subtitle="Telefon, WhatsApp ve e-posta üzerinden bizimle iletişime geçebilirsiniz"
       />
       
       <section className="py-20 lg:py-28 bg-gradient-to-b from-white via-blue-50/30 to-white relative overflow-hidden">
@@ -52,7 +52,7 @@ export default function ContactPage() {
             </div>
             
             <p className="text-lg text-slate-700 max-w-2xl mx-auto">
-              7/24 hizmetinizdeyiz. Dilediğiniz kanaldan bize ulaşabilirsiniz.
+              Size uygun iletişim kanalını seçerek servis süreci hakkında bilgi alabilirsiniz.
             </p>
           </div>
 
@@ -66,7 +66,7 @@ export default function ContactPage() {
                 <a href="tel:+904440398" className="text-blue-900 font-bold hover:text-blue-700 transition-colors text-lg">
                   444 0 398
                 </a>
-                <p className="text-sm text-slate-600 mt-2 font-medium">7/24 Hizmet</p>
+                <p className="text-sm text-slate-600 mt-2 font-medium">Çağrı Merkezi</p>
               </CardContent>
             </Card>
             
@@ -79,7 +79,7 @@ export default function ContactPage() {
                 <a href="https://wa.me/905558947176" className="text-blue-900 font-bold hover:text-blue-700 transition-colors text-lg">
                   0555 894 71 76
                 </a>
-                <p className="text-sm text-slate-600 mt-2 font-medium">Anında Yanıt</p>
+                <p className="text-sm text-slate-600 mt-2 font-medium">Mesaj ile İletişim</p>
               </CardContent>
             </Card>
             
@@ -92,7 +92,7 @@ export default function ContactPage() {
                 <a href="mailto:info@enyakinservishizmetleri.com" className="text-blue-900 font-bold hover:text-blue-700 transition-colors text-base">
                   info@enyakinservishizmetleri.com
                 </a>
-                <p className="text-sm text-slate-600 mt-2 font-medium">24 Saat İçinde Yanıt</p>
+                <p className="text-sm text-slate-600 mt-2 font-medium">E-posta Desteği</p>
               </CardContent>
             </Card>
           </div>
@@ -107,7 +107,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold text-slate-900 mb-1 text-lg">Genel Müdürlük</h3>
                     <p className="text-slate-700">
-                      Türkiye genelinde hizmet vermekteyiz. Şehir merkezlerinde şubelerimiz bulunmaktadır.
+                      Servis taleplerini bulunduğunuz bölgeye göre değerlendiriyor ve uygun yönlendirme sağlıyoruz.
                     </p>
                   </div>
                 </div>
@@ -119,7 +119,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold text-slate-900 mb-1 text-lg">Çalışma Saatleri</h3>
                     <p className="text-slate-700">
-                      Haftanın 7 günü, günün 24 saatı hizmetinizdeyiz.
+                      İletişim taleplerinizi çalışma planımıza göre değerlendirerek geri dönüş sağlıyoruz.
                     </p>
                   </div>
                 </div>

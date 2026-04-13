@@ -75,18 +75,18 @@ export const serviceFAQs: Record<string, FAQ[]> = {
 export const trustItems: TrustItem[] = [
   {
     icon: 'Shield',
-    title: 'Garanti Belgeli Hizmet',
-    description: 'Tüm işlemlerimiz garanti kapsamındadır. Parça değişimlerinde orijinal yedek parça kullanıyoruz.'
+    title: 'Şeffaf Hizmet Anlayışı',
+    description: 'Bakım ve onarım süreçlerinde yapılacak işlemler hakkında kullanıcılarımızı açık şekilde bilgilendiriyoruz.'
   },
   {
     icon: 'Clock',
-    title: 'Hızlı Servis',
-    description: 'Şehir merkezlerinde 2-4 saat içinde adresinizdeyiz. Acil durumlar için hızlı müdahale ekibimiz hazır.'
+    title: 'Planlı Servis Süreci',
+    description: 'Servis taleplerini bulunduğunuz bölge ve ekibimizin uygunluğuna göre planlayarak yönlendiriyoruz.'
   },
   {
     icon: 'Wrench',
-    title: 'Uzman Ekip',
-    description: 'Alanında deneyimli, sertifikalı teknik ekibimiz tüm marka ve modeller için profesyonel destek sunar.'
+    title: 'Deneyimli Teknik Ekip',
+    description: 'Farklı cihaz gruplarında bakım, onarım ve arıza tespiti süreçlerinde deneyimli ekiplerle hizmet sunuyoruz.'
   },
   {
     icon: 'Receipt',
@@ -96,11 +96,11 @@ export const trustItems: TrustItem[] = [
   {
     icon: 'MapPin',
     title: 'Geniş Kapsama',
-    description: 'Türkiye genelinde 81 ilde ve yüzlerce ilçede hizmet sunuyoruz. Size en yakın ekibimizi yönlendiriyoruz.'
+    description: 'Farklı şehir ve bölgelerde servis taleplerini değerlendirerek uygun yönlendirme sağlamaya çalışıyoruz.'
   },
   {
     icon: 'Headphones',
-    title: '7/24 İletişim',
-    description: 'Haftanın 7 günü, günün 24 saatı müşteri hizmetlerimizden destek alabilirsiniz.'
+    title: 'İletişim Desteği',
+    description: 'Telefon, WhatsApp ve e-posta kanallarımız üzerinden servis süreci hakkında bilgi alabilirsiniz.'
   }
 ];

@@ -45,7 +45,7 @@ export function TrustSection() {
           </div>
           
           <p className="text-lg text-slate-700 max-w-2xl mx-auto">
-            Müşteri memnuniyetini ön planda tutan profesyonel hizmet anlayışımız
+            Bakım ve onarım sürecinde açık iletişim ve düzenli bilgilendirme yaklaşımımız
           </p>
         </div>
 

@@ -93,17 +93,17 @@ export function Hero({ title, subtitle, city }: HeroProps) {
             <div className="flex flex-wrap gap-3">
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 px-4 py-2.5 rounded-full">
                 <BadgeCheck className="w-5 h-5 text-blue-300" />
-                <span className="text-sm font-bold text-white">Garantili İşçilik</span>
+                  <span className="text-sm font-bold text-white">Şeffaf Hizmet Süreci</span>
               </div>
               
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 px-4 py-2.5 rounded-full">
                 <ScanSearch className="w-5 h-5 text-blue-300" />
-                <span className="text-sm font-bold text-white">Ücretsiz Keşif</span>
+                  <span className="text-sm font-bold text-white">Detaylı Arıza İncelemesi</span>
               </div>
               
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 px-4 py-2.5 rounded-full">
                 <Headphones className="w-5 h-5 text-blue-300" />
-                <span className="text-sm font-bold text-white">7/24 Destek</span>
+                  <span className="text-sm font-bold text-white">Kolay İletişim</span>
               </div>
             </div>
           </div>
