@@ -45,7 +45,7 @@ function Disclaimer() {
             Markaların isimleri sadece bilgilendirici amaçlıdır.
           </p>
           <p className="text-sm text-slate-700 leading-relaxed max-w-4xl mx-auto mt-4">
-            Arçelik, Beko, Vestel, Grundig, LG, Samsung, Bosch, Siemens, Electrolux, Candy, Ariston, Hotpoint, Profilo, Altus, Regal, AEG, Amana, Falke, Franke, Gaggenau, Indesit, Lambert, Miele, Philips, SEG, Sony, Sub-Zero, Sunny, Teka, Westinghouse, Viessmann, Buderus, Vaillant, DemirDöküm, Baymak, Alarko, Ferroli, Immergas, Airfel, Protherm, E.C.A, Warmhaus, Baxi, Baykan, Termoteknik, Daikin, Mitsubishi, LG, Samsung, Panasonic, Sharp, Toshiba, Carrier, Midea, Klimeks, Fujitsu, Gree, Airfel, Alarko markalarının özel servisiyiz.
+            Arçelik, Beko, Vestel, Grundig, LG, Samsung, Bosch, Siemens, Electrolux, Candy, Ariston, Hotpoint, Profilo, Altus, Regal, AEG, Amana, Falke, Franke, Gaggenau, Indesit, Lambert, Miele, Philips, SEG, Sony, Sub-Zero, Sunny, Teka, Westinghouse, Viessmann, Buderus, Vaillant, DemirDöküm, Baymak, Alarko, Ferroli, Immergas, Airfel, Protherm, E.C.A, Warmhaus, Baxi, Baykan, Termoteknik, Daikin, Mitsubishi, Panasonic, Sharp, Toshiba, Carrier, Midea, Klimeks, Fujitsu, Gree ve benzeri markalara yönelik özel servis hizmeti sunuyoruz.
           </p>
         </div>
       </Container>

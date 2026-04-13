@@ -1,13 +1,12 @@
 import { Metadata } from 'next';
 import { Container, Card, CardContent } from '@/components/ui';
 import { Hero } from '@/components/sections';
-import { ContactForm } from '@/components/forms';
 import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react';
 import { toAbsoluteUrl } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'İletişim',
-  description: 'En Yakın Servis Hizmetleri iletişim bilgileri. Telefon, WhatsApp ve online randevu formu ile bize ulaşın.',
+  description: 'En Yakın Servis Hizmetleri iletişim bilgileri. Telefon, WhatsApp ve e-posta ile bize ulaşın.',
   alternates: {
     canonical: toAbsoluteUrl('/iletisim')
   }
@@ -129,8 +128,6 @@ export default function ContactPage() {
           </Card>
         </Container>
       </section>
-      
-      <ContactForm />
     </>
   );
 }
