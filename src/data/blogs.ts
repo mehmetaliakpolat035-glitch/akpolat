@@ -1104,12 +1104,12 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: '19',
-    title: 'Bosch Servis - Yetkili Servis Kalitesinde Özel Servis Hizmeti',
+    title: 'Bosch Cihazlar İçin Özel Servis Hizmeti',
     slug: 'bosch-servis',
-    excerpt: 'Bosch servis için bizi arayın! Bosch buzdolabı, çamaşır makinesi, bulaşık makinesi, klima ve kombi servisi için uzman teknik servis. Garantili işçilik, orijinal parça, uygun fiyat.',
+    excerpt: 'Bosch marka buzdolabı, çamaşır makinesi, bulaşık makinesi, klima ve kombi cihazları için bakım, onarım ve arıza tespiti süreçleri hakkında bilgi alın.',
     content: `<h2>Bosch Servis Hizmetleri</h2>
 
-<p>Bosch marka ev aletleriniz mi arızalandı? Endişelenmeyin! En Yakın Servis Hizmetleri olarak Bosch cihazlarınız için yetkili servis kalitesinde, özel servis fiyatlarıyla profesyonel teknik servis sunuyoruz. Tüm Bosch modellerinde uzman ekibimizle hizmetinizdeyiz.</p>
+<p>Bosch marka ev aletlerinizde bakım, onarım veya arıza tespiti ihtiyacı varsa, özel servis kapsamındaki hizmet süreçlerimiz hakkında bu sayfadan bilgi alabilirsiniz.</p>
 
 <h2>Bosch Çamaşır Makinesi Servisi</h2>
 
@@ -1163,7 +1163,7 @@ export const blogPosts: BlogPost[] = [
 
 <h3>Bosch Buzdolabı Serileri</h3>
 
-<p>KGN, KGV, KGN39, KGN49, KGN56, KGN76, KGN86 serilerinde uzman servis</p>
+<p>KGN, KGV, KGN39, KGN49, KGN56, KGN76 ve KGN86 gibi serilerde karşılaşılan yaygın arızalar için bakım ve onarım süreçleri hakkında bilgi veriyoruz.</p>
 
 <h2>Bosch Bulaşık Makinesi Servisi</h2>
 
@@ -1239,20 +1239,20 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Neden Bosch Servis İçin Bizi Seçmelisiniz?</h2>
 
-<h3>Bosch Uzmanlığı</h3>
-<p>Ekibimiz tüm Bosch modellerinde özel eğitim almıştır. Arıza kodlarını doğru yorumlar, doğru çözüm üretir.</p>
+<h3>Marka Uyumlu Teknik İnceleme</h3>
+<p>Bosch cihazlarda görülen arıza kodları ve yaygın sorunlar için teknik inceleme ve bakım süreçleri hakkında bilgilendirme sunuyoruz.</p>
 
-<h3>Orijinal Bosch Parça</h3>
-<p>Bosch orijinal yedek parçalarını kullanıyoruz. Parça kodları ile doğru parça temini.</p>
+<h3>Parça ve Onarım Değerlendirmesi</h3>
+<p>Cihazın arıza durumuna göre uygun parça ve onarım süreci, kullanıcı onayı sonrasında planlanır.</p>
 
-<h3>Uygun Fiyat</h3>
-<p>Marka servislerine göre %30-40 daha ekonomik fiyatlarla aynı kalitede hizmet.</p>
+<h3>Şeffaf Bilgilendirme</h3>
+<p>Yapılması planlanan işlemler ve ücretlendirme, servis süreci başlamadan önce kullanıcıyla paylaşılır.</p>
 
-<h3>Hızlı Servis</h3>
-<p>Aynı gün içinde servis imkanı. Acil durumlarda 2 saat içinde müdahale.</p>
+<h3>Planlı Servis Süreci</h3>
+<p>Servis talepleri, bulunduğunuz bölge ve ekibin uygunluğuna göre değerlendirilerek planlanır.</p>
 
-<h3>Garantili İşçilik</h3>
-<p>Tüm Bosch tamiri işçiliklerimiz 1 yıl garantilidir.</p>
+<h3>Servis Süreci Takibi</h3>
+<p>Onaylanan işlemler sonrasında yapılan uygulamalar servis kaydı kapsamında takip edilir.</p>
 
 <h2>Bosch Servis Ücretleri (2026)</h2>
 
@@ -1273,12 +1273,12 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Hafta içi:</strong> 08:00 - 20:00</li>
 <li><strong>Cumartesi:</strong> 09:00 - 18:00</li>
 <li><strong>Pazar:</strong> 10:00 - 16:00</li>
-<li><strong>7/24 Acil:</strong> 444 0 398</li>
+<li><strong>İletişim:</strong> 444 0 398</li>
 </ul>
 
 <h2>Servis Bölgelerimiz</h2>
 
-<p>Tüm Türkiye genelinde Bosch servis hizmeti sunuyoruz. İzmir, Manisa, İstanbul, Ankara, İzmir, Bursa, Antalya ve 81 ilde hizmet ağımız bulunmaktadır.</p>
+<p>Farklı şehir ve bölgelerden gelen Bosch cihaz servis talepleri, hizmet kapsamı ve ekip uygunluğuna göre değerlendirilmektedir.</p>
     `,
     category: 'marka-ariza',
     tags: ['bosch servis', 'bosch beyaz eşya servisi', 'bosch çamaşır makinesi', 'bosch buzdolabı', 'bosch klima', 'bosch kombi'],

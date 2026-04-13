@@ -31,8 +31,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 
   return {
-    title: `${brand.name} ${serviceNames[brand.category]} Servisi | Türkiye Teknik Servis`,
-    description: `${brand.name} ${serviceNames[brand.category]} servis hizmetleri. Profesyonel teknik destek, hızlı servis, garantili işçilik.`,
+    title: `${brand.name} ${serviceNames[brand.category]} Özel Servis Hizmetleri | Türkiye Teknik Servis`,
+    description: `${brand.name} ${serviceNames[brand.category].toLowerCase()} grubundaki cihazlar için bakım, onarım ve arıza tespiti süreçleri hakkında bilgi alabilirsiniz.`,
     alternates: {
       canonical: toAbsoluteUrl(`/marka/${slug}`),
     },
@@ -86,8 +86,8 @@ export default async function BrandDetailPage({ params }: Props) {
       </Container>
       
       <Hero 
-        title={`${brand.name} ${serviceNames[brand.category]} Servisi`}
-        subtitle={`${brand.name} ${serviceNames[brand.category]} arıza, bakım ve onarım hizmetleri. Alanında uzman teknisyenlerle hızlı ve güvenilir servis.`}
+        title={`${brand.name} ${serviceNames[brand.category]} Özel Servis Hizmetleri`}
+        subtitle={`${brand.name} ${serviceNames[brand.category].toLowerCase()} ürünleri için bakım, onarım ve arıza tespiti süreçleri hakkında bilgi alabilirsiniz.`}
       />
       
       <section className="py-16 lg:py-20 bg-white">
@@ -98,7 +98,7 @@ export default async function BrandDetailPage({ params }: Props) {
                 {brand.name} Servis Hizmetleri
               </h2>
               <p className="text-slate-600 mb-6">
-                {brand.description}. Türkiye genelinde {brand.name} ürünleriniz için profesyonel teknik servis hizmeti sunuyoruz.
+                {brand.name} marka cihazlar için bakım, onarım ve arıza tespiti süreçlerine yönelik özel servis hizmeti sunuyoruz.
               </p>
             </div>
 
@@ -123,7 +123,7 @@ export default async function BrandDetailPage({ params }: Props) {
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-blue-900">✓</span>
-                  Garanti sonrası servis
+                  Garanti kapsamı dışı servis desteği
                 </li>
               </ul>
             </div>
