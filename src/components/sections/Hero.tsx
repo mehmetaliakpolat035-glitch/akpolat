@@ -16,7 +16,7 @@ export function Hero({ title, subtitle, city }: HeroProps) {
   
   const defaultSubtitle = city
     ? `${city} ve tüm ilçelerinde beyaz eşya, kombi ve klima servis hizmeti. Profesyonel ekibimizle ${city}'da hizmetinizdeyiz.`
-    : 'Beyaz eşya kombi klima için size özel servis profesyonel teknik servis hizmeti Türkiye genelinde hızlı güvenilir servis';
+    : 'Beyaz eşya, kombi ve klima cihazlarınız için Türkiye genelinde profesyonel, hızlı ve güvenilir özel servis hizmeti sunuyoruz.';
 
   return (
     <section className="relative bg-slate-900 overflow-hidden">
