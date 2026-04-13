@@ -12,7 +12,7 @@ interface HeroProps {
 export function Hero({ title, subtitle, city }: HeroProps) {
   const defaultTitle = city
     ? `${city} Teknik Servis Hizmetleri`
-    : 'Türkiye\'nin Her Yerinde Özel Teknik Servis';
+    : 'Türkiye Genelinde Özel Teknik Servis Hizmeti';
   
   const defaultSubtitle = city
     ? `${city} ve tüm ilçelerinde beyaz eşya, kombi ve klima servis hizmeti. Profesyonel ekibimizle ${city}'da hizmetinizdeyiz.`
