@@ -1,10 +1,9 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Container, Card, CardContent, Button } from '@/components/ui';
-import { Hero, BrandGrid, FAQSection, Disclaimer } from '@/components/sections';
+import { Hero, FAQSection, Disclaimer } from '@/components/sections';
 import { generateServicePageSEO, generateServiceSchema } from '@/lib/seo';
 import { cities } from '@/data/cities';
-import { getBrandsByCategory } from '@/data/markalar';
 import { 
   Sparkles,
   Droplets,
@@ -58,7 +57,6 @@ export default function BulasikMakinesiServisiPage() {
   const schema = generateServiceSchema('beyaz-esya');
   
   const cityPages = cities.filter(c => c.priority === 'high' || c.priority === 'medium');
-  const brands = getBrandsByCategory('beyaz-esya');
 
   return (
     <>
@@ -81,31 +79,6 @@ export default function BulasikMakinesiServisiPage() {
         </Container>
       </section>
 
-      <section className="py-12 bg-gradient-to-b from-white via-blue-50/30 to-white relative overflow-hidden">
-        <DecorativePattern />
-        <Container className="relative z-10">
-          <div className="text-center mb-6">
-            <h2 className="text-2xl font-bold text-slate-900 mb-2">
-              Hangi Marka İçin Servis İstiyorsunuz?
-            </h2>
-            <p className="text-slate-600 mb-6">
-              Aşağıdan markanızı seçerek ayrıntılı bilgi alabilirsiniz
-            </p>
-            <div className="flex flex-wrap justify-center gap-2">
-              {brands.map((marka) => (
-                <Link
-                  key={marka.id}
-                  href={`/marka/${marka.slug}`}
-                  className="px-4 py-2 text-sm bg-white border border-slate-200 hover:border-blue-900 hover:text-blue-900 hover:shadow-md transition-all rounded-full"
-                >
-                  {marka.name}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </Container>
-      </section>
-      
       <section className="py-16 lg:py-24 bg-gradient-to-b from-white via-blue-50/30 to-white relative overflow-hidden">
         <DecorativePattern />
         <Container className="relative z-10">
@@ -259,7 +232,6 @@ export default function BulasikMakinesiServisiPage() {
         </Container>
       </section>
       
-      <BrandGrid category="beyaz-esya" />
       <Disclaimer />
       <FAQSection />
     </>

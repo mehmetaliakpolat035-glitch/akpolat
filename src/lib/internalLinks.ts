@@ -1,5 +1,4 @@
 import { cities } from '@/data/cities';
-import { brands } from '@/data/markalar';
 
 export interface InternalLink {
   keyword: string;
@@ -154,30 +153,6 @@ function generateCityKeywordLinks(): InternalLink[] {
   return links;
 }
 
-function generateBrandLinks(): InternalLink[] {
-  const links: InternalLink[] = [];
-  
-  for (const brand of brands) {
-    const brandName = brand.name.toLowerCase();
-    links.push({ keyword: brandName, href: `/marka/${brand.slug}` });
-    links.push({ keyword: `${brandName} servisi`, href: `/marka/${brand.slug}` });
-    links.push({ keyword: `${brandName} tamiri`, href: `/marka/${brand.slug}` });
-    links.push({ keyword: `${brandName} arızası`, href: `/marka/${brand.slug}` });
-    links.push({ keyword: `${brandName} teknik servis`, href: `/marka/${brand.slug}` });
-    
-    // Şehirli marka linkleri
-    for (const city of cities.slice(0, 10)) {
-      const cityName = city.name.toLowerCase();
-      links.push({ 
-        keyword: `${cityName} ${brandName} servisi`, 
-        href: `/${city.slug}/marka/${brand.slug}` 
-      });
-    }
-  }
-  
-  return links;
-}
-
 const manualLinks: InternalLink[] = [
   { keyword: 'türkiye geneli teknik servis', href: '/' },
   { keyword: 'türkiye teknik servis', href: '/' },
@@ -200,7 +175,6 @@ export const internalLinks: InternalLink[] = [
   ...generateRegionLinks(),
   ...generateCommonSEOLinks(),
   ...generateCityKeywordLinks(),
-  ...generateBrandLinks(),
 ];
 
 export const getInternalLinks = (): InternalLink[] => {

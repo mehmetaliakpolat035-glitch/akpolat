@@ -3,7 +3,6 @@ export { ServiceCards } from './ServiceCards';
 export { ServiceHelp } from './ServiceHelp';
 export { TrustSection } from './TrustSection';
 export { CityCoverage } from './CityCoverage';
-export { BrandGrid } from './BrandGrid';
 export { Disclaimer } from './Disclaimer';
 export { FAQSection } from './FAQSection';
 export { ContactCTA } from './ContactCTA';

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { Container, Card, CardContent, Button } from '@/components/ui';
-import { Hero, Breadcrumb, BrandGrid, Disclaimer } from '@/components/sections';
+import { Hero, Breadcrumb, Disclaimer } from '@/components/sections';
 import { generateCityPageSEO, generateLocalBusinessSchema } from '@/lib/seo';
 import { cities, getCityBySlug } from '@/data/cities';
 import { services } from '@/data/services';
@@ -128,7 +128,6 @@ export default async function CityPage({ params }: Props) {
         </Container>
       </section>
       
-      <BrandGrid />
       <Disclaimer />
     </>
   );

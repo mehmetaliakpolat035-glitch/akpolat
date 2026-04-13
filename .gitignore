@@ -18,6 +18,7 @@
 /out/
 /dist/
 /dist 2/
+/tools/search-console-removal-extension/
 
 # production
 /build
