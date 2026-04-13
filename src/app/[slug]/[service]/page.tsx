@@ -68,7 +68,7 @@ export default async function CityServicePage({ params }: Props) {
       
       <Hero 
         title={`${city.name} ${service.name}`}
-        subtitle={`${city.name} ve tüm ilçelerinde ${service.name.toLowerCase()}. ${city.name}'da profesyonel teknik servis hizmeti için hemen arayın.`}
+        subtitle={`${city.name} ve çevresinde ${service.name.toLowerCase()} için bakım, onarım ve arıza tespiti süreçleri hakkında bilgi alabilirsiniz.`}
       />
       
       <section className="py-16 lg:py-24 bg-white">
@@ -87,15 +87,15 @@ export default async function CityServicePage({ params }: Props) {
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
-                  <span className="text-slate-700">{city.name} merkezde 2-4 saat içinde servis</span>
+                  <span className="text-slate-700">{city.name} merkez ve çevresinde planlı servis yönlendirmesi</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
-                  <span className="text-slate-700">Tüm ilçelerde aynı gün servis imkanı</span>
+                  <span className="text-slate-700">İlçelere göre değişebilen randevu planlaması</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
-                  <span className="text-slate-700">Garantili işçilik ve orijinal parça</span>
+                  <span className="text-slate-700">Kullanıcı onayı sonrası planlanan servis süreci</span>
                 </div>
               </div>
             </div>
@@ -133,7 +133,7 @@ export default async function CityServicePage({ params }: Props) {
                 <CardContent className="p-4">
                   <h4 className="font-semibold text-slate-900 mb-2">Arıza Tespit ve Tamir</h4>
                   <p className="text-sm text-slate-600">
-                    Cihazınızda oluşan arızaları profesyonel ekibimizle tespit ediyor ve en kısa sürede tamir ediyoruz.
+                    Cihazınızda oluşan arızalar için inceleme yapıyor, uygun bakım ve onarım sürecini planlıyoruz.
                   </p>
                 </CardContent>
               </Card>
@@ -157,7 +157,7 @@ export default async function CityServicePage({ params }: Props) {
                 <CardContent className="p-4">
                   <h4 className="font-semibold text-slate-900 mb-2">Yedek Parça</h4>
                   <p className="text-sm text-slate-600">
-                    Tüm marka ve model cihazlar için orijinal yedek parça temini.
+                    Cihazın ihtiyacına göre uygun parça ve onarım seçenekleri değerlendirilmektedir.
                   </p>
                 </CardContent>
               </Card>

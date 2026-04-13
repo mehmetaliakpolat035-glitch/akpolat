@@ -7,23 +7,23 @@ export const faqs: FAQ[] = [
   },
   {
     question: 'Servis randevusu ne kadar sürede gelir?',
-    answer: 'Şehir merkezlerinde genellikle 2-4 saat içinde, ilçe ve kırsal bölgelerde ise 24 saat içinde servis ekibimizi adresinize yönlendiriyoruz. Acil durumlar için hızlı servis seçeneğimiz mevcuttur.'
+    answer: 'Servis randevusu, bulunduğunuz bölgeye ve ekip uygunluğuna göre planlanmaktadır. Talebiniz alındıktan sonra size uygun yönlendirme ve bilgilendirme yapılır.'
   },
   {
     question: 'Servis ücreti ne kadar?',
-    answer: 'Servis ücreti arızanın türüne, cihaz marka ve modeline göre değişiklik göstermektedir. İlk keşif ve arıza tespiti için size şeffaf fiyat bilgisi sunuyoruz. Yerinde tespit sonrası onayınız alarak işleme başlıyoruz.'
+    answer: 'Servis ücreti arızanın türüne, cihaz marka ve modeline göre değişiklik göstermektedir. İnceleme sonrası yapılacak işlemler ve ücret bilgisi kullanıcı onayına sunularak süreç planlanır.'
   },
   {
     question: 'Parça değişimi gerektiğinde orijinal parça kullanılıyor mu?',
-    answer: 'Evet, cihazınızın markasına uygun orijinal yedek parça kullanıyoruz. Parça değişimi sonrası garanti belgesi düzenlenmektedir.'
+    answer: 'Parça değişimi gerektiğinde cihazın ihtiyacına uygun parça seçenekleri değerlendirilir. Uygulanacak işlem ve parça bilgisi kullanıcı onayı sonrasında paylaşılır.'
   },
   {
     question: 'Hizmet verilen bölgeler neresidir?',
-    answer: 'Türkiye genelinde İzmir, Manisa, İstanbul, Ankara, Bursa, Antalya, Adana, Konya, Gaziantep ve Kayseri başta olmak üzere 81 ilde hizmet sunuyoruz. Detaylı bölge bilgisi için Servis Bölgeleri sayfamızı inceleyebilirsiniz.'
+    answer: 'Farklı şehir ve bölgelerden gelen servis taleplerini hizmet kapsamı ve ekip uygunluğuna göre değerlendiriyoruz. Detaylı bölge bilgisi için Servis Bölgeleri sayfamızı inceleyebilirsiniz.'
   },
   {
     question: 'Garanti kapsamında işlem yapılıyor mu?',
-    answer: 'Cihazınızın garanti süresi içinde olması durumunda, üretici firma garantisi kapsamında işlem yapılabilmektedir. Garanti belgesi ve satın alma tarihi ile birlikte bizi arayarak randevu oluşturabilirsiniz.'
+    answer: 'Sunulan hizmetler ağırlıklı olarak garanti kapsamı dışındaki cihazlara yöneliktir. Garanti süresi devam eden ürünler için ilgili markanın yetkili servis kanallarıyla iletişime geçilmesi önerilir.'
   }
 ];
 

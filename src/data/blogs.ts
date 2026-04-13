@@ -809,20 +809,20 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: '17',
-    title: 'İzmir Beyaz Eşya Servisi - En Yakın ve Hızlı Teknik Servis Hizmeti',
+    title: 'İzmir Beyaz Eşya Servisi - Özel Servis Hizmetleri',
     slug: 'izmir-beyaz-esya-servisi',
-    excerpt: 'İzmir beyaz eşya servisi arıyorsanız, En Yakın Servis Hizmetleri olarak Konak, Karşıyaka, Bornova, Buca ve tüm ilçelerde hızlı teknik servis hizmeti sunuyoruz. Aynı gün servis, yerinde tamir, uygun fiyat.',
+    excerpt: 'İzmir ve çevresinde beyaz eşya cihazları için bakım, onarım ve arıza tespiti süreçleri hakkında bilgi alın.',
     content: `<h2>İzmir Beyaz Eşya Servisi Hizmetleri</h2>
 
-<p>İzmir'de beyaz eşya servisi ihtiyacınız mı var? Buzdolabı, çamaşır makinesi, bulaşık makinesi, klima ve kombi gibi ev aletleriniz için profesyonel teknik servis hizmeti arıyorsanız doğru yerdesiniz. En Yakın Servis Hizmetleri olarak İzmir'in tüm ilçelerinde hızlı, garantili ve uygun fiyatlı servis çözümleri sunuyoruz.</p>
+<p>İzmir'de beyaz eşya servisi hakkında bilgi arıyorsanız, bu sayfada buzdolabı, çamaşır makinesi, bulaşık makinesi, klima ve kombi cihazları için bakım ve onarım süreçlerine dair içerikleri inceleyebilirsiniz.</p>
 
 <h2>İzmir'de Servis Verdiğimiz Bölgeler</h2>
 
 <p>İzmir genelinde yaygın servis ağımız ile her noktaya ulaşıyoruz:</p>
 
 <ul>
-<li><strong>Konak:</strong> Tarihi merkez ve çevresinde hızlı servis</li>
-<li><strong>Karşıyaka:</strong> Anadolu yakasında 7/24 servis desteği</li>
+<li><strong>Konak:</strong> Tarihi merkez ve çevresindeki servis talepleri değerlendirilir</li>
+<li><strong>Karşıyaka:</strong> Anadolu yakasındaki servis talepleri planlamaya alınır</li>
 <li><strong>Bornova:</strong> Ege Üniversitesi çevresi ve tüm mahalleler</li>
 <li><strong>Buca:</strong> Yeni gelişen bölgelerde aktif servis</li>
 <li><strong>Çiğli:</strong> Organize sanayi ve konut bölgeleri</li>
@@ -891,20 +891,20 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Neden İzmir'de Bizi Seçmelisiniz?</h2>
 
-<h3>Aynı Gün Servis Hizmeti</h3>
-<p>Sabah arayan müşterilere öğleden önce, öğleden sonra arayanlara akşama kadar servis sağlıyoruz. Acil durumlarda 2 saat içinde kapınızdayız.</p>
+<h3>Planlı Servis Süreci</h3>
+<p>İzmir'den gelen servis talepleri, bölge ve ekip uygunluğuna göre değerlendirilerek planlanır.</p>
 
-<h3>Yerinde Tamir Garantisi</h3>
-<p>Parça değişimi gerekmeyen arızaların %90'ını evinizde, yerinde çözüyoruz. Zaman kaybı yok, cihazı servise götürme derdi yok.</p>
+<h3>Yerinde İnceleme İmkanı</h3>
+<p>Uygun durumlarda cihaz üzerindeki arıza tespiti yerinde değerlendirilebilir. Gerekli işlemler kullanıcıya bilgi verilerek planlanır.</p>
 
-<h3>Uygun Fiyat Politikası</h3>
-<p>Marka servislerine göre %30-40 daha uygun fiyatlar. İşçilik garantili, şeffaf fiyatlandırma. Önce fiyat bilgisi, sonra onay.</p>
+<h3>Şeffaf Fiyatlandırma</h3>
+<p>Yapılacak işlemler ve ücret bilgisi, servis süreci başlamadan önce kullanıcıyla paylaşılır.</p>
 
-<h3>Garantili İşçilik</h3>
-<p>Tüm tamirlerimiz 1 yıl işçilik garantilidir. Aynı arıza tekrarlarsa ücretsiz servis.</p>
+<h3>Servis Kaydı Takibi</h3>
+<p>Onaylanan işlemler servis kaydı kapsamında takip edilir ve süreç hakkında bilgilendirme yapılır.</p>
 
-<h3>Orjinal Yedek Parça</h3>
-<p>Tüm markaların orijinal yedek parçalarını kullanıyoruz. Uygun fiyatlı aftermarket alternatifleri de sunuyoruz.</p>
+<h3>Parça ve Onarım Değerlendirmesi</h3>
+<p>Cihazın durumuna göre uygun parça ve onarım seçenekleri değerlendirilir, işlem öncesinde kullanıcı onayı alınır.</p>
 
 <h2>İzmir Teknik Servis Çalışma Saatleri</h2>
 
@@ -917,7 +917,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>İzmir Servis Telefonu</h2>
 
-<p><strong>444 0 398</strong> numaralı telefondan 7/24 bize ulaşabilirsiniz. Çağrı merkezimiz İzmir'deki en yakın servis ustasını yönlendirir.</p>
+<p><strong>444 0 398</strong> numaralı telefondan bizimle iletişime geçebilir, servis süreci hakkında bilgi alabilirsiniz.</p>
 
 <h2>Servis Ücretleri ve Fiyatlar (2026)</h2>
 
@@ -933,9 +933,9 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Müşteri Yorumları</h2>
 
-<p>"Karşıyaka'da buzdolabım bozuldu, 2 saat içinde geldiler, kompresörü değiştirdiler. Çok memnun kaldım." - Ayşe K.</p>
+<p>"Karşıyaka'da buzdolabım bozulduğunda süreçle ilgili detaylı bilgi alabildim ve gerekli yönlendirme yapıldı." - Ayşe K.</p>
 
-<p>"Bornova'da çamaşır makinem su almıyordu, aynı gün çözdüler. Fiyat da uygundu." - Mehmet T.</p>
+<p>"Bornova'da çamaşır makinem su almıyordu, arıza süreci ve ücretlendirme hakkında açık bilgilendirme yapıldı." - Mehmet T.</p>
 
 <p>"Buca'da klima bakımı yaptırdım, temiz ve profesyonel işçi. Teşekkürler." - Zeynep A.</p>
     `,
@@ -946,12 +946,12 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: '18',
-    title: 'Manisa Beyaz Eşya Servisi - Hızlı ve Garantili Teknik Servis',
+    title: 'Manisa Beyaz Eşya Servisi - Özel Servis Hizmetleri',
     slug: 'manisa-beyaz-esya-servisi',
-    excerpt: 'Manisa beyaz eşya servisi için En Yakın Servis Hizmetleri olarak Merkez, Akhisar, Turgutlu, Salihli ve tüm ilçelerde profesyonel teknik servis hizmeti sunuyoruz. Aynı gün servis, uygun fiyat.',
+    excerpt: 'Manisa ve çevresinde beyaz eşya cihazları için bakım, onarım ve arıza tespiti süreçleri hakkında bilgi alın.',
     content: `<h2>Manisa Beyaz Eşya Servisi Hizmetleri</h2>
 
-<p>Manisa'da beyaz eşya servisi mi arıyorsunuz? En Yakın Servis Hizmetleri olarak Manisa merkez ve tüm ilçelerinde çamaşır makinesi, buzdolabı, bulaşık makinesi, klima ve kombi tamir hizmetleri sunuyoruz. Yerinde servis, aynı gün müdahale, garantili işçilik.</p>
+<p>Manisa'da beyaz eşya servisi hakkında bilgi arıyorsanız, bu sayfada çamaşır makinesi, buzdolabı, bulaşık makinesi, klima ve kombi cihazları için bakım ve onarım süreçlerine dair içerikleri inceleyebilirsiniz.</p>
 
 <h2>Manisa'da Servis Verdiğimiz Bölgeler</h2>
 
@@ -1007,7 +1007,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Manisa Bulaşık Makinesi Servisi</h2>
 
-<p>Bulaşık makinesi sorunlarında hızlı müdahale:</p>
+<p>Bulaşık makinesi sorunlarında uygulanabilecek bakım ve onarım süreçleri:</p>
 
 <ul>
 <li><strong>Yıkamıyor:</strong> Pompa, filtre, sprey kolu temizliği</li>
@@ -1048,20 +1048,20 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Manisa'da Neden Bizi Tercih Etmelisiniz?</h2>
 
-<h3>Aynı Gün Servis Garantisi</h3>
-<p>Manisa merkez ve ilçelerinde aynı gün içinde kapınızdayız. Acil durumlarda 2 saat içinde müdahale.</p>
+<h3>Planlı Servis Yönlendirmesi</h3>
+<p>Manisa merkez ve ilçelerinden gelen talepler, bölge ve ekip uygunluğuna göre değerlendirilerek planlanır.</p>
 
-<h3>Yerinde Tamir Avantajı</h3>
-<p>Arızaların çoğunu evinizde, yerinde çözüyoruz. Cihazı servise götürme derdi yok.</p>
+<h3>Yerinde İnceleme İmkanı</h3>
+<p>Uygun durumlarda cihaz üzerindeki arıza tespiti yerinde değerlendirilebilir. Gerekli işlemler kullanıcı onayıyla planlanır.</p>
 
-<h3>Ekonomik Fiyatlar</h3>
-<p>Marka servislerine göre %30-40 daha uygun fiyatlarla kaliteli hizmet.</p>
+<h3>Şeffaf Ücret Bilgilendirmesi</h3>
+<p>Servis süreci başlamadan önce yapılacak işlemler ve ücretlendirme kullanıcıya açık şekilde aktarılır.</p>
 
-<h3>1 Yıl İşçilik Garantisi</h3>
-<p>Tüm tamirlerimizde 1 yıl işçilik garantisi. Aynı arıza tekrarlarsa ücretsiz servis.</p>
+<h3>Servis Süreci Takibi</h3>
+<p>Onaylanan işlemler servis kaydı kapsamında takip edilir ve süreçle ilgili bilgilendirme sağlanır.</p>
 
-<h3>Orjinal Parça Kullanımı</h3>
-<p>Tüm markaların orijinal yedek parçalarını temin ediyoruz. Garantili parça değişimi.</p>
+<h3>Parça ve Onarım Değerlendirmesi</h3>
+<p>Cihazın durumuna göre uygun parça ve onarım seçenekleri değerlendirilir, uygulanacak işlem öncesinde kullanıcı onayı alınır.</p>
 
 <h2>Manisa Servis Çalışma Saatleri</h2>
 
@@ -1074,7 +1074,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Manisa Servis Telefonu</h2>
 
-<p><strong>444 0 398</strong> numaralı telefondan 7 gün 24 saat bize ulaşabilirsiniz. Çağrı merkezimiz Manisa'daki en yakın servis ustasını yönlendirir.</p>
+<p><strong>444 0 398</strong> numaralı telefondan bizimle iletişime geçebilir, servis süreci hakkında bilgi alabilirsiniz.</p>
 
 <h2>Manisa Servis Ücretleri (2026)</h2>
 
@@ -1087,11 +1087,11 @@ export const blogPosts: BlogPost[] = [
 <li>Kombi bakımı: 400-700 TL</li>
 </ul>
 
-<p><strong>Not:</strong> Fiyatlar arıza tipine, cihaz modeline ve parça ihtiyacına göre değişir. Kesin fiyat için ücretsiz keşif yapılır.</p>
+<p><strong>Not:</strong> Fiyatlar arıza tipine, cihaz modeline ve parça ihtiyacına göre değişir. Kesin ücret bilgisi inceleme sonrası paylaşılır.</p>
 
 <h2>Müşteri Memnuniyeti</h2>
 
-<p>"Akhisar'da çamaşır makinem bozuldu, aynı gün geldiler, gayet hızlı ve profesyonel çalıştılar." - Fatma Y.</p>
+<p>"Akhisar'da çamaşır makinem bozulduğunda süreçle ilgili açıklayıcı bilgi aldım." - Fatma Y.</p>
 
 <p>"Turgutlu'da buzdolabım soğutmuyordu, gaz dolumu yaptılar, şu an çok iyi çalışıyor." - Ali K.</p>
 
@@ -1287,41 +1287,41 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: '20',
-    title: 'Aynı Gün Servis Hizmeti - 2 Saatte Kapınızda Hızlı Teknik Servis',
+    title: 'Servis Süreci ve Randevu Planlaması Hakkında Bilgiler',
     slug: 'ayni-gun-servis',
-    excerpt: 'Aynı gün servis mi arıyorsunuz? Beyaz eşya, klima ve kombi arızalarınızda 2 saatte kapınızda hızlı teknik servis. Yerinde tamir, uygun fiyat, garantili işçilik. 7/24 servis çağrı hattı.',
-    content: `<h2>Aynı Gün Servis Nedir?</h2>
+    excerpt: 'Beyaz eşya, klima ve kombi cihazları için servis taleplerinin nasıl planlandığı ve randevu sürecinin nasıl işlediği hakkında bilgi alın.',
+    content: `<h2>Servis Randevu Süreci Nedir?</h2>
 
-<p>Aynı gün servis, beyaz eşya, klima, kombi ve ev aletlerinizin arızalandığı gün içinde teknik servis desteği almanızı sağlayan hızlı servis hizmetidir. En Yakın Servis Hizmetleri olarak verdiğiniz servis taleplerini aynı gün içinde karşılıyor, sorunlarınızı geciktirmeden çözüyoruz.</p>
+<p>Servis randevu süreci; beyaz eşya, klima, kombi ve ev aletleri için gelen taleplerin, bölge ve ekip uygunluğuna göre değerlendirilerek planlanmasını kapsar.</p>
 
-<h2>Neden Aynı Gün Servis Önemlidir?</h2>
+<h2>Randevu Planlaması Neden Önemlidir?</h2>
 
-<p>Günümüzde beyaz eşyalar ev yaşamının vazgeçilmez parçalarıdır. Bir çamaşır makinesi veya buzdolabı arızası, günlük rutininizi altüst edebilir. Aynı gün servis hizmeti ile:</p>
+<p>Ev tipi cihaz arızalarında doğru yönlendirme ve planlı servis süreci, kullanıcıların ihtiyaçlarına uygun çözüm adımlarını netleştirmeye yardımcı olur.</p>
 
 <ul>
-<li>Zaman kaybını önlersiniz: Bekleme süresi yok, hemen çözüm</li>
-<li>Yiyecekleriniz bozulmaz: Buzdolabı arızalarında kritik önem</li>
-<li>Müşteri memnuniyeti: Hızlı hizmet = mutlu müşteri</li>
-<li>İş akışınız bozulmaz: Çamaşır ve bulaşık birikmez</li>
+<li>Talebinizin hangi kapsamda değerlendirileceğini öğrenirsiniz.</li>
+<li>Cihaz türüne göre uygun servis yönlendirmesi yapılır.</li>
+<li>İşlem öncesinde süreç ve bilgilendirme adımları netleşir.</li>
+<li>Randevu planlaması kullanıcı onayına göre ilerler.</li>
 </ul>
 
-<h2>Aynı Gün Servis Süreci</h2>
+<h2>Servis Süreci</h2>
 
-<h3>1. Çağrı Alma (0-15 dk)</h3>
-<p>444 0 398 numaralı telefondan bize ulaşın. Çağrı merkezi temsilcimiz arıza tipini öğrenir, cihaz marka ve modelini not alır, adres bilgilerinizi kaydeder.</p>
+<h3>1. Talep Alma</h3>
+<p>444 0 398 numaralı telefon üzerinden servis talebinizi iletebilir, cihaz ve arıza bilgilerini paylaşabilirsiniz.</p>
 
-<h3>2. Usta Yönlendirme (15-30 dk)</h3>
-<p>Adresinize en yakın servis ustası belirlenir ve yönlendirilir.</p>
+<h3>2. Ön Değerlendirme</h3>
+<p>Talebiniz bulunduğunuz bölge, cihaz türü ve ekip uygunluğuna göre değerlendirilir.</p>
 
-<h3>3. Yolda Bilgilendirme (30-60 dk)</h3>
-<p>Usta yola çıktığında SMS veya telefon ile bilgilendirilirsiniz.</p>
+<h3>3. Bilgilendirme</h3>
+<p>Uygun yönlendirme ve servis planı oluştuğunda tarafınıza bilgi verilir.</p>
 
-<h3>4. Servis ve Tamir (60-120 dk)</h3>
-<p>Usta kapınıza gelir, arızayı teşhis eder, onarımı yapar. Yerinde çözülemeyen durumlarda cihaz servise alınabilir.</p>
+<h3>4. Servis Uygulaması</h3>
+<p>Servis ekibi gerekli incelemeyi yapar; uygulanacak işlem ve ücret bilgisi kullanıcı onayı sonrasında planlanır.</p>
 
-<h2>Aynı Gün Servis Ücretleri</h2>
+<h2>Servis Ücretleri Hakkında Bilgi</h2>
 
-<p>Aynı gün servis hizmetinde ekstra ücret talep etmiyoruz. Standart servis ücretleri geçerlidir:</p>
+<p>Servis ücretleri cihaz türü, arıza tipi ve parça ihtiyacına göre değişiklik gösterebilir:</p>
 
 <ul>
 <li>Arıza tespiti: 250-400 TL</li>
@@ -1335,40 +1335,40 @@ export const blogPosts: BlogPost[] = [
 <h2>Servis Çağırma</h2>
 
 <p>Telefon: 444 0 398<br>
-Çalışma saatleri: 7 gün 24 saat çağrı alımı<br>
-Servis süresi: Aynı gün içinde</p>
+Çalışma saatleri: Servis planına göre bilgilendirme yapılır<br>
+Servis süreci: Bölge ve ekip uygunluğuna göre değerlendirilir</p>
     `,
     category: 'genel',
-    tags: ['aynı gün servis', 'hızlı servis', 'acil servis', 'servis çağır', 'servis telefonu', '2 saatte servis'],
+    tags: ['servis randevusu', 'servis planlaması', 'servis süreci', 'servis çağır', 'servis telefonu', 'teknik servis'],
     createdAt: '2026-03-04',
     featured: true,
   },
   {
     id: '21',
-    title: 'Yerinde Servis Hizmeti - Evinizde Tamir, Zaman Kaybetmeyin',
+    title: 'Yerinde Servis Süreci Hakkında Bilgiler',
     slug: 'yerinde-servis',
-    excerpt: 'Yerinde servis hizmeti ile beyaz eşya, klima ve kombi arızalarınızı evinizde çözüyoruz. Cihazı servise götürme derdi yok. Hızlı, ekonomik ve garantili teknik servis. 7/24 servis numarası.',
+    excerpt: 'Beyaz eşya, klima ve kombi cihazları için yerinde inceleme ve servis sürecinin nasıl değerlendirildiği hakkında bilgi alın.',
     content: `<h2>Yerinde Servis Nedir?</h2>
 
-<p>Yerinde servis, arızalanan beyaz eşya, klima veya kombinizin evinizde, kullanım alanında tamir edilmesidir. Cihazı söküp servise götürme, bekletme ve geri getirme zahmeti olmadan, ustamız evinize gelir ve arızayı yerinde çözer. En Yakın Servis Hizmetleri olarak yerinde servis oranımız %90'ın üzerindedir.</p>
+<p>Yerinde servis, uygun durumlarda arızalanan beyaz eşya, klima veya kombi cihazının bulunduğu yerde incelenmesi ve servis sürecinin buna göre planlanması anlamına gelir.</p>
 
 <h2>Neden Yerinde Servis?</h2>
 
 <h3>Zaman Tasarrufu</h3>
-<p>Servise götür-götürme, bekleme süresi yok. Usta kapınıza gelir, aynı gün sorun çözülür.</p>
+<p>Uygun durumlarda cihazın bulunduğu yerde inceleme yapılması, servis sürecinin daha net planlanmasına yardımcı olabilir.</p>
 
 <h3>Ekonomik</h3>
-<p>Nakliye ücreti yok. Sök-tak işçiliği yok. Daha az işçilik maliyeti. Toplamda %20-30 tasarruf.</p>
+<p>Ücretlendirme, cihazın durumu ve uygulanacak işleme göre değerlendirilir. İşlem öncesinde bilgilendirme yapılır.</p>
 
 <h3>Güvenli</h3>
-<p>Cihazınız evden çıkmaz, zarar görmez. Sizin gözünüzün önünde tamir edilir.</p>
+<p>Servis süreci kullanıcı bilgilendirmesi ve onayıyla planlanır.</p>
 
 <h3>Kolay</h3>
 <p>Ağır cihazları taşıma derdi yok. Merdiven, asansör sorunu yok. Büyük cihazlar için ideal.</p>
 
 <h2>Yerinde Servis Ücretleri (2026)</h2>
 
-<p>Yerinde servis standart servis ücretleri ile aynıdır. Ekstra ücret talep edilmez:</p>
+<p>Yerinde servis kapsamında uygulanacak ücretler cihaz türü, arıza tipi ve işlem detayına göre değişebilir:</p>
 
 <ul>
 <li>Kontrol ve teşhis: 250-400 TL</li>
@@ -1383,7 +1383,7 @@ Servis süresi: Aynı gün içinde</p>
 
 <p>Telefon: 444 0 398<br>
 Çalışma saatleri: Hafta içi 08:00-20:00, Cumartesi 09:00-18:00, Pazar 10:00-16:00<br>
-Acil servis: 7/24 çağrı alımı</p>
+İletişim: Servis planına göre bilgilendirme yapılır</p>
     `,
     category: 'genel',
     tags: ['yerinde servis', 'evde tamir', 'yerinde tamir', 'servis hizmeti', 'servis ustası', 'teknik servis'],
