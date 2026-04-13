@@ -155,11 +155,11 @@ export default async function BlogPostPage({ params }: Props) {
                     Profesyonel Yardım mı Lazım?
                   </h3>
                   <p className="text-slate-700 mb-6">
-                    Uzman teknisyenlerimiz 7/24 hizmetinizdedir. Arıza tespiti ücretsizdir.
+                    Cihazınızla ilgili destek almak ve servis süreci hakkında bilgi edinmek için bizimle iletisime gecebilirsiniz.
                   </p>
                   <Button size="lg" className="w-full md:w-auto">
                     <Link href="/iletisim" className="text-white font-bold">
-                      Ücretsiz Servis Talebi Oluştur
+                      Iletisime Gecin
                     </Link>
                   </Button>
                 </div>

@@ -12,22 +12,22 @@ export function CTABand() {
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center gap-2 bg-blue-600/30 px-3 py-1 rounded-full mb-3">
                 <Wrench className="w-4 h-4 text-blue-300" />
-                <span className="text-blue-200 text-sm font-medium">7/24 Hizmet</span>
+                <span className="text-blue-200 text-sm font-medium">Servis Destegi</span>
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
-                Acil Servis Mi Lazım?
+                Servis Destegine Mi Ihtiyaciniz Var?
               </h2>
               <p className="text-blue-100 text-lg">
-                Hemen arayın, en kısa sürede yerinde olalım
+                Iletisim kanallarimiz uzerinden bize ulasarak servis sureci hakkinda bilgi alabilirsiniz
               </p>
               <div className="flex flex-col sm:flex-row items-center gap-4 mt-4 text-blue-200">
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4" />
-                  <span className="text-sm">Hızlı Servis</span>
+                  <span className="text-sm">Bilgilendirme</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4" />
-                  <span className="text-sm">Yerinde Tamir</span>
+                  <span className="text-sm">Servis Sureci</span>
                 </div>
               </div>
             </div>
@@ -44,7 +44,7 @@ export function CTABand() {
                 href="/iletisim"
                 className="flex items-center gap-2 bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-500 transition-colors shadow-lg"
               >
-                Servis Talebi
+                Iletisim
                 <ArrowRight className="w-5 h-5" />
               </Link>
             </div>

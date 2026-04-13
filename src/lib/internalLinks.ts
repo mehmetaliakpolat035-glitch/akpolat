@@ -112,14 +112,14 @@ function generateCommonSEOLinks(): InternalLink[] {
   return [
     { keyword: 'en iyi teknik servis', href: '/' },
     { keyword: 'ucuz teknik servis', href: '/' },
-    { keyword: ' garantili teknik servis', href: '/' },
+    { keyword: 'ozel teknik servis', href: '/' },
     { keyword: 'profesyonel beyaz eşya servisi', href: '/beyaz-esya-servisi' },
     { keyword: 'profesyonel kombi servisi', href: '/kombi-servisi' },
     { keyword: 'profesyonel klima servisi', href: '/klima-servisi' },
-    { keyword: '24 saat teknik servis', href: '/iletisim' },
-    { keyword: 'acil teknik servis', href: '/iletisim' },
+    { keyword: 'teknik servis destegi', href: '/iletisim' },
+    { keyword: 'teknik servis iletisimi', href: '/iletisim' },
     { keyword: 'tezgah üstü servis', href: '/iletisim' },
-    { keyword: 'yetkili servis', href: '/hakkimizda' },
+    { keyword: 'ozel servis hizmeti', href: '/hakkimizda' },
     { keyword: 'size en yakın teknik servis', href: '/iletisim' },
     { keyword: 'en yakın teknik servis', href: '/iletisim' },
   ];

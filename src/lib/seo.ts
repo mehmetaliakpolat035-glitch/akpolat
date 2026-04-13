@@ -129,13 +129,13 @@ const cityVariations = (cityName: string): string[] => [
   `${cityName} en iyi teknik servis`,
   `${cityName} güvenilir teknik servis`,
   `${cityName} profesyonel teknik servis`,
-  `${cityName} garantili teknik servis`,
+  `${cityName} ozel teknik servis`,
   `${cityName} ucuz teknik servis`,
   `${cityName} hızlı teknik servis`,
   `${cityName} yerinde teknik servis`,
-  `${cityName} aynı gün teknik servis`,
-  `${cityName} 7/24 teknik servis`,
-  `${cityName} acil teknik servis`
+  `${cityName} teknik servis destegi`,
+  `${cityName} teknik servis iletisimi`,
+  `${cityName} ozel servis hizmeti`
 ];
 
 export interface PageSEOParams {

@@ -9,7 +9,7 @@ import { toAbsoluteUrl } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Servis Bölgeleri',
-  description: 'Türkiye genelinde 81 ilde teknik servis hizmeti verdiğimiz şehirler ve ilçeler. İzmir, Manisa, İstanbul, Ankara, Bursa ve tüm iller.',
+  description: 'Ozel servis hizmeti sundugumuz sehirler ve bolgeler hakkinda bilgi alin. Hizmet kapsamimizi ve destek sundugumuz lokasyonlari inceleyin.',
   alternates: {
     canonical: toAbsoluteUrl('/servis-bolgeleri'),
   },
@@ -28,7 +28,7 @@ export default function ServisBolgeleriPage() {
       
       <Hero 
         title="Servis Bölgeleri"
-        subtitle="Türkiye genelinde 81 ilde teknik servis hizmeti sunuyoruz. Size en yakın şubemizi bulun."
+        subtitle="Hizmet sundugumuz sehirler ve bolgeler hakkinda bilgi alin."
       />
       
       <section className="py-16 lg:py-24 bg-white">
@@ -38,7 +38,7 @@ export default function ServisBolgeleriPage() {
               Türkiye Geneli Servis Ağı
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              81 ilde, 1000+ ilçede hizmetinizdeyiz
+              Hizmet sundugumuz sehirleri ve bolgeleri burada inceleyebilirsiniz
             </p>
           </div>
           

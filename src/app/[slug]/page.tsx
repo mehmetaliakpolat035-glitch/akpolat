@@ -59,7 +59,7 @@ export default async function CityPage({ params }: Props) {
         <Container>
           <div className="max-w-3xl">
             <AutoLink 
-              text={`${city.name} ve tüm ilçelerinde beyaz eşya, kombi ve klima servis hizmetleri sunmaktayız. Profesyonel teknik servis ekibimiz, ${city.name}'ın tüm ilçelerinde hızlı ve güvenilir hizmet sağlamaktadır.`}
+              text={`${city.name} ve ilcelerinde beyaz esya, kombi ve klima cihazlari icin ozel servis hizmeti sunmaktayiz. Teknik ekibimiz, ${city.name} genelinde sundugumuz hizmet kapsamiyla ilgili bilgi ve yonlendirme saglamaktadir.`}
               maxLinks={3}
               className="text-slate-700 leading-relaxed"
             />

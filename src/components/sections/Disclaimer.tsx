@@ -51,10 +51,9 @@ export function Disclaimer() {
                 garanti koşulları, fiyat politikaları veya kampanyaları üzerinde herhangi bir yetkiye sahip değildir.
               </p>
               <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg">
-                <p className="text-sm font-semibold text-blue-900">
-                  Önemli Not: Değişimi yapılan yedek parçalar, firmamız bünyesinde 1 (bir) yıl garanti kapsamındadır. 
-                  Bu garanti, yalnızca değişimi yapılan parçayı kapsamakta olup; kullanıcı hataları, harici müdahaleler, 
-                  sıvı teması, voltaj dalgalanmaları veya kullanım koşullarına aykırı durumları kapsam dışı bırakabilir.
+                  <p className="text-sm font-semibold text-blue-900">
+                  Onarim, parca kullanimi ve destek kapsamina iliskin guncel uygulama kosullari servis sureci sirasinda
+                  kullanicilarla ayrica paylasilmaktadir.
                 </p>
               </div>
             </div>
@@ -66,15 +65,13 @@ export function Disclaimer() {
                 Servis Süreci ve Müşteri Onayı
               </h3>
               <p className="leading-relaxed mb-4">
-                Servis talebi oluşturulmasının ardından, alanında deneyimli teknisyenlerimiz müşterinin belirtmiş 
-                olduğu adrese yönlendirilir ve cihaz üzerinde detaylı bir arıza tespit süreci gerçekleştirilir. 
-                Tespit edilen arıza durumu, yapılması planlanan işlemler, kullanılacak yedek parçalar ve toplam 
-                hizmet bedeli, müşteriye açık ve şeffaf bir şekilde bildirilir.
+                Servis sureci boyunca uygulanacak islemler, kullanilacak yontemler ve ucretlendirme bilgileri
+                kullanicilarla acik ve seffaf bicimde paylasilir. Hizmet kapsami ve teknik inceleme sureci,
+                cihazin durumuna gore degerlendirilir.
               </p>
               <p className="leading-relaxed font-semibold text-slate-900">
-                Müşteri onayı alınmadan herhangi bir onarım, parça değişimi veya müdahalede bulunulmaz. 
-                Onaylanarak gerçekleştirilen işlemler kapsamında değişimi yapılan yedek parçalar, firmamız 
-                tarafından sağlanmakta olup, 1 (bir) yıl süreyle parça garantisi kapsamındadır.
+                Yapilacak islemlerle ilgili nihai bilgilendirme, servis surecine gecilmeden once kullaniciya
+                aktarilir. Guncel uygulama kosullari ve destek kapsami servis kaydi sirasinda ayrica aciklanir.
               </p>
             </div>
 

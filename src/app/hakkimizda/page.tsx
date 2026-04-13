@@ -17,7 +17,7 @@ export default function AboutPage() {
     <>
       <Hero 
         title="Hakkımızda"
-        subtitle="Türkiye genelinde teknik servis sektöründe güvenilir adres"
+        subtitle="Beyaz esya, kombi ve klima cihazlari icin ozel servis hizmeti sunan ekibimizi taniyin"
       />
       
       <section className="py-20 lg:py-28 bg-gradient-to-b from-white via-blue-50/30 to-white relative overflow-hidden">
@@ -41,8 +41,8 @@ export default function AboutPage() {
               </div>
             </div>
             
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Kalite ve Güvenin Adresi
+              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+              Hizmet Yaklasimimiz
             </h2>
             
             <div className="flex items-center justify-center gap-4 mb-6">
@@ -64,8 +64,8 @@ export default function AboutPage() {
                   modellerde arıza tespiti, tamir, bakım ve montaj hizmetleri sunuyoruz.
                 </p>
                 <p>
-                  Müşteri memnuniyetini ön planda tutan anlayışımız, şeffaf fiyat politikamız 
-                  ve garantili işçiliğimiz ile sektörde öncü konumdayız.
+                  Musteri memnuniyetini on planda tutan anlayisimiz ve seffaf hizmet surecimiz ile
+                  kullanicilarimizi surec boyunca acik sekilde bilgilendirmeye odaklaniyoruz.
                 </p>
               </div>
             </div>
@@ -75,32 +75,32 @@ export default function AboutPage() {
                 <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-3">
                   <Award className="w-6 h-6 text-blue-900" />
                 </div>
-                <div className="text-4xl font-bold text-blue-900 mb-1">15+</div>
-                <div className="text-sm text-slate-700 font-medium">Yıllık Deneyim</div>
+                <div className="text-xl font-bold text-blue-900 mb-1">Deneyimli</div>
+                <div className="text-sm text-slate-700 font-medium">Teknik Ekip</div>
               </div>
               
               <div className="text-center p-6 bg-white rounded-2xl border border-slate-200 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-3">
                   <MapPin className="w-6 h-6 text-blue-900" />
                 </div>
-                <div className="text-4xl font-bold text-blue-900 mb-1">50+</div>
-                <div className="text-sm text-slate-700 font-medium">Servis Bölgesi</div>
+                <div className="text-xl font-bold text-blue-900 mb-1">Genis</div>
+                <div className="text-sm text-slate-700 font-medium">Hizmet Alani</div>
               </div>
               
               <div className="text-center p-6 bg-white rounded-2xl border border-slate-200 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-3">
                   <Wrench className="w-6 h-6 text-blue-900" />
                 </div>
-                <div className="text-4xl font-bold text-blue-900 mb-1">30+</div>
-                <div className="text-sm text-slate-700 font-medium">Servis Marka</div>
+                <div className="text-xl font-bold text-blue-900 mb-1">Farkli</div>
+                <div className="text-sm text-slate-700 font-medium">Cihaz Gruplari</div>
               </div>
               
               <div className="text-center p-6 bg-white rounded-2xl border border-slate-200 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-3">
                   <Users className="w-6 h-6 text-blue-900" />
                 </div>
-                <div className="text-4xl font-bold text-blue-900 mb-1">50K+</div>
-                <div className="text-sm text-slate-700 font-medium">Mutlu Müşteri</div>
+                <div className="text-xl font-bold text-blue-900 mb-1">Musteri</div>
+                <div className="text-sm text-slate-700 font-medium">Odakli Yaklasim</div>
               </div>
             </div>
           </div>

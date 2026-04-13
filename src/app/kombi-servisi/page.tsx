@@ -97,7 +97,7 @@ export default function KombiServisiPage() {
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Kombi Arıza Tamiri</h3>
                 <p className="text-slate-600 mb-4">
-                  Tüm kombi arıza türlerinde uzman teknik ekibimizle hızlı ve kalıcı çözümler sunuyoruz.
+                  Farkli kombi ariza durumlari icin teknik inceleme, bakim ve onarim destegi sunuyoruz.
                 </p>
                 <ul className="text-sm text-slate-600 space-y-1">
                   <li>• Ateşleme sorunları</li>

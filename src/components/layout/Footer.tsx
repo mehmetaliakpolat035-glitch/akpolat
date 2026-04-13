@@ -29,8 +29,8 @@ export function Footer() {
               />
             </div>
             <p className="text-slate-700 text-sm leading-relaxed mb-6">
-              Türkiye genelinde beyaz eşya, kombi ve klima servis hizmetlerinde güvenilir adresiniz. 
-              Profesyonel ekibimiz ve hızlı servis anlayışımızla yanınızdayız.
+              Beyaz esya, kombi ve klima cihazlari icin ozel servis hizmeti sunuyoruz.
+              Hizmet kapsamimiz ve iletisim kanallarimiz hakkinda buradan bilgi alabilirsiniz.
             </p>
             <div className="space-y-4 text-sm">
               <div className="flex items-center gap-3">
@@ -55,7 +55,7 @@ export function Footer() {
                 <div className="w-9 h-9 bg-blue-100 rounded-lg flex items-center justify-center">
                   <Clock className="w-4 h-4 text-blue-900" />
                 </div>
-                <span className="text-slate-700 font-medium">7/24 Hizmet</span>
+                <span className="text-slate-700 font-medium">Iletisim Bilgileri</span>
               </div>
             </div>
           </div>
@@ -180,7 +180,7 @@ export function Footer() {
               </p>
 
               <p>
-                Değişimi yapılan yedek parçalar firmamız bünyesinde 1 yıl garanti kapsamındadır. Servis kaydı oluşturulduğunda teknisyenlerimiz adresinize gelerek arıza tespiti yapar ve onayınız dahilinde işlem başlatılır.
+                Sunulan hizmetlerin kapsami, uygulanacak islem adimlari ve ucretlendirme detaylari servis sureci oncesinde musterilere acik sekilde aktarilir.
               </p>
 
               <p>
@@ -202,10 +202,10 @@ export function Footer() {
                   Firmamız, ilgili markaların resmi servis prosedürleri, garanti koşulları, fiyat politikaları veya kampanyaları üzerinde herhangi bir yetkiye sahip değildir. Garanti süresi devam eden ürünler için kullanıcıların, ilgili markanın resmi yetkili servisleri ile doğrudan iletişime geçmeleri önerilmektedir. Sitemizde yer alan içeriklerde, reklam alanlarında veya hizmet açıklamalarında &quot;yetkili servis&quot;, &quot;resmi servis&quot; ya da benzeri ifadeler kullanılmamakta olup, tüm servis faaliyetleri özel teknik servis kapsamında yürütülmektedir.
                 </p>
                 <p>
-                  Sunulan teknik servis hizmetleri; bakım, onarım, arıza tespiti, parça değişimi ve teknik destek işlemlerini kapsamakta olup, ağırlıklı olarak garanti süresi sona ermiş cihazlar için ücretli olarak sağlanmaktadır. Servis talebi oluşturulmasının ardından, alanında deneyimli teknisyenlerimiz müşterinin belirtmiş olduğu adrese yönlendirilir ve cihaz üzerinde detaylı bir arıza tespit süreci gerçekleştirilir. Tespit edilen arıza durumu, yapılması planlanan işlemler, kullanılacak yedek parçalar ve toplam hizmet bedeli, müşteriye açık ve şeffaf bir şekilde bildirilir.
+                  Sunulan teknik servis hizmetleri; bakim, onarim, ariza tespiti, parca degisimi ve teknik destek islemlerini kapsamakta olup, agirlikli olarak garanti suresi sona ermis cihazlar icin ucretli olarak saglanmaktadir. Servis sureci, uygulanacak islemler ve ucretlendirme bilgileri kullanicilarla acik ve seffaf bicimde paylasilir.
                 </p>
                 <p>
-                  Müşteri onayı alınmadan herhangi bir onarım, parça değişimi veya müdahalede bulunulmaz. Onaylanarak gerçekleştirilen işlemler kapsamında değişimi yapılan yedek parçalar, firmamız tarafından sağlanmakta olup, 1 (bir) yıl süreyle parça garantisi kapsamındadır. Bu garanti, yalnızca değişimi yapılan parçayı kapsamakta olup; kullanıcı hataları, harici müdahaleler, sıvı teması, voltaj dalgalanmaları veya kullanım koşullarına aykırı durumları kapsam dışı bırakabilir.
+                  Yapilacak islemler ve hizmet kapsami, servis surecine gecilmeden once kullaniciya bildirilir. Guncel uygulama kosullari, parca kullanimi ve destek kapsamiyla ilgili detaylar servis kaydi sirasinda ayrica aciklanir.
                 </p>
                 <p>
                   İşçilik ve servis süreçleri, yürürlükteki tüketici mevzuatına ve hizmet sözleşmelerine uygun şekilde yürütülmektedir. Web sitemizde yer alan tüm içerikler, bilgilendirme amaçlı olarak hazırlanmış olup; zaman içerisinde güncellenebilir, değiştirilebilir veya kaldırılabilir. Firmamız, site içeriğinde yer alan bilgilerin doğruluğu ve güncelliği konusunda azami özeni göstermesine rağmen, oluşabilecek yazım hataları, teknik aksaklıklar veya üçüncü taraf kaynaklı bilgi değişikliklerinden sorumlu tutulamaz.

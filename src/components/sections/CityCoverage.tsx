@@ -37,7 +37,7 @@ export function CityCoverage() {
           </div>
           
           <p className="text-lg text-slate-700 max-w-2xl mx-auto">
-            Türkiye genelinde 81 ilde teknik servis hizmeti sunuyoruz
+            Hizmet sundugumuz sehirleri ve destek verdigimiz bolgeleri inceleyebilirsiniz
           </p>
         </div>
 

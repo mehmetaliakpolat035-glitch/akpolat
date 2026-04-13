@@ -23,7 +23,7 @@ const BlogGrid = dynamic(() => import('@/components/sections').then(mod => mod.B
 
 export const metadata: Metadata = {
   title: 'En Yakın Servis Hizmetleri | Beyaz Eşya, Kombi, Klima Servisi',
-  description: 'Türkiye genelinde beyaz eşya, kombi ve klima servis hizmeti. İzmir, Manisa, İstanbul, Ankara ve tüm illerde profesyonel teknik destek. Hızlı servis, garantili işçilik.',
+  description: 'Beyaz esya, kombi ve klima cihazlari icin ozel servis hizmeti. Hizmet kapsamimizi, sehir sayfalarimizi ve iletisim kanallarimizi inceleyin.',
   alternates: {
     canonical: SITE_URL
   }

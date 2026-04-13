@@ -5,7 +5,7 @@ import { Container, Card, CardContent } from '@/components/ui';
 const helpServices = [
   {
     title: 'Beyaz Eşya Servisi',
-    description: 'Tüm beyaz eşya ürünleriniz için profesyonel, hızlı ve garantili teknik servis çözümleri.',
+    description: 'Tum beyaz esya urunleriniz icin ozel servis kapsaminda bakim, onarim ve teknik destek hizmetleri.',
     link: '/beyaz-esya-servisi',
     subServices: [
       { name: 'Çamaşır Makinesi Servisi', link: '/beyaz-esya-servisi' },
