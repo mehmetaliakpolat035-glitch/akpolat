@@ -141,7 +141,7 @@ export function Header() {
             </a>
             
             <Button size="lg" className="shadow-lg shadow-blue-900/20">
-              <Link href={city ? `/${city.slug}/iletisim` : '/iletisim'} className="text-white font-bold">
+              <Link href="/iletisim" className="text-white font-bold">
                 Servis Çağır
               </Link>
             </Button>
@@ -208,7 +208,7 @@ href="tel:+904440398"
               
               <Button className="w-full">
                 <Link 
-                  href={city ? `/${city.slug}/iletisim` : '/iletisim'} 
+                  href="/iletisim" 
                   onClick={() => setMobileMenuOpen(false)} 
                   className="text-white font-bold"
                 >
