@@ -40,9 +40,6 @@ function Disclaimer() {
             Tüm bakım ve onarım hizmetleri, alanında uzman ekibimiz tarafından bağımsız özel servis kapsamında sunulmaktadır. 
             Markaların isimleri sadece bilgilendirici amaçlıdır.
           </p>
-          <p className="text-sm text-slate-700 leading-relaxed max-w-4xl mx-auto mt-4">
-            Arçelik, Beko, Vestel, LG, Samsung, Bosch, Siemens, Viessmann, Buderus, Vaillant, Daikin, Mitsubishi ve benzeri markalara ait garanti kapsamı dışındaki cihazlar için özel servis hizmeti sunuyoruz.
-          </p>
         </div>
       </Container>
     </section>
