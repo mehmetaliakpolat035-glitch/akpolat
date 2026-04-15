@@ -4,7 +4,6 @@ import "./globals.css";
 import { Header, Footer, StickyCTA } from "@/components/layout";
 import { CityProvider } from "@/components/CityProvider";
 import { generateBaseSEO } from "@/lib/seo";
-import { CookieConsent } from "@/components/CookieConsent";
 import { SITE_URL } from "@/lib/site";
 
 const inter = Inter({
@@ -72,7 +71,6 @@ export default function RootLayout({
           <main>{children}</main>
           <Footer />
           <StickyCTA />
-          <CookieConsent />
         </CityProvider>
       </body>
     </html>
