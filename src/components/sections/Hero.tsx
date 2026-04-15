@@ -12,11 +12,11 @@ interface HeroProps {
 export function Hero({ title, subtitle, city }: HeroProps) {
   const defaultTitle = city
     ? `${city} Teknik Servis Hizmetleri`
-    : 'Türkiye Genelinde Özel Teknik Servis Hizmeti';
+    : 'Türkiye Genelinde Teknik Servis Hizmeti';
   
   const defaultSubtitle = city
     ? `${city} ve tüm ilçelerinde beyaz eşya, kombi ve klima servis hizmeti. Profesyonel ekibimizle ${city}'da hizmetinizdeyiz.`
-    : 'Beyaz eşya, kombi ve klima cihazlarınız için Türkiye genelinde profesyonel, hızlı ve güvenilir özel servis hizmeti sunuyoruz.';
+    : 'Beyaz eşya, kombi ve klima cihazlarınız için Türkiye genelinde profesyonel, hızlı ve güvenilir teknik servis desteği sunuyoruz.';
 
   return (
     <section className="relative bg-slate-900 overflow-hidden">
@@ -57,7 +57,7 @@ export function Hero({ title, subtitle, city }: HeroProps) {
                 <>
                   <Wrench className="w-4 h-4 text-blue-300" />
                   <span className="text-sm text-white font-bold">
-                    Türkiye Geneli Özel Servis
+                    Türkiye Geneli Servis
                   </span>
                 </>
               )}
