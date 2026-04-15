@@ -3,7 +3,7 @@ import { Container, Card, CardContent, Badge } from '@/components/ui';
 import { Hero, Breadcrumb } from '@/components/sections';
 
 export const metadata: Metadata = {
-  title: 'Arıza Kodları',
+  title: 'Arıza Kodlarımız',
   description: 'Beyaz eşya, kombi ve klima arıza kodları. Cihazınızda görülen arıza kodlarının anlamları ve çözüm önerileri.',
   alternates: {
     canonical: 'https://turkiyeteknikservis.com/ariza-kodlari',
