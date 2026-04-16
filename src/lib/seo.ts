@@ -341,7 +341,7 @@ export function generateLocalBusinessSchema(city?: string) {
     '@type': 'LocalBusiness',
     name: SITE_NAME,
     description: 'Türkiye genelinde beyaz eşya, kombi ve klima teknik servis hizmeti',
-    telephone: '+90-444-0-398',
+    telephone: '4440398',
     email: SITE_EMAIL,
     priceRange: '$$',
     areaServed: {
