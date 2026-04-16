@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Menu, X, Phone, ChevronDown, MapPin } from 'lucide-react';
+import { Menu, X, Phone, ChevronDown } from 'lucide-react';
 import { Container, Button } from '@/components/ui';
 import { useCity } from '@/components/CityProvider';
 
@@ -30,7 +30,7 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const servicesRef = useRef<HTMLDivElement>(null);
-  const { city, loading } = useCity();
+  const { city } = useCity();
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -51,23 +51,6 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
-      {city && !loading && (
-        <div className="bg-gradient-to-r from-blue-900 to-blue-800 text-white text-sm py-2.5">
-          <Container>
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-blue-300" />
-                <span className="font-bold">{city.name}</span>
-                <span className="text-blue-200">için servis sayfasındasınız</span>
-              </div>
-              <Link href="/servis-bolgeleri" className="hover:underline font-medium text-white/90">
-                Diğer şehirler →
-              </Link>
-            </div>
-          </Container>
-        </div>
-      )}
-      
       <Container>
         <div className="flex items-center justify-between h-20 lg:h-24">
           <Link href="/" className="flex items-center gap-2">
