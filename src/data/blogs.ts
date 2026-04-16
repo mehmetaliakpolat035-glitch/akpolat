@@ -327,7 +327,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: '3',
     title: 'Buzdolabı Soğutmuyor - 15 Neden ve Kesin Çözümler',
-    slug: 'buzdolabi-sogutmuyor',
+    slug: 'buzdolabi-sogutmuyor-cozum-rehberi',
     excerpt: 'Buzdolabı soğutmuyor sorunu gıdaların bozulmasına ve ciddi ekonomik kayba neden olur. Kompresör, gaz kaçağı, termostat, buzlanma ve elektronik arızaların detaylı çözümlerini bu rehberde bulabilirsiniz.',
     content: `
 <h2>Buzdolabı Neden Soğutmaz?</h2>

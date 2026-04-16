@@ -6,9 +6,9 @@ import { Container } from '@/components/ui';
 
 const serviceLinks = [
   { name: 'Beyaz Eşya Servisi', slug: 'beyaz-esya-servisi', desc: 'Beyaz eşya teknik servis teknisyeni arıza tespitinde' },
-  { name: 'Bulaşık Makinesi Servisi', slug: 'beyaz-esya-servisi', desc: 'Bulaşık makinesi servisinde yerinde müdahale' },
-  { name: 'Buzdolabı Servisi', slug: 'beyaz-esya-servisi', desc: 'Buzdolabı soğutma arızası için servis ekibi' },
-  { name: 'Çamaşır Makinesi Servisi', slug: 'beyaz-esya-servisi', desc: 'Çamaşır makinesi tambur arızası servisi' },
+  { name: 'Bulaşık Makinesi Servisi', slug: 'bulasik-makinesi-servisi', desc: 'Bulaşık makinesi servisinde yerinde müdahale' },
+  { name: 'Buzdolabı Servisi', slug: 'buzdolabi-servisi', desc: 'Buzdolabı soğutma arızası için servis ekibi' },
+  { name: 'Çamaşır Makinesi Servisi', slug: 'camasir-makinesi-servisi', desc: 'Çamaşır makinesi tambur arızası servisi' },
   { name: 'Kombi Servisi', slug: 'kombi-servisi', desc: 'Kombi bakımı ve arıza onarım ustası' },
   { name: 'Klima Servisi', slug: 'klima-servisi', desc: 'Klima montaj ve bakım servisi' },
 ];

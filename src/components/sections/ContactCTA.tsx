@@ -33,7 +33,7 @@ export function ContactCTA() {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Hemen Servis Çağırın
+              İletişime Geçin
             </h2>
             
             <div className="flex items-center justify-center gap-4 mb-6">
@@ -43,7 +43,7 @@ export function ContactCTA() {
             </div>
             
             <p className="text-lg text-blue-100 max-w-2xl mx-auto mb-10">
-              Teknik ekibimiz en kısa sürede adresinize ulaşarak sorununuzu çözsün
+              Telefon, WhatsApp ve iletişim sayfamız üzerinden servis süreci hakkında bilgi alabilirsiniz.
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
@@ -52,7 +52,7 @@ export function ContactCTA() {
                 className="bg-white text-blue-900 hover:bg-blue-50 shadow-xl"
               >
                 <Link href="/iletisim" className="flex items-center gap-2 font-bold">
-                  Servis Talebi Oluştur
+                  İletişim Sayfası
                   <ArrowRight className="w-5 h-5" />
                 </Link>
               </Button>
@@ -73,8 +73,8 @@ export function ContactCTA() {
                 <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <Phone className="w-6 h-6" />
                 </div>
-                <h3 className="font-bold text-lg mb-2">Hızlı İletişim</h3>
-                <p className="text-sm text-blue-200">Hemen arayın, en kısa sürede yanınızdayız</p>
+                <h3 className="font-bold text-lg mb-2">Telefon</h3>
+                <p className="text-sm text-blue-200">Arayarak servis süreci hakkında bilgi alabilirsiniz</p>
               </CardContent>
             </Card>
             
@@ -84,7 +84,7 @@ export function ContactCTA() {
                   <MessageCircle className="w-6 h-6" />
                 </div>
                 <h3 className="font-bold text-lg mb-2">WhatsApp</h3>
-                <p className="text-sm text-blue-200">Mesaj atın, size hemen dönelim</p>
+                <p className="text-sm text-blue-200">Mesaj yoluyla servis süreci hakkında bilgi paylaşabilirsiniz</p>
               </CardContent>
             </Card>
             
@@ -93,8 +93,8 @@ export function ContactCTA() {
                 <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <ArrowRight className="w-6 h-6" />
                 </div>
-                <h3 className="font-bold text-lg mb-2">Online Randevu</h3>
-                <p className="text-sm text-blue-200">Online randevu formu ile kolayca randevu alın</p>
+                <h3 className="font-bold text-lg mb-2">İletişim Bilgileri</h3>
+                <p className="text-sm text-blue-200">İletişim sayfamızdaki telefon, WhatsApp ve e-posta bilgilerine ulaşın</p>
               </CardContent>
             </Card>
           </div>
