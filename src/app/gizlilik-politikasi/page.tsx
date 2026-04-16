@@ -208,7 +208,7 @@ export default function PrivacyPage() {
 
             <div className="grid md:grid-cols-2 gap-4">
               <a 
-                href="tel:+904440398"
+                href="tel:4440398"
                 className="flex items-center gap-3 p-4 bg-white rounded-xl border border-slate-200 hover:border-blue-300 transition-colors"
               >
                 <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">

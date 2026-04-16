@@ -63,7 +63,7 @@ export default function ContactPage() {
                   <Phone className="w-8 h-8 text-blue-900 group-hover:text-white transition-colors" />
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2 text-lg">Telefon</h3>
-                <a href="tel:+904440398" className="text-blue-900 font-bold hover:text-blue-700 transition-colors text-lg">
+                <a href="tel:4440398" className="text-blue-900 font-bold hover:text-blue-700 transition-colors text-lg">
                   444 0 398
                 </a>
                 <p className="text-sm text-slate-600 mt-2 font-medium">Çağrı Merkezi</p>

@@ -34,7 +34,7 @@ export function CTABand() {
             
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <a 
-                href="tel:+904440398"
+                href="tel:4440398"
                 className="flex items-center gap-3 bg-white text-blue-900 font-bold px-6 py-3 rounded hover:bg-blue-50 transition-colors shadow-lg"
               >
                 <Phone className="w-5 h-5" />

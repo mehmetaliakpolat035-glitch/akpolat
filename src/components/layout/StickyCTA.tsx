@@ -36,7 +36,7 @@ export function StickyCTA({ className }: StickyCTAProps) {
     >
       {/* Arama Butonu */}
       <a
-        href="tel:+904440398"
+        href="tel:4440398"
         className={cn(
           'flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white',
           'px-4 py-3 rounded-full shadow-xl hover:shadow-2xl',
