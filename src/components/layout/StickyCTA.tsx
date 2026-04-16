@@ -11,7 +11,7 @@ export function StickyCTA({ className }: StickyCTAProps) {
   return (
     <div className={cn('fixed bottom-4 right-4 z-50 flex flex-col gap-3', className)}>
       <a
-        href="tel:+908503041517"
+        href="tel:4440398"
         className="flex items-center gap-2 bg-blue-900 text-white px-4 py-3 shadow-lg hover:bg-blue-950 transition-all duration-200 group"
       >
         <Phone className="w-5 h-5" />
