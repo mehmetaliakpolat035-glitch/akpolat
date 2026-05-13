@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Award } from 'lucide-react';
 import { brands } from '@/data/markalar';
 import { Card, CardContent, Container } from '@/components/ui';
@@ -60,13 +61,15 @@ export function BrandGrid() {
 
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
                 {group.brands.map((brand) => (
-                  <Card key={brand.slug} className="border border-slate-200 hover:border-blue-900 hover:shadow-md transition-all rounded-xl bg-white">
-                    <CardContent className="p-4 text-center">
-                      <span className="font-bold text-slate-800 text-base">
-                        {brand.name}
-                      </span>
-                    </CardContent>
-                  </Card>
+                  <Link key={brand.slug} href={`/marka/${brand.slug}`}>
+                    <Card className="border border-slate-200 hover:border-blue-900 hover:shadow-md transition-all rounded-xl bg-white h-full">
+                      <CardContent className="p-4 text-center">
+                        <span className="font-bold text-slate-800 text-base">
+                          {brand.name}
+                        </span>
+                      </CardContent>
+                    </Card>
+                  </Link>
                 ))}
               </div>
             </div>

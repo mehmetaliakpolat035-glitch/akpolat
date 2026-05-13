@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { cities } from '@/data/cities';
 import { blogPosts } from '@/data/blogs';
+import { brands } from '@/data/markalar';
 import { SITE_URL } from '@/lib/site';
 
 export const dynamic = 'force-static';
@@ -44,6 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { slug: 'iletisim', priority: 0.9, freq: 'monthly' as const },
     { slug: 'servis-bolgeleri', priority: 0.85, freq: 'weekly' as const },
     { slug: 'blog', priority: 0.85, freq: 'daily' as const },
+    { slug: 'marka', priority: 0.8, freq: 'weekly' as const },
     { slug: 'ariza-kodlari', priority: 0.75, freq: 'monthly' as const },
     { slug: 'gizlilik-politikasi', priority: 0.7, freq: 'yearly' as const },
   ];
@@ -90,7 +92,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // 6. Blog yazıları
+  // 6. Marka detay sayfaları
+  for (const brand of brands) {
+    sitemapEntries.push({
+      url: `${BASE_URL}/marka/${brand.slug}`,
+      lastModified: BUILD_DATE,
+      changeFrequency: 'weekly',
+      priority: 0.75,
+    });
+  }
+
+  // 7. Blog yazıları
   for (const post of blogPosts) {
     sitemapEntries.push({
       url: `${BASE_URL}/blog/${post.slug}`,
