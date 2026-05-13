@@ -13,6 +13,10 @@ const CityCoverage = dynamic(() => import('@/components/sections').then(mod => m
   loading: () => <div className="py-20 bg-slate-50 animate-pulse" />
 });
 
+const BrandGrid = dynamic(() => import('@/components/sections').then(mod => mod.BrandGrid), {
+  loading: () => <div className="py-20 bg-white animate-pulse" />
+});
+
 const FAQSection = dynamic(() => import('@/components/sections').then(mod => mod.FAQSection), {
   loading: () => <div className="py-20 bg-slate-50 animate-pulse" />
 });
@@ -130,6 +134,7 @@ export default function HomePage() {
       </section>
       
       <CityCoverage />
+      <BrandGrid />
       <Disclaimer />
       <FAQSection />
     </>
