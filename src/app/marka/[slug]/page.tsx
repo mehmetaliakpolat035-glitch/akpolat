@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 
   return {
-    title: `${brand.name} ${serviceNames[brand.category]} Özel Servis Hizmetleri | Türkiye Teknik Servis`,
+    title: `${brand.name} ${serviceNames[brand.category]} Servis Hizmetleri | Türkiye Teknik Servis`,
     description: `${brand.name} ${serviceNames[brand.category].toLowerCase()} grubundaki cihazlar için bakım, onarım ve arıza tespiti süreçleri hakkında bilgi alabilirsiniz.`,
     alternates: {
       canonical: toAbsoluteUrl(`/marka/${slug}`),
@@ -86,7 +86,7 @@ export default async function BrandDetailPage({ params }: Props) {
       </Container>
       
       <Hero 
-        title={`${brand.name} ${serviceNames[brand.category]} Özel Servis Hizmetleri`}
+        title={`${brand.name} ${serviceNames[brand.category]} Servis Hizmetleri`}
         subtitle={`${brand.name} ${serviceNames[brand.category].toLowerCase()} ürünleri için bakım, onarım ve arıza tespiti süreçleri hakkında bilgi alabilirsiniz.`}
       />
       
@@ -98,7 +98,7 @@ export default async function BrandDetailPage({ params }: Props) {
                 {brand.name} Servis Hizmetleri
               </h2>
               <p className="text-slate-600 mb-6">
-                {brand.name} marka cihazlar için bakım, onarım ve arıza tespiti süreçlerine yönelik özel servis hizmeti sunuyoruz.
+                {brand.name} marka cihazlar için bakım, onarım ve arıza tespiti süreçlerine yönelik servis hizmeti sunuyoruz.
               </p>
             </div>
 

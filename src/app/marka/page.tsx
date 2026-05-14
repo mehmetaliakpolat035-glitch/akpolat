@@ -7,7 +7,7 @@ import { toAbsoluteUrl } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Servis Verdiğimiz Markalar | Türkiye Teknik Servis',
-  description: 'Beyaz eşya, kombi ve klima kategorilerinde hizmet kapsamımızda yer alan markaları inceleyebilir, cihazınıza uygun özel servis desteği hakkında bilgi alabilirsiniz.',
+  description: 'Beyaz eşya, kombi ve klima kategorilerinde hizmet kapsamımızda yer alan markaları inceleyebilir, cihazınıza uygun servis desteği hakkında bilgi alabilirsiniz.',
   alternates: {
     canonical: toAbsoluteUrl('/marka'),
   },
@@ -30,7 +30,7 @@ export default function MarkalarPage() {
       
       <Hero 
         title="Servis Verdiğimiz Markalar"
-        subtitle="Hizmet kapsamımızda yer alan markaları inceleyebilir, cihazınıza uygun özel servis desteği hakkında bilgi alabilirsiniz"
+        subtitle="Hizmet kapsamımızda yer alan markaları inceleyebilir, cihazınıza uygun servis desteği hakkında bilgi alabilirsiniz"
       />
       
       <section className="py-16 lg:py-20 bg-white">

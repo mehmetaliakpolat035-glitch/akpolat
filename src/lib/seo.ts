@@ -164,7 +164,7 @@ export function generateBaseSEO(): Metadata {
       default: 'En Yakın Servis Hizmetleri | Beyaz Eşya, Kombi, Klima Servisi | Türkiye Geneli',
       template: '%s | En Yakın Servis Hizmetleri'
     },
-    description: 'Beyaz eşya, kombi ve klima cihazları için özel servis hizmetleri hakkında bilgi alabilir, bulunduğunuz bölgeye uygun servis desteğini inceleyebilirsiniz.',
+    description: 'Beyaz eşya, kombi ve klima cihazları için servis hizmetleri hakkında bilgi alabilir, bulunduğunuz bölgeye uygun servis desteğini inceleyebilirsiniz.',
     keywords: allKeywords.slice(0, 50), // Max 50 keywords
     authors: [{ name: SITE_NAME }],
     creator: SITE_NAME,
@@ -186,7 +186,7 @@ export function generateBaseSEO(): Metadata {
       url: SITE_URL,
       siteName: SITE_NAME,
       title: 'En Yakın Servis Hizmetleri | Beyaz Eşya, Kombi, Klima Servisi | Türkiye Geneli',
-      description: 'Beyaz eşya, kombi ve klima cihazları için özel servis hizmetleri hakkında bilgi alabilir, bulunduğunuz bölgeye uygun servis desteğini inceleyebilirsiniz.',
+      description: 'Beyaz eşya, kombi ve klima cihazları için servis hizmetleri hakkında bilgi alabilir, bulunduğunuz bölgeye uygun servis desteğini inceleyebilirsiniz.',
       images: [
         {
           url: '/banner.webp',
@@ -199,7 +199,7 @@ export function generateBaseSEO(): Metadata {
     twitter: {
       card: 'summary_large_image',
       title: 'En Yakın Servis Hizmetleri | Beyaz Eşya, Kombi, Klima Servisi',
-      description: 'Beyaz eşya, kombi ve klima cihazları için özel servis hizmetleri hakkında bilgi alabilirsiniz.',
+      description: 'Beyaz eşya, kombi ve klima cihazları için servis hizmetleri hakkında bilgi alabilirsiniz.',
       images: ['/banner.webp']
     },
     alternates: {

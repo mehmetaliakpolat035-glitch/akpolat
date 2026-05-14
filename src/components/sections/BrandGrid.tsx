@@ -42,7 +42,7 @@ export function BrandGrid() {
           </h2>
 
           <p className="text-lg text-slate-700 max-w-3xl mx-auto mb-6">
-            Beyaz eşya, kombi ve klima cihazlarında farklı marka ve modeller için özel servis kapsamındaki süreçler hakkında bilgi alabilirsiniz.
+            Beyaz eşya, kombi ve klima cihazlarında farklı marka ve modeller için servis kapsamındaki süreçler hakkında bilgi alabilirsiniz.
           </p>
 
           <div className="flex items-center justify-center gap-4">
